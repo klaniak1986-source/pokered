@@ -1,12 +1,12 @@
 _GameCornerPrizeRoomBaldingGuyText::
-	text "I sure do fancy"
-	line "that PORYGON!"
+	text "Podoba mi się ten"
+	line "PORYGON!"
 
 	para "But, it's hard to"
 	line "win at slots!"
 	done
 
 _GameCornerPrizeRoomGamblerText::
-	text "I had a major"
-	line "haul today!"
+	text "Miałem dziś wielki"
+	line "łup!"
 	done

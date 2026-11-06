@@ -148,7 +148,7 @@ Route22Rival1StartBattleScript:
 
 Route22Rival1AfterBattleScript:
 	ld a, [wIsInBattle]
-	cp LOST_BATTLE
+	cp $ff
 	jp z, Route22SetDefaultScript
 	ld a, [wSpritePlayerStateData1FacingDirection]
 	and a ; cp SPRITE_FACING_DOWN
@@ -303,7 +303,7 @@ Route22Rival2StartBattleScript:
 
 Route22Rival2AfterBattleScript:
 	ld a, [wIsInBattle]
-	cp LOST_BATTLE
+	cp $ff
 	jp z, Route22SetDefaultScript
 	ld a, ROUTE22_RIVAL2
 	ldh [hSpriteIndex], a

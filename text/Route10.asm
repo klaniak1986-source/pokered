@@ -1,102 +1,99 @@
 _Route10SuperNerd1BattleText::
-	text "Wow, are you a"
-	line "#MANIAC too?"
-	cont "Want to see my"
-	cont "collection?"
+	text "Chcesz zobaczyć"
+	line "moją kolekcję?"
 	done
 
 _Route10SuperNerd1EndBattleText::
-	text "Humph."
-	line "I'm not angry!"
+	text "Humph, nie jestem"
+	line "zły!"
 	prompt
 
 _Route10SuperNerd1AfterBattleText::
-	text "I have more rare"
-	line "#MON at home!"
+	text "Mam w domu więcej"
+	line "rzadkiego"
+	cont "Pokémona!"
 	done
 
 _Route10Hiker1BattleText::
-	text "Ha-hahah-ah-ha!"
+	text "Ha - haha - ah -"
+	line "ha!"
 	done
 
 _Route10Hiker1EndBattleText::
-	text "Ha-haha!"
-	line "Not laughing!"
-	cont "Ha-hay fever!"
-	cont "Haha-ha-choo!"
+	text "Nie śmiej się!"
 	prompt
 
 _Route10Hiker1AfterBattleText::
-	text "Haha-ha-choo!"
-	line "Ha-choo!"
-	cont "Snort! Snivel!"
+	text "Snivel!"
 	done
 
 _Route10SuperNerd2BattleText::
-	text "Hi kid, want to"
-	line "see my #MON?"
+	text "Cześć dzieciaku,"
+	line "chcesz zobaczyć"
+	cont "mojego Pokémona?"
 	done
 
 _Route10SuperNerd2EndBattleText::
-	text "Oh no!"
-	line "My #MON!"
+	text "Mój Pokemon!"
 	prompt
 
 _Route10SuperNerd2AfterBattleText::
-	text "I don't like you"
-	line "for beating me!"
+	text "Nie lubię cię za"
+	line "to, że mnie"
+	cont "pokonałeś!"
 	done
 
 _Route10CooltrainerF1BattleText::
-	text "I've been to a"
-	line "#MON GYM a few"
-	cont "times. But, I"
-	cont "lost each time."
+	text "Byłem kilka razy w"
+	line "Pokémon GYM, ale"
+	cont "za każdym razem"
+	cont "przegrywałem."
 	done
 
 _Route10CooltrainerF1EndBattleText::
-	text "Ohh!"
-	line "Blew it again!"
+	text "Jeszcze raz!"
 	prompt
 
 _Route10CooltrainerF1AfterBattleText::
-	text "I noticed some"
-	line "#MANIACs"
-	cont "prowling around."
+	text "Zauważyłem, że"
+	line "trochę PokéMANIAC"
+	cont "krąży wokół."
 	done
 
 _Route10Hiker2BattleText::
-	text "Ah! This mountain"
-	line "air is delicious!"
+	text "To górskie"
+	line "powietrze jest"
+	cont "przepyszne!"
 	done
 
 _Route10Hiker2EndBattleText::
-	text "That"
-	line "cleared my head!"
+	text "To oczyściło mi"
+	line "umysł!"
 	prompt
 
 _Route10Hiker2AfterBattleText::
-	text "I feel bloated on"
-	line "mountain air!"
+	text "Czuję się nadęty w"
+	line "górskim powietrzu!"
 	done
 
 _Route10CooltrainerF2BattleText::
-	text "I'm feeling a bit"
-	line "faint from this"
-	cont "tough hike."
+	text "Czuję się trochę"
+	line "słabo po tej"
+	cont "ciężkiej"
+	cont "wycieczce."
 	done
 
 _Route10CooltrainerF2EndBattleText::
-	text "I'm"
-	line "not up to it!"
+	text "Nie jestem do tego"
+	line "zdolny!"
 	prompt
 
 _Route10CooltrainerF2AfterBattleText::
-	text "The #MON here"
-	line "are so chunky!"
-	cont "There should be a"
-	cont "pink one with a"
-	cont "floral pattern!"
+	text "Pokémon tutaj są"
+	line "takie chunky!"
+	cont "Powinien być"
+	cont "różowy z kwiatowym"
+	cont "wzorem!"
 	done
 
 _Route10RockTunnelSignText::
@@ -104,5 +101,5 @@ _Route10RockTunnelSignText::
 	done
 
 _Route10PowerPlantSignText::
-	text "POWER PLANT"
+	text "PLANT POPRAWY"
 	done

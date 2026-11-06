@@ -7,7 +7,11 @@
 	db 180 ; catch rate
 	db 88 ; base exp
 
+IF GEN_2_GRAPHICS
+	INCBIN "gfx/pokemon/gsfront/machop.pic", 0, 1 ; sprite dimensions
+ELSE
 	INCBIN "gfx/pokemon/front/machop.pic", 0, 1 ; sprite dimensions
+ENDC
 	dw MachopPicFront, MachopPicBack
 
 	db KARATE_CHOP, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
@@ -21,4 +25,4 @@
 	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
 	; end
 
-	db 0 ; padding
+	db BANK(MachopPicFront)

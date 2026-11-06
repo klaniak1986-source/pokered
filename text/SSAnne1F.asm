@@ -1,7 +1,6 @@
 _SSAnne1FWaiterText::
-	text "Bonjour!"
-	line "I am le waiter on"
-	cont "this ship!"
+	text "Jestem kelnerem na"
+	line "tym statku!"
 
 	para "I will be happy"
 	line "to serve you any-"
@@ -12,8 +11,8 @@ _SSAnne1FWaiterText::
 	done
 
 _SSAnne1FSailorText::
-	text "The passengers"
-	line "are restless!"
+	text "Pasażerowie są"
+	line "niespokojni!"
 
 	para "You might be"
 	line "challenged by the"

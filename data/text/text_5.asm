@@ -1,11 +1,12 @@
 _CableClubNPCPleaseComeAgainText::
-	text "Please come again!"
+	text "Proszę, przyjdź"
+	line "jeszcze raz!"
 	done
 
 _CableClubNPCMakingPreparationsText::
-	text "We're making"
-	line "preparations."
-	cont "Please wait."
+	text "Przygotowujemy"
+	line "się, proszę"
+	cont "czekać."
 	done
 
 _UsedStrengthText::
@@ -21,23 +22,23 @@ _CanMoveBouldersText::
 	prompt
 
 _CurrentTooFastText::
-	text "The current is"
-	line "much too fast!"
+	text "Prąd jest o wiele"
+	line "za szybki!"
 	prompt
 
 _CyclingIsFunText::
-	text "Cycling is fun!"
-	line "Forget SURFing!"
+	text "Jazda na rowerze"
+	line "to zabawa!"
 	prompt
 
 _FlashLightsAreaText::
-	text "A blinding FLASH"
-	line "lights the area!"
+	text "Oślepiająca FLASH"
+	line "oświetla teren!"
 	prompt
 
 _WarpToLastPokemonCenterText::
-	text "Warp to the last"
-	line "#MON CENTER."
+	text "Warp do ostatniego"
+	line "Centrum Pokémona."
 	done
 
 _CannotUseTeleportNowText::
@@ -53,23 +54,24 @@ _CannotFlyHereText::
 	prompt
 
 _NotHealthyEnoughText::
-	text "Not healthy"
-	line "enough."
+	text "Nie jest"
+	line "wystarczająco"
+	cont "zdrowa."
 	prompt
 
 _NewBadgeRequiredText::
-	text "No! A new BADGE"
-	line "is required."
+	text "Nie! Potrzebny"
+	line "jest nowy BADGE."
 	prompt
 
 _CannotUseItemsHereText::
-	text "You can't use items"
-	line "here."
+	text "Nie można używać"
+	line "przedmiotów tutaj."
 	prompt
 
 _CannotGetOffHereText::
-	text "You can't get off"
-	line "here."
+	text "Nie możesz tu"
+	line "wysiąść."
 	prompt
 
 _GotMonText::
@@ -92,8 +94,8 @@ _SentToBoxText::
 	done
 
 _BoxIsFullText::
-	text "There's no more"
-	line "room for #MON!"
+	text "Nie ma już miejsca"
+	line "dla Pokémona!"
 
 	para "The #MON BOX"
 	line "is full and can't"

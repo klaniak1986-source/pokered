@@ -1,6 +1,5 @@
 _SilphCo3FSilphWorkerMWhatShouldIDoText::
-	text "I work for SILPH."
-	line "What should I do?"
+	text "Pracuję dla SILPH."
 	done
 
 _SilphCo3FSilphWorkerMYouSavedUsText::
@@ -10,37 +9,39 @@ _SilphCo3FSilphWorkerMYouSavedUsText::
 	done
 
 _SilphCo3FRocketBattleText::
-	text "Quit messing with"
-	line "us, kid!"
+	text "Przestań z nami"
+	line "zadzierać,"
+	cont "dzieciaku!"
 	done
 
 _SilphCo3FRocketEndBattleText::
-	text "I give"
-	line "up!"
+	text "Poddaję się!"
 	prompt
 
 _SilphCo3FRocketAfterBattleText::
-	text "A hint? You can"
-	line "open doors with a"
-	cont "CARD KEY!"
+	text "Możesz otworzyć"
+	line "drzwi za pomocą"
+	cont "klawisza!"
 	done
 
 _SilphCo3FScientistBattleText::
-	text "I support TEAM"
-	line "ROCKET more than"
-	cont "I support SILPH!"
+	text "Wspieram TEAM"
+	line "ROCKET bardziej"
+	cont "niż SILPH!"
 	done
 
 _SilphCo3FScientistEndBattleText::
-	text "You"
-	line "really got me!"
+	text "Naprawdę mnie"
+	line "masz!"
 	prompt
 
 _SilphCo3FScientistAfterBattleText::
-	text "Humph..."
+	text "Humph.."
 
-	para "TEAM ROCKET said"
-	line "that if I helped"
-	cont "them, they'd let"
-	cont "me study #MON!"
+	para "TEAM ROCKET"
+	line "powiedział, że"
+	cont "jeśli im pomogę,"
+	cont "pozwolą mi"
+	cont "studiować"
+	cont "Pokémona!"
 	done

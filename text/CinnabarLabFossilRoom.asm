@@ -1,8 +1,8 @@
 _CinnabarLabFossilRoomScientist1Text::
-	text "Hiya!"
+	text "Cześć!"
 
-	para "I am important"
-	line "doctor!"
+	para "Jestem ważnym"
+	line "lekarzem!"
 
 	para "I study here rare"
 	line "#MON fossils!"
@@ -12,22 +12,22 @@ _CinnabarLabFossilRoomScientist1Text::
 	prompt
 
 _CinnabarLabFossilRoomScientist1NoFossilsText::
-	text "No! Is too bad!"
+	text "Szkoda!"
 	done
 
 _CinnabarLabFossilRoomScientist1GoForAWalkText::
-	text "I take a little"
-	line "time!"
+	text "Mam trochę czasu!"
 
 	para "You go for walk a"
 	line "little while!"
 	done
 
 _CinnabarLabFossilRoomScientist1FossilIsBackToLifeText::
-	text "Where were you?"
+	text "Gdzie byłeś?"
 
-	para "Your fossil is"
-	line "back to life!"
+	para "Twoja skamielina"
+	line "powróciła do"
+	cont "życia!"
 
 	para "It was @"
 	text_ram wStringBuffer
@@ -55,8 +55,8 @@ _CinnabarLabFossilRoomScientist1SeesFossilText::
 	done
 
 _CinnabarLabFossilRoomScientist1TakesFossilText::
-	text "So! You hurry and"
-	line "give me that!"
+	text "Więc się pośpiesz"
+	line "i daj mi to!"
 
 	para "<PLAYER> handed"
 	line "over @"
@@ -65,14 +65,13 @@ _CinnabarLabFossilRoomScientist1TakesFossilText::
 	prompt
 
 _CinnabarLabFossilRoomScientist1GoForAWalkText2::
-	text "I take a little"
-	line "time!"
+	text "Mam trochę czasu!"
 
 	para "You go for walk a"
 	line "little while!"
 	done
 
 _CinnabarLabFossilRoomScientist1ComeAgainText::
-	text "Aiyah! You come"
-	line "again!"
+	text "Aiyah, znowu"
+	line "przychodzisz!"
 	done

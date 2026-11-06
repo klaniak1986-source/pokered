@@ -87,7 +87,7 @@ LanceTriggerMovementCoords:
 LancesRoomLanceEndBattleScript:
 	call EndTrainerBattle
 	ld a, [wIsInBattle]
-	cp LOST_BATTLE
+	cp $ff
 	jp z, ResetLanceScript
 	ld a, TEXT_LANCESROOM_LANCE
 	ldh [hTextID], a

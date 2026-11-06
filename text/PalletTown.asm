@@ -1,56 +1,53 @@
 _PalletTownOakHeyWaitDontGoOutText::
-	text "OAK: Hey! Wait!"
-	line "Don't go out!@"
+	text "DĄB: Zaczekaj!"
+	line "Nie wychodź!@"
 	text_end
 
 _PalletTownOakItsUnsafeText::
-	text "OAK: It's unsafe!"
-	line "Wild #MON live"
-	cont "in tall grass!"
+	text "DĄB: To ryzykowne!"
+	line "W wysokiej trawie"
+	cont "żyją dzikie"
+	cont "Pokémony!"
 
-	para "You need your own"
-	line "#MON for your"
-	cont "protection."
-	cont "I know!"
+	para "Przyda ci się"
+	line "własny Pokémon,"
+	cont "żeby cię chronić."
 
-	para "Here, come with"
-	line "me!"
+	para "Chodź ze mną!"
 	done
 
 _PalletTownGirlText::
-	text "I'm raising"
-	line "#MON too!"
+	text "Też hoduję"
+	line "Pokémony!"
 
-	para "When they get"
-	line "strong, they can"
-	cont "protect me!"
+	para "Gdy podrosną,"
+	line "będą mnie bronić!"
 	done
 
 _PalletTownFisherText::
-	text "Technology is"
-	line "incredible!"
+	text "Co za technika!"
 
-	para "You can now store"
-	line "and recall items"
-	cont "and #MON as"
-	cont "data via PC!"
+	para "Na komputerze"
+	line "można przechować"
+	cont "przedmioty, a"
+	cont "nawet Pokémony!"
 	done
 
 _PalletTownOaksLabSignText::
-	text "OAK #MON"
-	line "RESEARCH LAB"
+	text "LABORATORIUM"
+	line "PROFESORA OAKA"
 	done
 
 _PalletTownSignText::
 	text "PALLET TOWN"
-	line "Shades of your"
-	cont "journey await!"
+	line "Tu zaczyna się"
+	cont "twoja podróż!"
 	done
 
 _PalletTownPlayersHouseSignText::
-	text "<PLAYER>'s house "
+	text "Dom: <PLAYER>"
 	done
 
 _PalletTownRivalsHouseSignText::
-	text "<RIVAL>'s house "
+	text "Dom: <RIVAL>"
 	done

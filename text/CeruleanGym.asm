@@ -1,6 +1,6 @@
 _CeruleanGymMistyPreBattleText::
-	text "Hi, you're a new"
-	line "face!"
+	text "Cześć, masz nową"
+	line "twarz!"
 
 	para "Trainers who want"
 	line "to turn pro have"
@@ -18,7 +18,7 @@ _CeruleanGymMistyPreBattleText::
 	done
 
 _CeruleanGymMistyTM11ExplanationText::
-	text "TM11 teaches"
+	text "TM11 uczy"
 	line "BUBBLEBEAM!"
 
 	para "Use it on an"
@@ -26,9 +26,11 @@ _CeruleanGymMistyTM11ExplanationText::
 	done
 
 _CeruleanGymMistyCascadeBadgeInfoText::
-	text "The CASCADEBADGE"
-	line "makes all #MON"
-	cont "up to L30 obey!"
+	text "CASCADEBADGE"
+	line "sprawia, że"
+	cont "wszystkie Pokémon"
+	cont "do L30 być"
+	cont "posłuszne!"
 
 	para "That includes"
 	line "even outsiders!"
@@ -51,69 +53,73 @@ _CeruleanGymMistyReceivedTM11Text::
 	text_end
 
 _CeruleanGymMistyTM11NoRoomText::
-	text "You better make"
-	line "room for this!"
+	text "Lepiej zrób na to"
+	line "miejsce!"
 	done
 
 _CeruleanGymMistyReceivedCascadeBadgeText::
-	text "Wow!"
-	line "You're too much!"
+	text "Przesadzasz!"
 
 	para "All right!"
 
-	para "You can have the"
-	line "CASCADEBADGE to"
-	cont "show you beat me!@"
+	para "Możesz mieć"
+	line "CASCADEBADGE, żeby"
+	cont "pokazać, że mnie"
+	cont "pokonałeś!@"
 	text_end
 
 _CeruleanGymBattleText1::
-	text "I'm more than good"
-	line "enough for you!"
+	text "Jestem dla ciebie"
+	line "wystarczająco"
+	cont "dobry!"
 
-	para "MISTY can wait!"
+	para "MARTA can wait!"
 	done
 
 _CeruleanGymEndBattleText1::
-	text "You"
-	line "overwhelmed me!"
+	text "Przytłoczyłeś"
+	line "mnie!"
 	prompt
 
 _CeruleanGymAfterBattleText1::
-	text "You have to face"
-	line "other trainers to"
-	cont "find out how good"
-	cont "you really are."
+	text "Musisz zmierzyć"
+	line "się z innymi"
+	cont "trenerkami, żeby"
+	cont "dowiedzieć się,"
+	cont "jaki jesteś"
+	cont "naprawdę dobry."
 	done
 
 _CeruleanGymBattleText2::
 	text "Splash!"
 
-	para "I'm first up!"
-	line "Let's do it!"
+	para "Najpierw ja, niech"
+	line "to zrobią!"
 	done
 
 _CeruleanGymEndBattleText2::
-	text "That"
-	line "can't be!"
+	text "To nie może być"
+	line "prawda!"
 	prompt
 
 _CeruleanGymAfterBattleText2::
-	text "MISTY is going to"
-	line "keep improving!"
+	text "MARTA będzie się"
+	line "poprawiać!"
 
 	para "She won't lose to"
 	line "someone like you!"
 	done
 
 _CeruleanGymGymGuideChampInMakingText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Mistrz w robieniu!"
 
 	para "Here's my advice!"
 
-	para "The LEADER, MISTY,"
-	line "is a pro who uses"
-	cont "water #MON!"
+	para "LEADER, MARTA,"
+	line "jest"
+	cont "profesjonalistą,"
+	cont "który używa wody"
+	cont "Pokémon!"
 
 	para "You can drain all"
 	line "their water with"
@@ -124,8 +130,7 @@ _CeruleanGymGymGuideChampInMakingText::
 	done
 
 _CeruleanGymGymGuideBeatMistyText::
-	text "You beat MISTY!"
-	line "What'd I tell ya?"
+	text "Co ja ci mówiłem?"
 
 	para "You and me kid,"
 	line "we make a pretty"

@@ -76,6 +76,15 @@ TryDoWildEncounter:
 	ld a, [hli]
 	ld [wCurEnemyLevel], a
 	ld a, [hl]
+	cp KIRA
+	jr nz, .storeSpecies
+	call CanEncounterKira
+	ld a, KIRA
+	jr z, .storeSpecies
+	ld a, 5
+	ld [wCurEnemyLevel], a
+	ld a, PIDGEY
+.storeSpecies
 	ld [wCurPartySpecies], a
 	ld [wEnemyMonSpecies2], a
 	ld a, [wRepelRemainingSteps]
@@ -100,5 +109,27 @@ TryDoWildEncounter:
 .willEncounter
 	xor a
 	ret
+
+; Z only for the full player name, ignoring ASCII-letter case in the game font.
+CanEncounterKira:
+	ld hl, wPlayerName
+	ld de, .name
+	ld b, .nameEnd - .name
+.loop
+	ld a, [de]
+	ld c, a
+	ld a, [hli]
+	res 5, a ; lowercase letters are uppercase + $20
+	cp c
+	ret nz
+	inc de
+	dec b
+	jr nz, .loop
+	ld a, [hl]
+	cp CHARVAL("@")
+	ret
+.name
+	db "BARAQDA"
+.nameEnd
 
 INCLUDE "data/wild/probabilities.asm"

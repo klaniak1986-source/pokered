@@ -5,10 +5,8 @@ _BluesHouseDaisyRivalAtLabText::
 	done
 
 _BluesHouseDaisyOfferMapText::
-	text "Grandpa asked you"
-	line "to run an errand?"
-	cont "Here, this will"
-	cont "help you!"
+	text "Dziadek kazał ci"
+	line "coś załatwić?"
 	prompt
 
 _GotMapText::
@@ -19,24 +17,22 @@ _GotMapText::
 	text_end
 
 _BluesHouseDaisyBagFullText::
-	text "You have too much"
-	line "stuff with you."
+	text "Masz ze sobą za"
+	line "dużo rzeczy."
 	done
 
 _BluesHouseDaisyUseMapText::
-	text "Use the TOWN MAP"
-	line "to find out where"
-	cont "you are."
+	text "Użyj MAP TOWN, aby"
+	line "dowiedzieć się,"
+	cont "gdzie jesteś."
 	done
 
 _BluesHouseDaisyWalkingText::
-	text "#MON are living"
-	line "things! If they"
-	cont "get tired, give"
-	cont "them a rest!"
+	text "Pokémon są żywymi"
+	line "stworzeniami!"
 	done
 
 _BluesHouseTownMapText::
-	text "It's a big map!"
-	line "This is useful!"
+	text "To jest przydatna"
+	line "mapa!"
 	done

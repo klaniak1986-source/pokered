@@ -1,8 +1,7 @@
 _CeladonMansionRoofHouseHikerText::
-	text "I know everything"
-	line "about the world"
-	cont "of #MON in"
-	cont "your GAME BOY!"
+	text "Wiem wszystko o"
+	line "świecie Pokémona w"
+	cont "twoim chłopczyku!"
 
 	para "Get together with"
 	line "your friends and"

@@ -1,36 +1,36 @@
 _CeladonDinerCookText::
-	text "Hi!"
+	text "Cześć!"
 
-	para "We're taking a"
-	line "break now."
+	para "Teraz robimy sobie"
+	line "przerwę."
 	done
 
 _CeladonDinerMiddleAgedWomanText::
-	text "My #MON are"
-	line "weak, so I often"
-	cont "have to go to the"
-	cont "DRUG STORE."
+	text "Mój Pokémon jest"
+	line "słaby, więc często"
+	cont "muszę iść do"
+	cont "sklepu DRUG."
 	done
 
 _CeladonDinerMiddleAgedManText::
-	text "Psst! There's a"
-	line "basement under"
-	cont "the GAME CORNER."
+	text "Pod gankiem jest"
+	line "piwnica."
 	done
 
 _CeladonDinerFisherText::
-	text "Munch..."
+	text "Munch."
 
-	para "The man at that"
-	line "table lost it all"
-	cont "at the slots."
+	para "Człowiek przy tym"
+	line "stole stracił"
+	cont "wszystko na"
+	cont "automatach."
 	done
 
 _CeladonDinerGymGuideImFlatOutBustedText::
-	text "Go ahead! Laugh!"
+	text "Śmiej się!"
 
-	para "I'm flat out"
-	line "busted!"
+	para "Ja się"
+	line "rozpłaszczam!"
 
 	para "No more slots for"
 	line "me! I'm going"
@@ -49,12 +49,11 @@ _CeladonDinerGymGuideReceivedCoinCaseText::
 	text_end
 
 _CeladonDinerGymGuideCoinCaseNoRoomText::
-	text "Make room for"
-	line "this!"
+	text "Zróbcie na to"
+	line "miejsce!"
 	done
 
 _CeladonDinerGymGuideWinItBackText::
-	text "I always thought"
-	line "I was going to"
-	cont "win it back..."
+	text "Zawsze myślałem,"
+	line "że ją odzyskam."
 	done

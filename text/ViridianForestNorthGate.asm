@@ -1,7 +1,8 @@
 _ViridianForestNorthGateSuperNerdText::
-	text "Many #MON live"
-	line "only in forests "
-	cont "and caves."
+	text "Wielu Pokémonów"
+	line "żyje tylko w"
+	cont "lasach i"
+	cont "jaskiniach."
 
 	para "You need to look"
 	line "everywhere to get"
@@ -9,9 +10,8 @@ _ViridianForestNorthGateSuperNerdText::
 	done
 
 _ViridianForestNorthGateGrampsText::
-	text "Have you noticed"
-	line "the bushes on the"
-	cont "roadside?"
+	text "Zauważyłeś krzaki"
+	line "na poboczu drogi?"
 
 	para "They can be cut"
 	line "down by a special"

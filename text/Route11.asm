@@ -1,133 +1,130 @@
 _Route11Gambler1BattleText::
-	text "Win, lose or draw!"
+	text "Wygraj, przegraj"
+	line "albo wyciągnij!"
 	done
 
 _Route11Gambler1EndBattleText::
-	text "Atcha!"
-	line "Didn't go my way!"
+	text "Nie pojechałem w"
+	line "moją stronę!"
 	prompt
 
 _Route11Gambler1AfterBattleText::
-	text "#MON is life!"
-	line "And to live is to"
-	cont "gamble!"
+	text "Pokemon to życie,"
+	line "a życie to hazard!"
 	done
 
 _Route11Gambler2BattleText::
-	text "Competition! I"
-	line "can't get enough!"
+	text "Konkurencja, nie"
+	line "mam dość!"
 	done
 
 _Route11Gambler2EndBattleText::
-	text "I had"
-	line "a chance!"
+	text "Miałem szansę!"
 	prompt
 
 _Route11Gambler2AfterBattleText::
-	text "You can't be a"
-	line "coward in the"
-	cont "world of #MON!"
+	text "Nie możesz być"
+	line "tchórzem w świecie"
+	cont "Pokémona!"
 	done
 
 _Route11Youngster1BattleText::
-	text "Let's go, but"
-	line "don't cheat!"
+	text "Puść go, ale nie"
+	line "oszukuj!"
 	done
 
 _Route11Youngster1EndBattleText::
-	text "Huh?"
-	line "That's not right!"
+	text "To nie w porządku!"
 	prompt
 
 _Route11Youngster1AfterBattleText::
-	text "I did my best! I"
-	line "have no regrets!"
+	text "Zrobiłem, co"
+	line "mogłem, nie"
+	cont "żałuję!"
 	done
 
 _Route11SuperNerd1BattleText::
-	text "Careful!"
-	line "I'm laying down"
-	cont "some cables!"
+	text "Ostrożnie, kładę"
+	line "kable!"
 	done
 
 _Route11SuperNerd1EndBattleText::
-	text "That"
-	line "was electric!"
+	text "To było"
+	line "elektryczne!"
 	prompt
 
 _Route11SuperNerd1AfterBattleText::
-	text "Spread the word"
-	line "to save energy!"
+	text "Rozgłoś, żeby"
+	line "oszczędzić"
+	cont "energię!"
 	done
 
 _Route11Youngster2BattleText::
-	text "I just became a"
-	line "trainer! But, I"
-	cont "think I can win!"
+	text "Właśnie zostałem"
+	line "trenerem, ale"
+	cont "myślę, że mogę"
+	cont "wygrać!"
 	done
 
 _Route11Youngster2EndBattleText::
-	text "My"
-	line "#MON couldn't!"
+	text "Mój Pokémon mógł"
+	line "to zrobić!"
 	prompt
 
 _Route11Youngster2AfterBattleText5::
-	text "What do you want?"
-	line "Leave me alone!"
+	text "Zostaw mnie w"
+	line "spokoju!"
 	done
 
 _Route11Gambler3BattleText::
-	text "Fwahaha! I have"
-	line "never lost!"
+	text "Nigdy nie"
+	line "przegrałem!"
 	done
 
 _Route11Gambler3EndBattleText::
-	text "My"
-	line "first loss!"
+	text "Moja pierwsza"
+	line "strata!"
 	prompt
 
 _Route11Gambler3AfterBattleText::
-	text "Luck of the draw!"
-	line "Just luck!"
+	text "Szczęście z"
+	line "losowania!"
 	done
 
 _Route11Gambler4BattleText::
-	text "I have never won"
-	line "before..."
+	text "Nigdy wcześniej"
+	line "nie wygrałem."
 	done
 
 _Route11Gambler4EndBattleText::
-	text "I saw"
-	line "this coming..."
+	text "Wiedziałem, że tak"
+	line "będzie."
 	prompt
 
 _Route11Gambler4AfterBattleText::
-	text "It's just luck."
-	line "Luck of the draw."
+	text "To tylko"
+	line "szczęście."
 	done
 
 _Route11Youngster3BattleText::
-	text "I'm the best in"
-	line "my class!"
+	text "Jestem najlepszy w"
+	line "klasie!"
 	done
 
 _Route11Youngster3EndBattleText::
-	text "Darn!"
-	line "I need to make my"
-	cont "#MON stronger!"
+	text "Muszę wzmocnić"
+	line "Pokemona!"
 	prompt
 
 _Route11Youngster3AfterBattleText::
-	text "There's a fat"
-	line "#MON that"
-	cont "comes down from"
-	cont "the mountains."
+	text "Jest tam tłusty"
+	line "Pokémon, który"
+	cont "schodzi z gór."
 
 	para "It's strong if"
 	line "you can get it."
 	done
 
 _Route11SuperNerd2BattleText::
-	text "Watch out for"
-	line "live wires!"
+	text "Uważaj na kable!"
 	done

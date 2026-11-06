@@ -1,6 +1,5 @@
 SilphCo2FSilphWorkerFPleaseTakeThisText::
-	text "Eeek!"
-	line "No! Stop! Help!"
+	text "Nie, przestań!"
 
 	para "Oh, you're not"
 	line "with TEAM ROCKET."
@@ -17,7 +16,7 @@ _SilphCo2FSilphWorkerFReceivedTM36Text::
 	text_end
 
 _SilphCo2FSilphWorkerFTM36ExplanationText::
-	text "TM36 is"
+	text "TM36 to"
 	line "SELFDESTRUCT!"
 
 	para "It's powerful, but"
@@ -27,71 +26,68 @@ _SilphCo2FSilphWorkerFTM36ExplanationText::
 	done
 
 _SilphCo2FSilphWorkerFTM36NoRoomText::
-	text "You don't have any"
-	line "room for this."
+	text "Nie masz na to"
+	line "miejsca."
 	done
 
 _SilphCo2FScientist1BattleText::
-	text "Help! I'm a SILPH"
-	line "employee."
+	text "Jestem"
+	line "pracownikiem"
+	cont "SILPH."
 	done
 
 _SilphCo2FScientist1EndBattleText::
-	text "How"
-	line "did you know I"
-	cont "was a ROCKET?"
+	text "Skąd wiedziałeś,"
+	line "że jestem"
+	cont "Rocketem?"
 	prompt
 
 _SilphCo2FScientist1AfterBattleText::
-	text "I work for both"
-	line "SILPH and TEAM"
-	cont "ROCKET!"
+	text "Pracuję dla SILPH"
+	line "i TEAM ROCKET!"
 	done
 
 _SilphCo2FScientist2BattleText::
-	text "It's off limits"
-	line "here! Go home!"
+	text "Nie ma tu granic!"
 	done
 
 _SilphCo2FScientist2EndBattleText::
-	text "You're"
-	line "good."
+	text "Jesteś dobry."
 	prompt
 
 _SilphCo2FScientist2AfterBattleText::
-	text "Can you solve the"
-	line "maze in here?"
+	text "Możesz rozwiązać"
+	line "labirynt?"
 	done
 
 _SilphCo2FRocket1BattleText::
-	text "No kids are"
-	line "allowed in here!"
+	text "Nie wolno tu"
+	line "wchodzić dzieciom!"
 	done
 
 _SilphCo2FRocket1EndBattleText::
-	text "Tough!"
+	text "Ciężko!"
 	prompt
 
 _SilphCo2FRocket1AfterBattleText::
-	text "Diamond shaped"
-	line "tiles are"
-	cont "teleport blocks!"
+	text "Diamentowe płytki"
+	line "są blokami"
+	cont "teleportowymi!"
 
 	para "They're hi-tech"
 	line "transporters!"
 	done
 
 _SilphCo2FRocket2BattleText::
-	text "Hey kid! What are"
-	line "you doing here?"
+	text "Co ty tu robisz?"
 	done
 
 _SilphCo2FRocket2EndBattleText::
-	text "I goofed!"
+	text "Wygłupiałem się!"
 	prompt
 
 _SilphCo2FRocket2AfterBattleText::
-	text "SILPH CO. will"
-	line "be merged with"
-	cont "TEAM ROCKET!"
+	text "SILPH CO. zostaną"
+	line "połączone z TEAM"
+	cont "ROCKET!"
 	done

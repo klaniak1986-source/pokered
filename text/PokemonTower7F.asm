@@ -1,6 +1,6 @@
 _PokemonTower7FMrFujiRescueText::
-	text "MR.FUJI: Heh? You"
-	line "came to save me?"
+	text "Przyszedł pan mnie"
+	line "uratować?"
 
 	para "Thank you. But, I"
 	line "came here of my"
@@ -25,54 +25,55 @@ _PokemonTower7FMrFujiRescueText::
 	done
 
 _PokemonTower7FRocket1BattleText::
-	text "What do you want?"
-	line "Why are you here?"
+	text "Czego chcesz?"
 	done
 
 _PokemonTower7FRocket1EndBattleText::
-	text "I give up!"
+	text "Poddaję się!"
 	prompt
 
 _PokemonTower7FRocket1AfterBattleText::
-	text "I'm not going to"
-	line "forget this!"
+	text "Nie zapomnę tego!"
 	done
 
 _PokemonTower7FRocket2BattleText::
-	text "This old guy came"
-	line "and complained"
-	cont "about us harming"
-	cont "useless #MON!"
+	text "Ten staruszek"
+	line "przyszedł i"
+	cont "skarżył się, że"
+	cont "krzywdzimy"
+	cont "bezużytecznego"
+	cont "Pokémona!"
 
 	para "We're talking it"
 	line "over as adults!"
 	done
 
 _PokemonTower7FRocket2EndBattleText::
-	text "Please!"
-	line "No more!"
+	text "Proszę, nie"
+	line "więcej!"
 	prompt
 
 _PokemonTower7FRocket2AfterBattleText::
-	text "#MON are only"
-	line "good for making"
-	cont "money!"
+	text "Pokémon jest dobry"
+	line "tylko do"
+	cont "zarabiania"
+	cont "pieniędzy!"
 
 	para "Stay out of our"
 	line "business!"
 	done
 
 _PokemonTower7FRocket3BattleText::
-	text "You're not saving"
-	line "anyone, kid!"
+	text "Nie ratujesz"
+	line "nikogo, dzieciaku!"
 	done
 
 _PokemonTower7FRocket3EndBattleText::
-	text "Don't"
-	line "fight us ROCKETs!"
+	text "Nie walcz z nami"
+	line "ROCKET!"
 	prompt
 
 _PokemonTower7FRocket3AfterBattleText::
-	text "You're not getting"
-	line "away with this!"
+	text "Nie ujdzie ci to"
+	line "na sucho!"
 	done

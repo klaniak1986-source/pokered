@@ -1,7 +1,7 @@
 _Route11Gate2FOaksAideItemfinderDescriptionText::
-	text "There are items on"
-	line "the ground that"
-	cont "can't be seen."
+	text "Są rzeczy na"
+	line "ziemi, które nie"
+	cont "mogą być widoczne."
 
 	para "ITEMFINDER will"
 	line "detect an item"
@@ -13,24 +13,24 @@ _Route11Gate2FOaksAideItemfinderDescriptionText::
 	done
 
 _Route11Gate2FLeftBinocularsSnorlaxText::
-	text "Looked into the"
-	line "binoculars."
+	text "Spojrzałem w"
+	line "lornetkę."
 
 	para "A big #MON is"
 	line "asleep on a road!"
 	done
 
 _Route11Gate2FLeftBinocularsNoSnorlaxText::
-	text "Looked into the"
-	line "binoculars."
+	text "Spojrzałem w"
+	line "lornetkę."
 
 	para "It's a beautiful"
 	line "view!"
 	done
 
 _Route11Gate2FRightBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Spojrzałem w"
+	line "lornetkę."
 
 	para "The only way to"
 	line "get from CERULEAN"

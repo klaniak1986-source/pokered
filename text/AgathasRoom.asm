@@ -1,8 +1,8 @@
 _AgathaBeforeBattleText::
-	text "I am AGATHA of"
-	line "the ELITE FOUR!"
+	text "Jestem Agata z"
+	line "Elitarnej Czwórki!"
 
-	para "OAK's taken a lot"
+	para "DĄB's taken a lot"
 	line "of interest in"
 	cont "you, child!"
 
@@ -23,15 +23,15 @@ _AgathaBeforeBattleText::
 	done
 
 _AgathaEndBattleText::
-	text "Oh ho!"
-	line "You're something"
-	cont "special, child!"
+	text "Jesteś kimś"
+	line "wyjątkowym,"
+	cont "dziecko!"
 	prompt
 
 _AgathaAfterBattleText::
-	text "You win! I see"
-	line "what the old duff"
-	cont "sees in you now!"
+	text "Teraz widzę to, co"
+	line "stary duff w tobie"
+	cont "widzi!"
 
 	para "I have nothing"
 	line "else to say! Run"
@@ -39,6 +39,5 @@ _AgathaAfterBattleText::
 	done
 
 _AgathasRoomAgathaDontRunAwayText::
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "Nie uciekaj!"
 	done

@@ -1,31 +1,29 @@
 _PokemonTower1FReceptionistText::
-	text "#MON TOWER was"
-	line "erected in the"
-	cont "memory of #MON"
-	cont "that had died."
+	text "Pokémon TOWER"
+	line "został wzniesiony"
+	cont "w pamięci"
+	cont "Pokémona, który"
+	cont "zmarł."
 	done
 
 _PokemonTower1FMiddleAgedWomanText::
-	text "Did you come to"
-	line "pay respects?"
-	cont "Bless you!"
+	text "Przyszłaś złożyć"
+	line "wyrazy szacunku?"
 	done
 
 _PokemonTower1FBaldingGuyText::
-	text "I came to pray"
-	line "for my CLEFAIRY."
+	text "Przyszedłem się"
+	line "modlić za moją"
+	cont "CLEFAIRY."
 
 	para "Sniff! I can't"
 	line "stop crying..."
 	done
 
 _PokemonTower1FGirlText::
-	text "My GROWLITHE..."
-	line "Why did you die?"
+	text "Dlaczego umarłeś?"
 	done
 
 _PokemonTower1FChannelerText::
-	text "I am a CHANNELER!"
-	line "There are spirits"
-	cont "up to mischief!"
+	text "Jestem Channeler!"
 	done

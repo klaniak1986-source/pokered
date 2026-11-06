@@ -1,7 +1,6 @@
 _FuchsiaGoodRodHouseFishingGuruText::
-	text "I'm the FISHING"
-	line "GURU's older"
-	cont "brother!"
+	text "Ja jestem starszym"
+	line "bratem z GURU!"
 
 	para "I simply Looove"
 	line "fishing!"
@@ -11,8 +10,8 @@ _FuchsiaGoodRodHouseFishingGuruText::
 	done
 
 _FuchsiaGoodRodHouseFishingGuruReceivedGoodRodText::
-	text "Grand! I like"
-	line "your style!"
+	text "Podoba mi się twój"
+	line "styl!"
 
 	para "Take this and"
 	line "fish, young one!"
@@ -24,8 +23,8 @@ _FuchsiaGoodRodHouseFishingGuruReceivedGoodRodText::
 	text_end
 
 _FuchsiaGoodRodHouseFishingGuruThatsSoDisappointingText::
-	text "Oh... That's so"
-	line "disappointing..."
+	text "To takie"
+	line "rozczarowujące."
 	done
 
 _FuchsiaGoodRodHouseFishingGuruHowAreTheFishText::
@@ -37,8 +36,8 @@ _FuchsiaGoodRodHouseFishingGuruHowAreTheFishText::
 	done
 
 _FuchsiaGoodRodHouseFishingGuruNoRoomText::
-	text "Oh no!"
+	text "O nie!"
 
-	para "You have no room"
-	line "for my gift!"
+	para "Nie masz miejsca"
+	line "na mój prezent!"
 	done

@@ -1,17 +1,16 @@
 _CeladonMartRoofLittleGirlGiveHerWhichDrinkText::
-	text "Give her which"
-	line "drink?"
+	text "Dać jej drinka?"
 	done
 
 _CeladonMartRoofLittleGirlYayFreshWaterText::
 	text "Yay!"
 
-	para "FRESH WATER!"
+	para "ŚWIEŻA WODA!"
 
-	para "Thank you!"
+	para "Dziękuję!"
 
-	para "You can have this"
-	line "from me!@"
+	para "Możesz to mieć ode"
+	line "mnie!@"
 	text_end
 
 _CeladonMartRoofLittleGirlReceivedTM13Text::
@@ -38,10 +37,10 @@ _CeladonMartRoofLittleGirlYaySodaPopText::
 
 	para "SODA POP!"
 
-	para "Thank you!"
+	para "Dziękuję!"
 
-	para "You can have this"
-	line "from me!@"
+	para "Możesz to mieć ode"
+	line "mnie!@"
 	text_end
 
 _CeladonMartRoofLittleGirlReceivedTM48Text::
@@ -68,10 +67,10 @@ _CeladonMartRoofLittleGirlYayLemonadeText::
 
 	para "LEMONADE!"
 
-	para "Thank you!"
+	para "Dziękuję!"
 
-	para "You can have this"
-	line "from me!@"
+	para "Możesz to mieć ode"
+	line "mnie!@"
 	text_end
 
 _CeladonMartRoofLittleGirlReceivedTM49Text::
@@ -82,25 +81,24 @@ _CeladonMartRoofLittleGirlReceivedTM49Text::
 _CeladonMartRoofLittleGirlTM49ExplanationText::
 	text_start
 
-	para "TM49 contains"
-	line "TRI ATTACK!@"
+	para "TM49 zawiera TRI"
+	line "ATTACK!@"
 	text_end
 
 _CeladonMartRoofLittleGirlNoRoomText::
-	text "You don't have"
-	line "space for this!@"
+	text "Nie masz na to"
+	line "miejsca!@"
 	text_end
 
 _CeladonMartRoofLittleGirlImNotThirstyText::
-	text "No thank you!"
-	line "I'm not thirsty"
-	cont "after all!@"
+	text "W końcu nie jestem"
+	line "spragniony!@"
 	text_end
 
 _CeladonMartRoofSuperNerdText::
-	text "My sister is a"
-	line "trainer, believe"
-	cont "it or not."
+	text "Moja siostra jest"
+	line "trenerką, wierz"
+	cont "lub nie."
 
 	para "But, she's so"
 	line "immature, she"
@@ -108,32 +106,27 @@ _CeladonMartRoofSuperNerdText::
 	done
 
 _CeladonMartRoofLittleGirlImThirstyText::
-	text "I'm thirsty!"
-	line "I want something"
-	cont "to drink!"
+	text "Chce mi się pić!"
 	done
 
 _CeladonMartRoofLittleGirlGiveHerADrinkText::
-	text "I'm thirsty!"
-	line "I want something"
-	cont "to drink!"
+	text "Chce mi się pić!"
 
 	para "Give her a drink?"
 	done
 
 _CeladonMartRoofCurrentFloorSignText::
-	text "ROOFTOP SQUARE:"
-	line "VENDING MACHINES"
+	text "SQUARE ROOFTOP:"
+	line "MASZYNY WEJŚCIA"
 	done
 
 _VendingMachineText1::
-	text "A vending machine!"
-	line "Here's the menu!"
+	text "Tu jest menu!"
 	prompt
 
 _VendingMachineText4::
-	text "Oops, not enough"
-	line "money!"
+	text "Oops, za mało"
+	line "pieniędzy!"
 	done
 
 _VendingMachineText5::
@@ -143,10 +136,11 @@ _VendingMachineText5::
 	done
 
 _VendingMachineText6::
-	text "There's no more"
-	line "room for stuff!"
+	text "Nie ma już miejsca"
+	line "na rzeczy!"
 	done
 
 _VendingMachineText7::
-	text "Not thirsty!"
+	text "Nie chce mi się"
+	line "pić!"
 	done

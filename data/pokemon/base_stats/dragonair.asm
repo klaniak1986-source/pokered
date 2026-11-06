@@ -7,7 +7,11 @@
 	db 45 ; catch rate
 	db 144 ; base exp
 
+IF GEN_2_GRAPHICS
+	INCBIN "gfx/pokemon/gsfront/dragonair.pic", 0, 1 ; sprite dimensions
+ELSE
 	INCBIN "gfx/pokemon/front/dragonair.pic", 0, 1 ; sprite dimensions
+ENDC
 	dw DragonairPicFront, DragonairPicBack
 
 	db WRAP, LEER, THUNDER_WAVE, NO_MOVE ; level 1 learnset
@@ -21,4 +25,4 @@
 	     REST,         THUNDER_WAVE, SUBSTITUTE,   SURF
 	; end
 
-	db 0 ; padding
+	db BANK(DragonairPicFront)

@@ -1,8 +1,8 @@
 _Route11Gate1FGuardText::
-	text "When you catch"
-	line "lots of #MON,"
-	cont "isn't it hard to"
-	cont "think up names?"
+	text "Kiedy łapiesz dużo"
+	line "Pokémon, czy"
+	cont "trudno wymyśleć"
+	cont "imiona?"
 
 	para "In LAVENDER TOWN,"
 	line "there's a man who"

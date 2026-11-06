@@ -1,14 +1,15 @@
 _Route24CooltrainerM1YouBeatOurContestText::
-	text "Congratulations!"
-	line "You beat our 5"
-	cont "contest trainers!@"
+	text "Gratulacje!"
+	line "Pokonałeś naszych"
+	cont "5 trenerów"
+	cont "konkursu!@"
 	text_end
 
 _Route24CooltrainerM1YouJustEarnedAPrizeText::
 	text_start
 
-	para "You just earned a"
-	line "fabulous prize!"
+	para "Właśnie zdobyłeś"
+	line "wspaniałą nagrodę!"
 	prompt
 
 _Route24CooltrainerM1ReceivedNuggetText::
@@ -19,14 +20,13 @@ _Route24CooltrainerM1ReceivedNuggetText::
 	text_end
 
 _Route24CooltrainerM1NoRoomText::
-	text "You don't have"
-	line "any room!"
+	text "Nie macie miejsca!"
 	done
 
 _Route24CooltrainerM1JoinTeamRocketText::
-	text "By the way, would"
-	line "you like to join"
-	cont "TEAM ROCKET?"
+	text "Przy okazji, czy"
+	line "chciałbyś dołączyć"
+	cont "do TEAM ROCKET?"
 
 	para "We're a group"
 	line "dedicated to evil"
@@ -34,12 +34,13 @@ _Route24CooltrainerM1JoinTeamRocketText::
 
 	para "Want to join?"
 
-	para "Are you sure?"
+	para "Jesteś pewna?"
 
-	para "Come on, join us!"
+	para "Chodź, dołącz do"
+	line "nas!"
 
-	para "I'm telling you"
-	line "to join!"
+	para "Mówię ci, żebyś"
+	line "się przyłączył!"
 
 	para "OK, you need"
 	line "convincing!"
@@ -50,18 +51,18 @@ _Route24CooltrainerM1JoinTeamRocketText::
 	done
 
 _Route24CooltrainerM1DefeatedText::
-	text "Arrgh!"
-	line "You are good!"
+	text "Jesteś dobry!"
 	prompt
 
 _Route24CooltrainerM1YouCouldBecomeATopLeaderText::
-	text "With your ability,"
-	line "you could become"
-	cont "a top leader in"
-	cont "TEAM ROCKET!"
+	text "Z twoimi"
+	line "zdolnościami,"
+	cont "możesz zostać"
+	cont "liderem w TEAM"
+	cont "ROCKET!"
 	done
 
 _Route24CooltrainerM2BattleText::
-	text "I saw your feat"
-	line "from the grass!"
+	text "Widziałem twój"
+	line "wyczyn z trawy!"
 	done

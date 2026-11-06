@@ -1,7 +1,9 @@
 _SafariZoneNorthRestHouseScientistText::
-	text "You can keep any"
-	line "item you find on"
-	cont "the ground here."
+	text "Możesz tu"
+	line "zatrzymać każdą"
+	cont "rzecz, którą"
+	cont "znajdziesz na"
+	cont "ziemi."
 
 	para "But, you'll run"
 	line "out of time if"
@@ -10,15 +12,15 @@ _SafariZoneNorthRestHouseScientistText::
 	done
 
 _SafariZoneNorthRestHouseSafariZoneWorkerText::
-	text "Go to the deepest"
-	line "part of the"
-	cont "SAFARI ZONE. You"
-	cont "will win a prize!"
+	text "Idź do najgłębszej"
+	line "części strefy"
+	cont "SAFARI."
 	done
 
 _SafariZoneNorthRestHouseGentlemanText::
-	text "My EEVEE evolved"
-	line "into FLAREON!"
+	text "Mój EEVEE"
+	line "ewoluował w"
+	cont "Flareon!"
 
 	para "But, a friend's"
 	line "EEVEE turned into"

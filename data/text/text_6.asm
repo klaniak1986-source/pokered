@@ -1,29 +1,28 @@
 _ItemUseBallText00::
-	text "It dodged the"
-	line "thrown BALL!"
+	text "To uniknęło"
+	line "rzuconej piłki!"
 
 	para "This #MON"
 	line "can't be caught!"
 	prompt
 
 _ItemUseBallText01::
-	text "You missed the"
-	line "#MON!"
+	text "Przegapiłeś"
+	line "Pokémon!"
 	prompt
 
 _ItemUseBallText02::
-	text "Darn! The #MON"
-	line "broke free!"
+	text "Pokémon się"
+	line "uwolnił!"
 	prompt
 
 _ItemUseBallText03::
-	text "Aww! It appeared"
-	line "to be caught! "
+	text "Wygląda na to, że"
+	line "został złapany!"
 	prompt
 
 _ItemUseBallText04::
-	text "Shoot! It was so"
-	line "close too!"
+	text "Było tak blisko!"
 	prompt
 
 _ItemUseBallText05::
@@ -38,7 +37,7 @@ _ItemUseBallText07::
 	text_ram wBoxMonNicks
 	text " was"
 	line "transferred to"
-	cont "BILL's PC!"
+	cont "BARTEK's PC!"
 	prompt
 
 _ItemUseBallText08::
@@ -64,8 +63,8 @@ _SurfingGotOnText::
 	prompt
 
 _SurfingNoPlaceToGetOffText::
-	text "There's no place"
-	line "to get off!"
+	text "Nie ma gdzie się"
+	line "wyrwać!"
 	prompt
 
 _VitaminStatRoseText::
@@ -77,8 +76,9 @@ _VitaminStatRoseText::
 	prompt
 
 _VitaminNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "To nie będzie"
+	line "miało żadnego"
+	cont "efektu."
 	prompt
 
 _ThrewBaitText::
@@ -92,16 +92,16 @@ _ThrewRockText::
 	done
 
 _PlayedFluteNoEffectText::
-	text "Played the #"
-	line "FLUTE."
+	text "Grał Poké FLUTE."
 
 	para "Now, that's a"
 	line "catchy tune!"
 	prompt
 
 _FluteWokeUpText::
-	text "All sleeping"
-	line "#MON woke up."
+	text "Wszyscy śpiący"
+	line "Pokémon obudzili"
+	cont "się."
 	prompt
 
 _PlayedFluteHadEffectText::
@@ -117,24 +117,25 @@ _CoinCaseNumCoinsText::
 	prompt
 
 _ItemfinderFoundItemText::
-	text "Yes! ITEMFINDER"
-	line "indicates there's"
-	cont "an item nearby."
+	text "ITEMFINDER"
+	line "wskazuje, że w"
+	cont "pobliżu znajduje"
+	cont "się przedmiot."
 	prompt
 
 _ItemfinderFoundNothingText::
-	text "Nope! ITEMFINDER"
-	line "isn't responding."
+	text "ITEMFINDER nie"
+	line "odpowiada."
 	prompt
 
 _RaisePPWhichTechniqueText::
-	text "Raise PP of which"
-	line "technique?"
+	text "Podnieść PP jakiej"
+	line "techniki?"
 	done
 
 _RestorePPWhichTechniqueText::
-	text "Restore PP of"
-	line "which technique?"
+	text "Przywrócić PP"
+	line "jakiej techniki?"
 	done
 
 _PPMaxedOutText::
@@ -150,15 +151,16 @@ _PPIncreasedText::
 	prompt
 
 _PPRestoredText::
-	text "PP was restored."
+	text "Policja została"
+	line "przywrócona."
 	prompt
 
 _BootedUpTMText::
-	text "Booted up a TM!"
+	text "Uruchomiłem TM!"
 	prompt
 
 _BootedUpHMText::
-	text "Booted up an HM!"
+	text "Wyłączył HM!"
 	prompt
 
 _TeachMachineMoveText::
@@ -188,32 +190,34 @@ _MonCannotLearnMachineMoveText::
 	prompt
 
 _ItemUseNotTimeText::
-	text "OAK: <PLAYER>!"
+	text "DĄB: <PLAYER>!"
 	line "This isn't the"
 	cont "time to use that! "
 	prompt
 
 _ItemUseNotYoursToUseText::
-	text "This isn't yours"
-	line "to use!"
+	text "To twoja wina!"
 	prompt
 
 _ItemUseNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "To nie będzie"
+	line "miało żadnego"
+	cont "efektu."
 	prompt
 
 _ThrowBallAtTrainerMonText1::
-	text "The trainer"
-	line "blocked the BALL!"
+	text "Trener zablokował"
+	line "BALL!"
 	prompt
 
 _ThrowBallAtTrainerMonText2::
-	text "Don't be a thief!"
+	text "Nie bądź"
+	line "złodziejem!"
 	prompt
 
 _NoCyclingAllowedHereText::
-	text "No cycling"
+	text "Brak jazdy na"
+	line "rowerze"
 	next "allowed here."
 	prompt
 
@@ -225,7 +229,8 @@ _NoSurfingHereText::
 	prompt
 
 _BoxFullCannotThrowBallText::
-	text "The #MON BOX"
-	line "is full! Can't"
-	cont "use that item!"
+	text "Pokémon BOX jest"
+	line "pełny! Nie można"
+	cont "użyć tego"
+	cont "elementu!"
 	prompt

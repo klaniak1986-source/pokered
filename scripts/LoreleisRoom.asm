@@ -110,7 +110,7 @@ LoreleisRoomPlayerIsMovingScript:
 LoreleisRoomLoreleiEndBattleScript:
 	call EndTrainerBattle
 	ld a, [wIsInBattle]
-	cp LOST_BATTLE
+	cp $ff
 	jp z, ResetLoreleiScript
 	ld a, TEXT_LORELEISROOM_LORELEI
 	ldh [hTextID], a

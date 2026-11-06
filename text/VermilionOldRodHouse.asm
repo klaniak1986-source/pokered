@@ -1,6 +1,6 @@
 _VermilionOldRodHouseFishingGuruDoYouLikeToFishText::
-	text "I'm the FISHING"
-	line "GURU!"
+	text "Jestem członkiem"
+	line "GURU RYBACKIEGO!"
 
 	para "I simply Looove"
 	line "fishing!"
@@ -10,8 +10,8 @@ _VermilionOldRodHouseFishingGuruDoYouLikeToFishText::
 	done
 
 _VermilionOldRodHouseFishingGuruTakeThisText::
-	text "Grand! I like"
-	line "your style!"
+	text "Podoba mi się twój"
+	line "styl!"
 
 	para "Take this and"
 	line "fish, young one!"
@@ -25,8 +25,8 @@ _VermilionOldRodHouseFishingGuruTakeThisText::
 _VermilionOldRodHouseFishingGuruFishingIsAWayOfLifeText::
 	text_start
 
-	para "Fishing is a way"
-	line "of life!"
+	para "Łowienie ryb to"
+	line "sposób na życie!"
 
 	para "From the seas to"
 	line "rivers, go out"
@@ -35,8 +35,8 @@ _VermilionOldRodHouseFishingGuruFishingIsAWayOfLifeText::
 	done
 
 _VermilionOldRodHouseFishingGuruThatsSoDisappointingText::
-	text "Oh... That's so"
-	line "disappointing..."
+	text "To takie"
+	line "rozczarowujące."
 	done
 
 _VermilionOldRodHouseFishingGuruHowAreTheFishBitingText::
@@ -48,8 +48,8 @@ _VermilionOldRodHouseFishingGuruHowAreTheFishBitingText::
 	done
 
 _VermilionOldRodHouseFishingGuruNoRoomText::
-	text "Oh no!"
+	text "O nie!"
 
-	para "You have no room"
-	line "for my gift!"
+	para "Nie masz miejsca"
+	line "na mój prezent!"
 	done

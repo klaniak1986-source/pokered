@@ -148,7 +148,7 @@ INCLUDE "audio/sfx/start_menu_2.asm"
 INCLUDE "audio/sfx/tink_2.asm"
 INCLUDE "audio/sfx/heal_hp_2.asm"
 INCLUDE "audio/sfx/heal_ailment_2.asm"
-INCLUDE "audio/sfx/trainer_appeared.asm"
+INCLUDE "audio/sfx/silph_scope.asm"
 INCLUDE "audio/sfx/ball_toss.asm"
 INCLUDE "audio/sfx/ball_poof.asm"
 INCLUDE "audio/sfx/faint_thud.asm"
@@ -374,6 +374,11 @@ SECTION "Audio Engine 3", ROMX
 
 INCLUDE "audio/pokedex_rating_sfx.asm"
 INCLUDE "audio/engine_3.asm"
+
+
+SECTION "Fade Audio", ROMX
+
+INCLUDE "audio/fade_audio.asm"
 
 
 SECTION "Music 1", ROMX

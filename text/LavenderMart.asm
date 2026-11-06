@@ -1,9 +1,9 @@
 _LavenderMartBaldingGuyText::
-	text "I'm searching for"
-	line "items that raise"
-	cont "the abilities of"
-	cont "#MON during a"
-	cont "single battle."
+	text "Szukam"
+	line "przedmiotów, które"
+	cont "podnoszą zdolności"
+	cont "Pokémona podczas"
+	cont "jednej bitwy."
 
 	para "X ATTACK, X"
 	line "DEFEND, X SPEED"
@@ -15,14 +15,14 @@ _LavenderMartBaldingGuyText::
 	done
 
 _LavenderMartCooltrainerMReviveText::
-	text "You know REVIVE?"
-	line "It revives any"
-	cont "fainted #MON!"
+	text "To ożywia każdego"
+	line "zemdlonego"
+	cont "Pokémona!"
 	done
 
 _LavenderMartCooltrainerMNuggetText::
-	text "I found a NUGGET"
-	line "in the mountains."
+	text "Znalazłem w górach"
+	line "NUGGET."
 
 	para "I thought it was"
 	line "useless, but it"

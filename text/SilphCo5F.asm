@@ -1,19 +1,18 @@
 _SilphCo5FSilphWorkerMThatsYouRightText::
-	text "TEAM ROCKET is"
-	line "in an uproar over"
-	cont "some intruder."
-	cont "That's you right?"
+	text "TEAM ROCKET jest w"
+	line "rozsypce nad"
+	cont "jakimś intruzem."
 	done
 
 _SilphCo5FSilphWorkerMYoureOurHeroText::
-	text "TEAM ROCKET took"
-	line "off! You're our"
-	cont "hero! Thank you!"
+	text "Jesteś naszym"
+	line "bohaterem!"
 	done
 
 _SilphCo5FRocket1BattleText::
-	text "I heard a kid was"
-	line "wandering around."
+	text "Słyszałem, że"
+	line "jakiś dzieciak się"
+	cont "włóczył."
 	done
 
 _SilphCo5FRocket1EndBattleText::
@@ -21,31 +20,31 @@ _SilphCo5FRocket1EndBattleText::
 	prompt
 
 _SilphCo5FRocket1AfterBattleText::
-	text "It's not smart"
-	line "to pick a fight"
-	cont "with TEAM ROCKET!"
+	text "To nie jest"
+	line "rozsądne, aby"
+	cont "podjąć walkę z"
+	cont "TEAM ROCKET!"
 	done
 
 _SilphCo5FScientistBattleText::
-	text "We study #"
-	line "BALL technology"
-	cont "on this floor!"
+	text "Studiujemy"
+	line "technologię Poké"
+	cont "Ball na tym"
+	cont "piętrze!"
 	done
 
 _SilphCo5FScientistEndBattleText::
-	text "Dang!"
-	line "Blast it!"
+	text "Cholera!"
 	prompt
 
 _SilphCo5FScientistAfterBattleText::
-	text "We worked on the"
-	line "ultimate #"
-	cont "BALL which would"
-	cont "catch anything!"
+	text "Pracowaliśmy nad"
+	line "ostatecznym Poké"
+	cont "Ball, który mógłby"
+	cont "złapać wszystko!"
 	done
 
 _SilphCo5FRockerBattleText::
-	text "Whaaat? There"
-	line "shouldn't be any"
-	cont "children here?"
+	text "Nie powinno tu być"
+	line "dzieci?"
 	done

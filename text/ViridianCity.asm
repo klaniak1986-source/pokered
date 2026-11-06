@@ -1,7 +1,6 @@
 _ViridianCityYoungster1Text::
-	text "Those # BALLs"
-	line "at your waist!"
-	cont "You have #MON!"
+	text "Poké Balls w"
+	line "twojej talii!"
 
 	para "It's great that"
 	line "you can carry and"
@@ -10,65 +9,63 @@ _ViridianCityYoungster1Text::
 	done
 
 _ViridianCityGambler1GymAlwaysClosedText::
-	text "This #MON GYM"
-	line "is always closed."
+	text "Ten Pokémon GYM"
+	line "jest zawsze"
+	cont "zamknięty."
 
 	para "I wonder who the"
 	line "LEADER is?"
 	done
 
 _ViridianCityGambler1GymLeaderReturnedText::
-	text "VIRIDIAN GYM's"
-	line "LEADER returned!"
+	text "WIRIDIAŃSKI GYM"
+	line "LEADER powrócił!"
 	done
 
 _ViridianCityYoungster2YouWantToKnowAboutText::
-	text "You want to know"
-	line "about the 2 kinds"
-	cont "of caterpillar"
-	cont "#MON?"
+	text "Chcesz wiedzieć o"
+	line "dwóch rodzajach"
+	cont "gąsienicy Pokémon?"
 	done
 
 ViridianCityYoungster2OkThenText::
-	text "Oh, OK then!"
+	text "No dobra!"
 	done
 
 ViridianCityYoungster2CaterpieAndWeedleDescriptionText::
-	text "CATERPIE has no"
-	line "poison, but"
-	cont "WEEDLE does."
+	text "CATERPIE nie ma"
+	line "trucizny, ale"
+	cont "WEEDLE ma."
 
 	para "Watch out for its"
 	line "POISON STING!"
 	done
 
 _ViridianCityGirlHasntHadHisCoffeeYetText::
-	text "Oh Grandpa! Don't"
-	line "be so mean!"
-	cont "He hasn't had his"
-	cont "coffee yet."
+	text "Nie bądź taki"
+	line "wredny!"
 	done
 
 _ViridianCityGirlWhenIGoShopText::
-	text "When I go shop in"
-	line "PEWTER CITY, I"
-	cont "have to take the"
-	cont "winding trail in"
-	cont "VIRIDIAN FOREST."
+	text "Kiedy idę na"
+	line "zakupy w PEWTER"
+	cont "CITY, muszę wybrać"
+	cont "krętą drogę w"
+	cont "VIRIDIAN Forest."
 	done
 
 _ViridianCityOldManSleepyPrivatePropertyText::
-	text "You can't go"
-	line "through here!"
+	text "Nie możecie tędy"
+	line "przejść!"
 
 	para "This is private"
 	line "property!"
 	done
 
 ViridianCityFisherYouCanHaveThisText::
-	text "Yawn!"
-	line "I must have dozed"
-	cont "off in the sun."
+	text "Musiałem się"
+	line "zdrzemnąć na"
+	cont "słońcu."
 
 	para "I had this dream"
 	line "about a DROWZEE"
@@ -88,20 +85,20 @@ _ViridianCityFisherReceivedTM42Text::
 	text_end
 
 _ViridianCityFisherTM42ExplanationText::
-	text "TM42 contains"
-	line "DREAM EATER..."
-	cont "...Snore..."
+	text "TM42 zawiera SREAM"
+	line "EATER........"
+	cont "Chrapanie.."
 	done
 
 _ViridianCityFisherTM42NoRoomText::
-	text "You have too much"
-	line "stuff already."
+	text "Masz już za dużo"
+	line "rzeczy."
 	done
 
 _ViridianCityOldManHadMyCoffeeNowText::
-	text "Ahh, I've had my"
-	line "coffee now and I"
-	cont "feel great!"
+	text "Ahh, wypiłem teraz"
+	line "kawę i czuję się"
+	cont "świetnie!"
 
 	para "Sure you can go"
 	line "through!"
@@ -111,8 +108,8 @@ _ViridianCityOldManHadMyCoffeeNowText::
 	done
 
 _ViridianCityOldManKnowHowToCatchPokemonText::
-	text "I see you're using"
-	line "a #DEX."
+	text "Widzę, że używasz"
+	line "Pokédex."
 
 	para "When you catch a"
 	line "#MON, #DEX"
@@ -128,28 +125,27 @@ _ViridianCityOldManKnowHowToCatchPokemonText::
 	done
 
 _ViridianCityOldManTimeIsMoneyText::
-	text "Time is money..."
-	line "Go along then."
+	text "Czas to pieniądz."
 	done
 
 _ViridianCityOldManYouNeedToWeakenTheTargetText::
-	text "First, you need"
-	line "to weaken the"
-	cont "target #MON."
+	text "Najpierw musisz"
+	line "osłabić cel"
+	cont "Pokémon."
 	done
 
 _ViridianCitySignText::
-	text "VIRIDIAN CITY "
-	line "The Eternally"
-	cont "Green Paradise"
+	text "VIRIDIAN CITY The"
+	line "Eternally Green"
+	cont "Paradise"
 	done
 
 _ViridianCityTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "KRYTERIA SZKOLENIA"
 
-	para "Catch #MON"
-	line "and expand your"
-	cont "collection!"
+	para "Catch Pokémon i"
+	line "rozszerzyć swoją"
+	cont "kolekcję!"
 
 	para "The more you have,"
 	line "the easier it is"
@@ -157,12 +153,13 @@ _ViridianCityTrainerTips1Text::
 	done
 
 _ViridianCityTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "KRYTERIA SZKOLENIA"
 
-	para "The battle moves"
-	line "of #MON are"
-	cont "limited by their"
-	cont "POWER POINTs, PP."
+	para "Ruch wojenny"
+	line "Pokémona jest"
+	cont "ograniczony przez"
+	cont "ich POWER POINT,"
+	cont "PP."
 
 	para "To replenish PP,"
 	line "rest your tired"
@@ -172,10 +169,10 @@ _ViridianCityTrainerTips2Text::
 
 _ViridianCityGymSignText::
 	text "VIRIDIAN CITY"
-	line "#MON GYM"
+	line "Pokémon GYM"
 	done
 
 _ViridianCityGymLockedText::
-	text "The GYM's doors"
-	line "are locked..."
+	text "Drzwi GYM są"
+	line "zamknięte.."
 	done

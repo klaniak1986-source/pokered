@@ -7,7 +7,11 @@
 	db 190 ; catch rate
 	db 97 ; base exp
 
+IF GEN_2_GRAPHICS
+	INCBIN "gfx/pokemon/gsfront/shellder.pic", 0, 1 ; sprite dimensions
+ELSE
 	INCBIN "gfx/pokemon/front/shellder.pic", 0, 1 ; sprite dimensions
+ENDC
 	dw ShellderPicFront, ShellderPicBack
 
 	db TACKLE, WITHDRAW, NO_MOVE, NO_MOVE ; level 1 learnset
@@ -20,4 +24,4 @@
 	     REST,         EXPLOSION,    TRI_ATTACK,   SUBSTITUTE,   SURF
 	; end
 
-	db 0 ; padding
+	db BANK(ShellderPicFront)

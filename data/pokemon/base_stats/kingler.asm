@@ -7,7 +7,11 @@
 	db 60 ; catch rate
 	db 206 ; base exp
 
+IF GEN_2_GRAPHICS
+	INCBIN "gfx/pokemon/gsfront/kingler.pic", 0, 1 ; sprite dimensions
+ELSE
 	INCBIN "gfx/pokemon/front/kingler.pic", 0, 1 ; sprite dimensions
+ENDC
 	dw KinglerPicFront, KinglerPicBack
 
 	db BUBBLE, LEER, VICEGRIP, NO_MOVE ; level 1 learnset
@@ -20,4 +24,4 @@
 	     SUBSTITUTE,   CUT,          SURF,         STRENGTH
 	; end
 
-	db 0 ; padding
+	db BANK(KinglerPicFront)

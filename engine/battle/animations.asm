@@ -116,7 +116,7 @@ DrawFrameBlock:
 	ld a, [hli]
 	bit B_OAM_XFLIP, a
 	jr nz, .disableHorizontalFlip
-; enable horizontal flip
+.enableHorizontalFlip
 	set B_OAM_XFLIP, a
 	jr .storeFlags2
 .disableHorizontalFlip
@@ -248,7 +248,9 @@ PlayAnimation:
 	ldh a, [rOBP0]
 	push af
 	ld a, [wAnimPalette]
-	ldh [rOBP0], a
+;	ldh [rOBP0], a	; HAX
+	nop
+	nop
 	call LoadMoveAnimationTiles
 	vc_hook Reduce_move_anim_flashing_Mega_Punch_Self_Destruct_Explosion
 	call LoadSubanimation
@@ -352,25 +354,32 @@ GetSubanimationTransform2:
 	ret
 
 ; loads tile patterns for battle animations
+; I HAXed with this function by shaving off a few bytes in order to
+; call a function to load sprite palettes.
 LoadMoveAnimationTiles:
 	ld a, [wWhichBattleAnimTileset]
 	add a
 	add a
-	ld hl, MoveAnimationTilesPointers
 	ld e, a
 	ld d, 0
+
+	; HAX: Load corresponding palettes as well
+	call _LoadAnimationTilesetPalettes
+
+	ld hl, MoveAnimationTilesPointers
 	add hl, de
 	ld a, [hli]
 	ld [wTempTilesetNumTiles], a ; number of tiles
+	ld c, a
 	ld a, [hli]
 	ld e, a
-	ld a, [hl]
-	ld d, a ; de = address of tileset
+	ld d, [hl] ; de = address of tileset
 	ld hl, vSprites tile $31
 	ld b, BANK(MoveAnimationTiles0) ; ROM bank
-	ld a, [wTempTilesetNumTiles]
-	ld c, a ; number of tiles
 	jp CopyVideoData ; load tileset
+
+	; Padding to prevent data shifting
+	nop
 
 MACRO anim_tileset
 	db \1
@@ -564,9 +573,13 @@ SetAnimationPalette:
 	ld b, $f0
 .next
 	ld a, b
-	ldh [rOBP0], a
+	;ldh [rOBP0], a ; HAX: don't mess with these palettes in-battle
+	nop
+	nop
 	ld a, $6c
-	ldh [rOBP1], a
+	;ldh [rOBP1], a ; HAX
+	nop
+	nop
 	ret
 .notSGB
 	ld a, $e4
@@ -699,7 +712,7 @@ DoBallTossSpecialEffects:
 	call PlaySound
 .skipPlayingSound
 	ld a, [wIsInBattle]
-	cp TRAINER_BATTLE
+	cp 2 ; is it a trainer battle?
 	jr z, .isTrainerBattle
 	ld a, [wPokeBallAnimData]
 	cp $10 ; is the enemy pokemon the Ghost Marowak?
@@ -1943,30 +1956,30 @@ AnimationSubstitute:
 	and a
 	jr z, .playerTurn
 	ld hl, MonsterSprite tile 0 ; facing down sprite
-	ld de, wTempPic + tile (PIC_HEIGHT * 2 + 4) ; x=2, y=4, in the 7*7 tiles pic data ; the tile data is organised rows>columns unlike the usual columns>rows tilemapping
+	ld de, wTempPic + $120
 	call CopyMonsterSpriteData
 	ld hl, MonsterSprite tile 1
-	ld de, wTempPic + tile (PIC_HEIGHT * 3 + 4) ; x=3, y=4
+	ld de, wTempPic + $120 + $70
 	call CopyMonsterSpriteData
 	ld hl, MonsterSprite tile 2
-	ld de, wTempPic + tile (PIC_HEIGHT * 2 + 5) ; x=2, y=5
+	ld de, wTempPic + $120 + $10
 	call CopyMonsterSpriteData
 	ld hl, MonsterSprite tile 3
-	ld de, wTempPic + tile (PIC_HEIGHT * 3 + 5) ; x=3, y=5
+	ld de, wTempPic + $120 + $10 + $70
 	call CopyMonsterSpriteData
 	jr .next
 .playerTurn
 	ld hl, MonsterSprite tile 4 ; facing up sprite
-	ld de, wTempPic + tile (PIC_HEIGHT * 3 + 4) ; x=3, y=4
+	ld de, wTempPic + $120 + $70
 	call CopyMonsterSpriteData
 	ld hl, MonsterSprite tile 5
-	ld de, wTempPic + tile (PIC_HEIGHT * 4 + 4) ; x=4, y=4
+	ld de, wTempPic + $120 + $e0
 	call CopyMonsterSpriteData
 	ld hl, MonsterSprite tile 6
-	ld de, wTempPic + tile (PIC_HEIGHT * 3 + 5) ; x=3, y=5
+	ld de, wTempPic + $120 + $80
 	call CopyMonsterSpriteData
 	ld hl, MonsterSprite tile 7
-	ld de, wTempPic + tile (PIC_HEIGHT * 4 + 5) ; x=4, y=5
+	ld de, wTempPic + $120 + $f0
 	call CopyMonsterSpriteData
 .next
 	call CopyTempPicToMonPic
@@ -2314,7 +2327,9 @@ AnimationLeavesFalling:
 	ldh a, [rOBP0]
 	push af
 	ld a, [wAnimPalette]
-	ldh [rOBP0], a
+;	ldh [rOBP0], a ; HAX
+	nop
+	nop
 	ld d, $37 ; leaf tile
 	ld a, 3 ; number of leaves
 	ld [wNumFallingObjects], a
@@ -2471,12 +2486,10 @@ FallingObjects_InitialMovementData:
 
 AnimationShakeEnemyHUD:
 ; Shakes the enemy HUD.
-
-; Make a copy of the back pic's tile patterns in sprite tile pattern VRAM.
-	ld de, vBackPic
-	ld hl, vSprites
-	ld bc, PIC_SIZE
-	call CopyVideoData
+	call SpriteifyPlayerPokemon
+	REPT 9
+	nop
+	ENDR
 
 	xor a
 	ldh [hSCX], a
@@ -2493,14 +2506,14 @@ AnimationShakeEnemyHUD:
 
 ; Copy wTileMap to VRAM such that the row below the enemy HUD (in wTileMap) is
 ; lined up with row 0 of the window.
-	ld hl, vBGMap1 - TILEMAP_WIDTH * 7
+	ld hl, vBGMap1 - $20 * 7
 	call BattleAnimCopyTileMapToVRAM
 
 ; Move the window so that the row below the enemy HUD (in BG map 0) lines up
 ; with the top row of the window on the screen. This makes it so that the window
 ; covers everything below the enemy HD with a copy that looks just like what
 ; was there before.
-	ld a, 7 * TILE_HEIGHT
+	ld a, 7 * 8
 	ldh [hWY], a
 
 ; Write OAM entries so that the copy of the back pic from the top of this
@@ -2581,8 +2594,8 @@ BattleAnimCopyTileMapToVRAM:
 
 TossBallAnimation:
 	ld a, [wIsInBattle]
-	cp TRAINER_BATTLE
-	jr z, .BlockBall
+	cp 2
+	jr z, .BlockBall ; if in trainer battle, play different animation
 	ld a, [wPokeBallAnimData]
 	ld b, a
 

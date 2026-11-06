@@ -40,6 +40,7 @@ DisplayTextID::
 	push de
 	push bc
 	farcall UpdateSpriteFacingOffsetAndDelayMovement ; update the graphics of the sprite the player is talking to (to face the right direction)
+	farcall DrawNpcName
 	pop bc
 	pop de
 	ld hl, wMapSpriteData ; NPC text entries

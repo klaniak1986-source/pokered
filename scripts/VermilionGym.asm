@@ -57,7 +57,7 @@ VermilionGym_ScriptPointers:
 
 VermilionGymLTSurgeAfterBattleScript:
 	ld a, [wIsInBattle]
-	cp LOST_BATTLE
+	cp $ff ; did we lose?
 	jp z, VermilionGymResetScripts
 	ld a, PAD_CTRL_PAD
 	ld [wJoyIgnore], a

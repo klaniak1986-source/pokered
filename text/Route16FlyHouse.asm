@@ -1,6 +1,6 @@
 _Route16FlyHouseBrunetteGirlText::
-	text "Oh, you found my"
-	line "secret retreat!"
+	text "Oh, znalazłeś mój"
+	line "sekretny odwrót!"
 
 	para "Please don't tell"
 	line "anyone I'm here."
@@ -14,19 +14,17 @@ _Route16FlyHouseBrunetteGirlReceivedHM02Text::
 	text_end
 
 _Route16FlyHouseBrunetteGirlHM02ExplanationText::
-	text "HM02 is FLY."
-	line "It will take you"
-	cont "back to any town."
+	text "HM02 to FLY."
 
 	para "Put it to good"
 	line "use!"
 	done
 
 _Route16FlyHouseBrunetteGirlHM02NoRoomText::
-	text "You don't have any"
-	line "room for this."
+	text "Nie masz na to"
+	line "miejsca."
 	done
 
 _Route16FlyHouseFearowText::
-	text "FEAROW: Kyueen!"
+	text "Kyueen!"
 	done

@@ -1,26 +1,26 @@
 _CeladonMansion1FMeowthText::
-	text "MEOWTH: Meow!@"
+	text "Miau!@"
 	text_end
 
 _CeladonMansion1FGrannyText::
-	text "My dear #MON"
-	line "keep me company."
+	text "Mój drogi Pokémon"
+	line "dotrzyma mi"
+	cont "towarzystwa."
 
 	para "MEOWTH even brings"
 	line "money home!"
 	done
 
 _CeladonMansion1FClefairyText::
-	text "CLEFAIRY: Pi"
-	line "pippippi!@"
+	text "Pi pippippi!@"
 	text_end
 
 _CeladonMansion1FNidoranFText::
-	text "NIDORAN: Kya"
-	line "kyaoo!@"
+	text "Kya kyaoo!@"
 	text_end
 
 _CeladonMansion1FManagersSuiteSignText::
 	text "CELADON MANSION"
-	line "Manager's Suite"
+	line "Manager Revenges"
+	cont "Suite"
 	done

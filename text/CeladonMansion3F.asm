@@ -1,30 +1,28 @@
 _CeladonMansion3FProgrammerText::
-	text "Me? I'm the"
-	line "programmer!"
+	text "Ja jestem"
+	line "programistą!"
 	done
 
 _CeladonMansion3FGraphicArtistText::
-	text "I'm the graphic"
-	line "artist!"
-	cont "I drew you!"
+	text "Narysowałem cię!"
 	done
 
 _CeladonMansion3FWriterText::
-	text "I wrote the story!"
-	line "Isn't ERIKA cute?"
+	text "Czy Right ERYKA"
+	line "jest słodki?"
 
-	para "I like MISTY a"
+	para "I like MARTA a"
 	line "lot too!"
 
-	para "Oh, and SABRINA,"
+	para "Oh, and SABINA,"
 	line "I like her!"
 	done
 
 _CeladonMansion3FGameDesignerText::
-	text "Is that right?"
+	text "Naprawdę?"
 
-	para "I'm the game"
-	line "designer!"
+	para "Zawstydzam"
+	line "projektanta gier!"
 
 	para "Filling up your"
 	line "#DEX is tough,"
@@ -35,30 +33,27 @@ _CeladonMansion3FGameDesignerText::
 	done
 
 _CeladonMansion3FGameDesignerCompletedDexText::
-	text "Wow! Excellent!"
-	line "You completed"
-	cont "your #DEX!"
-	cont "Congratulations!"
-	cont "...@"
+	text "Wow! Doskonale!"
+	line "Ukończyłeś"
+	cont "Pokédex!"
+	cont "Gratulacje!..@"
 	text_end
 
 _CeladonMansion3FGameProgramPCText::
-	text "It's the game"
-	line "program! Messing"
-	cont "with it could bug"
-	cont "out the game!"
+	text "To pogarsza"
+	line "program gry!"
+	cont "Mieszanie z nim"
+	cont "może wykręcić grę!"
 	done
 
 _CeladonMansion3FPlayingGamePCText::
-	text "Someone's playing"
-	line "a game instead of"
-	cont "working!"
+	text "Ktoś gra w grę"
+	line "zamiast pracować!"
 	done
 
 _CeladonMansion3FGameScriptPCText::
-	text "It's the script!"
-	line "Better not look"
-	cont "at the ending!"
+	text "Lepiej nie patrz"
+	line "na zakończenie!"
 	done
 
 _CeladonMansion3FDevRoomSignText::

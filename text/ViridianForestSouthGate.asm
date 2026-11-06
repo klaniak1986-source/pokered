@@ -1,13 +1,14 @@
 _ViridianForestSouthGateGirlText::
-	text "Are you going to"
-	line "VIRIDIAN FOREST?"
-	cont "Be careful, it's"
-	cont "a natural maze!"
+	text "Wybierasz się do"
+	line "VIRIDIAN Forest?"
+	cont "Uważaj, to jest"
+	cont "naturalny"
+	cont "labirynt!"
 	done
 
 _ViridianForestSouthGateLittleGirlText::
-	text "RATTATA may be"
-	line "small, but its"
-	cont "bite is wicked!"
-	cont "Did you get one?"
+	text "RATATA może i jest"
+	line "mała, ale jego"
+	cont "ugryzienie jest"
+	cont "nikczemne!"
 	done

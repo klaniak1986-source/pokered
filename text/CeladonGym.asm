@@ -1,13 +1,14 @@
 _CeladonGymErikaPreBattleText::
-	text "Hello. Lovely"
-	line "weather isn't it?"
-	cont "It's so pleasant."
+	text "Witam. Piękna"
+	line "pogoda jest tego"
+	cont "warte? To jest tak"
+	cont "przyjemne."
 
 	para "...Oh dear..."
 	line "I must have dozed"
 	cont "off. Welcome."
 
-	para "My name is ERIKA."
+	para "My name is ERYKA."
 	line "I am the LEADER"
 	cont "of CELADON GYM."
 
@@ -26,8 +27,8 @@ _CeladonGymErikaPreBattleText::
 	done
 
 _CeladonGymErikaReceivedRainbowBadgeText::
-	text "Oh!"
-	line "I concede defeat."
+	text "Przyznaję się do"
+	line "porażki."
 
 	para "You are remarkably"
 	line "strong."
@@ -37,9 +38,8 @@ _CeladonGymErikaReceivedRainbowBadgeText::
 	prompt
 
 _CeladonGymErikaPostBattleAdviceText::
-	text "You are cataloging"
-	line "#MON? I must"
-	cont "say I'm impressed."
+	text "Katalogujesz"
+	line "Pokémona?"
 
 	para "I would never"
 	line "collect #MON"
@@ -48,9 +48,10 @@ _CeladonGymErikaPostBattleAdviceText::
 	done
 
 _CeladonGymRainbowBadgeInfoText::
-	text "The RAINBOWBADGE"
-	line "will make #MON"
-	cont "up to L50 obey."
+	text "RAINBOWBADGE"
+	line "sprawi, że Pokémon"
+	cont "będzie posłuszny"
+	cont "do 50 funtów."
 
 	para "It also allows"
 	line "#MON to use"
@@ -71,8 +72,8 @@ _CeladonGymReceivedTM21Text::
 _TM21ExplanationText::
 	text_start
 
-	para "TM21 contains"
-	line "MEGA DRAIN."
+	para "TM21 zawiera MEGA"
+	line "DRAIN."
 
 	para "Half the damage"
 	line "it inflicts is"
@@ -81,42 +82,41 @@ _TM21ExplanationText::
 	done
 
 _CeladonGymTM21NoRoomText::
-	text "You should make"
-	line "room for this."
+	text "Powinieneś zrobić"
+	line "na to miejsce."
 	done
 
 _CeladonGymBattleText2::
-	text "Hey!"
+	text "Hej!"
 
-	para "You are not"
-	line "allowed in here!"
+	para "Nie wolno wam tu"
+	line "wchodzić!"
 	done
 
 _CeladonGymEndBattleText2::
-	text "You're"
-	line "too rough!"
+	text "Jesteś zbyt"
+	line "szorstki!"
 	prompt
 
 _CeladonGymAfterBattleText2::
-	text "Bleaah!"
-	line "I hope ERIKA"
-	cont "wipes you out!"
+	text "Mam nadzieję, że"
+	line "ERYKA cię"
+	cont "wykasuje!"
 	done
 
 _CeladonGymBattleText3::
-	text "I was getting"
-	line "bored."
+	text "Nudziło mi się."
 	done
 
 _CeladonGymEndBattleText3::
-	text "My"
-	line "makeup!"
+	text "Mój makijaż!"
 	prompt
 
 _CeladonGymAfterBattleText3::
-	text "Grass-type #MON"
-	line "are tough against"
-	cont "the water-type!"
+	text "Trawa - typ"
+	line "Pokémon są twarde"
+	cont "przeciwko wodzie -"
+	cont "typ!"
 
 	para "They also have an"
 	line "edge on rock and"
@@ -124,37 +124,36 @@ _CeladonGymAfterBattleText3::
 	done
 
 _CeladonGymBattleText4::
-	text "Aren't you the"
-	line "peeping Tom?"
+	text "Czy to nie ty"
+	line "podglądasz Toma?"
 	done
 
 _CeladonGymEndBattleText4::
-	text "I'm"
-	line "in shock!"
+	text "Jestem w szoku!"
 	prompt
 
 _CeladonGymAfterBattleText4::
-	text "Oh, you weren't"
-	line "peeping? We get a"
-	cont "lot of gawkers!"
+	text "Oh,"
+	line "podglądaliście?"
 	done
 
 _CeladonGymBattleText5::
-	text "Look at my grass"
-	line "#MON!"
+	text "Spójrz na moją"
+	line "trawę Pokémon!"
 
 	para "They're so easy"
 	line "to raise!"
 	done
 
 _CeladonGymEndBattleText5::
-	text "No!"
+	text "Nie!"
 	prompt
 
 _CeladonGymAfterBattleText5::
-	text "We only use grass-"
-	line "type #MON at"
-	cont "our GYM!"
+	text "Używamy tylko"
+	line "chwytliwego typu"
+	cont "Pokémon w naszym"
+	cont "GYM!"
 
 	para "We also use them"
 	line "for making flower"
@@ -162,44 +161,42 @@ _CeladonGymAfterBattleText5::
 	done
 
 _CeladonGymBattleText6::
-	text "Don't bring any"
-	line "bugs or fire"
-	cont "#MON in here!"
+	text "Nie przynoś tu"
+	line "żadnych robaków"
+	cont "ani ognia Pokémon!"
 	done
 
 _CeladonGymEndBattleText6::
-	text "Oh!"
-	line "You!"
+	text "Ty!"
 	prompt
 
 _CeladonGymAfterBattleText6::
-	text "Our LEADER, ERIKA,"
-	line "might be quiet,"
-	cont "but she's also"
-	cont "very skilled!"
+	text "Nasz LEADER,"
+	line "ERYKA, może i jest"
+	cont "cicha, ale jest"
+	cont "też bardzo"
+	cont "kompetentna!"
 	done
 
 _CeladonGymBattleText7::
-	text "Pleased to meet"
-	line "you. My hobby is"
-	cont "#MON training."
+	text "Moje hobby to"
+	line "trening Pokémona."
 	done
 
 _CeladonGymEndBattleText7::
-	text "Oh!"
-	line "Splendid!"
+	text "Wspaniale!"
 	prompt
 
 _CeladonGymAfterBattleText7::
-	text "I have a blind"
-	line "date coming up."
-	cont "I have to learn"
-	cont "to be polite."
+	text "Zbliża się randka"
+	line "w ciemno, muszę"
+	cont "się nauczyć"
+	cont "grzeczności."
 	done
 
 _CeladonGymBattleText8::
-	text "Welcome to"
-	line "CELADON GYM!"
+	text "Witamy w CELADON"
+	line "GYM!"
 
 	para "You better not"
 	line "underestimate"
@@ -207,13 +204,14 @@ _CeladonGymBattleText8::
 	done
 
 _CeladonGymEndBattleText8::
-	text "Oh!"
-	line "Beaten!"
+	text "Pobity!"
 	prompt
 
 _CeladonGymAfterBattleText8::
-	text "I didn't bring my"
-	line "best #MON!"
+	text "Nie wziąłem ze"
+	line "sobą mojego"
+	cont "najlepszego"
+	cont "Pokémona!"
 
 	para "Wait 'til next"
 	line "time!"

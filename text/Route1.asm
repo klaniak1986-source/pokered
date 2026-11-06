@@ -1,50 +1,46 @@
 _Route1Youngster1MartSampleText::
-	text "Hi! I work at a"
-	line "#MON MART."
+	text "Cześć! Pracuję"
+	line "w Poké Marcie."
 
-	para "It's a convenient"
-	line "shop, so please"
-	cont "visit us in"
-	cont "VIRIDIAN CITY."
+	para "Wpadnij do nas,"
+	line "gdy będziesz"
+	cont "w Viridian City."
 
-	para "I know, I'll give"
-	line "you a sample!"
-	cont "Here you go!"
+	para "A teraz weź"
+	line "darmową próbkę!"
 	prompt
 
 _Route1Youngster1GotPotionText::
-	text "<PLAYER> got"
-	line "@"
+	text "Podarunek dla"
+	line "<PLAYER>:"
+	cont "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _Route1Youngster1AlsoGotPokeballsText::
-	text "We also carry"
-	line "# BALLs for"
-	cont "catching #MON!"
+	text "Sprzedajemy też"
+	line "Poké Balle do"
+	cont "łapania Pokémonów!"
 	done
 
 _Route1Youngster1NoRoomText::
-	text "You have too much"
-	line "stuff with you!"
+	text "Masz za dużo"
+	line "rzeczy przy sobie!"
 	done
 
 _Route1Youngster2Text::
-	text "See those ledges"
-	line "along the road?"
+	text "Widzisz uskoki"
+	line "wzdłuż drogi?"
 
-	para "It's a bit scary,"
-	line "but you can jump"
-	cont "from them."
-
-	para "You can get back"
-	line "to PALLET TOWN"
-	cont "quicker that way."
+	para "Możesz z nich"
+	line "zeskoczyć i"
+	cont "szybciej wrócić"
+	cont "do Pallet Town."
 	done
 
 _Route1SignText::
-	text "ROUTE 1"
+	text "DROGA 1"
 	line "PALLET TOWN -"
 	cont "VIRIDIAN CITY"
 	done

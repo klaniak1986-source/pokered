@@ -1,28 +1,29 @@
 _Museum1FScientist1ComeAgainText::
-	text "Come again!"
+	text "Jeszcze raz!"
 	done
 
 _Museum1FScientist1WouldYouLikeToComeInText::
-	text "It's ¥50 for a"
-	line "child's ticket."
+	text "To kosztuje 50"
+	line "funtów za bilet"
+	cont "dla dziecka."
 
 	para "Would you like to"
 	line "come in?"
 	done
 
 _Museum1FScientist1ThankYouText::
-	text "Right, ¥50!"
-	line "Thank you!"
+	text "Dobrze, Y50!"
 	done
 
 _Museum1FScientist1DontHaveEnoughMoneyText::
-	text "You don't have"
-	line "enough money."
+	text "Nie masz dość"
+	line "pieniędzy."
 	prompt
 
 _Museum1FScientist1DoYouKnowWhatAmberIsText::
-	text "You can't sneak"
-	line "in the back way!"
+	text "Nie możesz"
+	line "zakradać się"
+	cont "tyłem!"
 
 	para "Oh, whatever!"
 	line "Do you know what"
@@ -30,39 +31,40 @@ _Museum1FScientist1DoYouKnowWhatAmberIsText::
 	done
 
 _Museum1FScientist1TheresALabSomewhereText::
-	text "There's a lab"
-	line "somewhere trying"
-	cont "to resurrect"
-	cont "ancient #MON"
-	cont "from AMBER."
+	text "Jest laboratorium"
+	line "próbujące"
+	cont "wskrzesić"
+	cont "starożytnego"
+	cont "Pokémona z AMBER."
 	done
 
 _Museum1FScientist1AmberIsFossilizedTreeSapText::
-	text "AMBER is fossil-"
-	line "ized tree sap."
+	text "AMBER jest"
+	line "skamieniałym sosem"
+	cont "drzewnym."
 	done
 
 _Museum1FScientist1GoToOtherSideText::
-	text "Please go to the"
-	line "other side!"
+	text "Proszę przejść na"
+	line "drugą stronę!"
 	done
 
 _Museum1FScientist1TakePlentyOfTimeText::
-	text "Take plenty of"
-	line "time to look!"
+	text "Zajmijcie dużo"
+	line "czasu, żeby to"
+	cont "sprawdzić!"
 	done
 
 _Museum1FGamblerText::
-	text "That is one"
-	line "magnificent"
-	cont "fossil!"
+	text "To wspaniała"
+	line "skamielina!"
 	done
 
 _Museum1FScientist2TakeThisToAPokemonLabText::
-	text "Ssh! I think that"
-	line "this chunk of"
-	cont "AMBER contains"
-	cont "#MON DNA!"
+	text "Myślę, że ten"
+	line "kawałek AMBER"
+	cont "zawiera DNA"
+	cont "Pokémona!"
 
 	para "It would be great"
 	line "if #MON could"
@@ -86,23 +88,24 @@ _Museum1FScientist2ReceivedOldAmberText::
 	text_end
 
 _Museum1FScientist2GetTheOldAmberCheckText::
-	text "Ssh! Get the OLD"
-	line "AMBER checked!"
+	text "Sprawdź starą"
+	line "AMBER!"
 	done
 
 _Museum1FScientist2YouDontHaveSpaceText::
-	text "You don't have"
-	line "space for this!"
+	text "Nie masz na to"
+	line "miejsca!"
 	done
 
 _Museum1FScientist3Text::
-	text "We are proud of 2"
-	line "fossils of very"
-	cont "rare, prehistoric"
-	cont "#MON!"
+	text "Jesteśmy dumni z 2"
+	line "skamielin bardzo"
+	cont "rzadkiego,"
+	cont "prehistorycznego"
+	cont "Pokémona!"
 	done
 
 _Museum1FOldAmberText::
-	text "The AMBER is"
-	line "clear and gold!"
+	text "AMBER jest czysty"
+	line "i złoty!"
 	done

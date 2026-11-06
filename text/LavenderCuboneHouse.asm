@@ -1,10 +1,10 @@
 _LavenderCuboneHouseCuboneText::
-	text "CUBONE: Kyarugoo!@"
+	text "Kyarugoo!@"
 	text_end
 
 _LavenderCuboneHouseBrunetteGirlPoorCubonesMotherText::
-	text "I hate those"
-	line "horrible ROCKETs!"
+	text "Nienawidzę tych"
+	line "okropnych ROCKET!"
 
 	para "That poor CUBONE's"
 	line "mother..."
@@ -15,9 +15,8 @@ _LavenderCuboneHouseBrunetteGirlPoorCubonesMotherText::
 	done
 
 _LavenderCuboneHouseBrunetteGirlGhostIsGoneText::
-	text "The GHOST of"
-	line "#MON TOWER is"
-	cont "gone!"
+	text "GHOST z Pokémon"
+	line "TOWER zniknął!"
 
 	para "Someone must have"
 	line "soothed its"

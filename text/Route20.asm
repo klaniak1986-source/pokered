@@ -1,6 +1,6 @@
 _Route20Swimmer1BattleText::
-	text "The water is"
-	line "shallow here."
+	text "Woda jest tu"
+	line "płytka."
 	done
 
 _Route20Swimmer1EndBattleText::
@@ -8,28 +8,29 @@ _Route20Swimmer1EndBattleText::
 	prompt
 
 _Route20Swimmer1AfterBattleText::
-	text "I wish I could"
-	line "ride my #MON."
+	text "Chciałbym móc"
+	line "jeździć na moim"
+	cont "Pokemonie."
 	done
 
 _Route20Swimmer2BattleText::
-	text "SEAFOAM is a"
-	line "quiet getaway!"
+	text "SEAFOAM to cicha"
+	line "ucieczka!"
 	done
 
 _Route20Swimmer2EndBattleText::
-	text "Quit it!"
+	text "Przestań!"
 	prompt
 
 _Route20Swimmer2AfterBattleText::
-	text "There's a huge"
-	line "cavern underneath"
-	cont "this island."
+	text "Pod tą wyspą"
+	line "znajduje się"
+	cont "ogromna jaskinia."
 	done
 
 _Route20Swimmer3BattleText::
-	text "I love floating"
-	line "with the fishes!"
+	text "Uwielbiam pływać z"
+	line "rybami!"
 	done
 
 _Route20Swimmer3EndBattleText::
@@ -37,28 +38,27 @@ _Route20Swimmer3EndBattleText::
 	prompt
 
 _Route20Swimmer3AfterBattleText::
-	text "Want to float"
-	line "with me?"
+	text "Chcesz ze mną"
+	line "popływać?"
 	done
 
 _Route20Swimmer4BattleText::
-	text "Are you on"
-	line "vacation too?"
+	text "Też jesteś na"
+	line "wakacjach?"
 	done
 
 _Route20Swimmer4EndBattleText::
-	text "No"
-	line "mercy at all!"
+	text "Żadnej litości!"
 	prompt
 
 _Route20Swimmer4AfterBattleText::
-	text "SEAFOAM used to"
-	line "be one island!"
+	text "SEAFOAM był kiedyś"
+	line "jedną wyspą!"
 	done
 
 _Route20Swimmer5BattleText::
-	text "Check out my buff"
-	line "physique!"
+	text "Spójrz na moją"
+	line "fizjologię!"
 	done
 
 _Route20Swimmer5EndBattleText::
@@ -66,90 +66,88 @@ _Route20Swimmer5EndBattleText::
 	prompt
 
 _Route20Swimmer5AfterBattleText::
-	text "I should've been"
-	line "buffing up my"
-	cont "#MON, not me!"
+	text "Powinienem być"
+	line "natłumiony moim"
+	cont "Pokémonem, nie"
+	cont "mną!"
 	done
 
 _Route20Swimmer6BattleText::
-	text "Why are you"
-	line "riding a #MON?"
-	cont "Can't you swim?"
+	text "Dlaczego jeździsz"
+	line "Pokémonem?"
 	done
 
 _Route20Swimmer6EndBattleText::
-	text "Ouch!"
-	line "Torpedoed!"
+	text "Torpeda!"
 	prompt
 
 _Route20Swimmer6AfterBattleText::
-	text "Riding a #MON"
-	line "sure looks fun!"
+	text "Jazda Pokémonem na"
+	line "pewno wygląda"
+	cont "fajnie!"
 	done
 
 _Route20CooltrainerMBattleText::
-	text "I rode my bird"
-	line "#MON here!"
+	text "Jechałem tu moim"
+	line "ptakiem Pokémon!"
 	done
 
 _Route20CooltrainerMEndBattleText::
-	text "Oh"
-	line "no!"
+	text "O nie!"
 	prompt
 
 _Route20CooltrainerMAfterBattleText::
-	text "My birds can't"
-	line "FLY me back!"
+	text "Moje ptaki mogą"
+	line "mnie spłacić!"
 	done
 
 _Route20Swimmer7BattleText::
-	text "My boy friend gave"
-	line "me big pearls!"
+	text "Mój kumpel dał mi"
+	line "duże perły!"
 	done
 
 _Route20Swimmer7EndBattleText::
-	text "Don't"
-	line "touch my pearls!"
+	text "Nie dotykaj moich"
+	line "pereł!"
 	prompt
 
 _Route20Swimmer7AfterBattleText::
-	text "Will my pearls"
-	line "grow bigger"
-	cont "inside CLOYSTER?"
+	text "Czy moje perły"
+	line "urosną w CLOYSTER?"
 	done
 
 _Route20Swimmer8BattleText::
-	text "I swam here from"
-	line "CINNABAR ISLAND!"
+	text "Przypłynąłem tu z"
+	line "CINNAARISLANDII!"
 	done
 
 _Route20Swimmer8EndBattleText::
-	text "I'm"
-	line "so disappointed!"
+	text "Jestem taka"
+	line "rozczarowana!"
 	prompt
 
 _Route20Swimmer8AfterBattleText::
-	text "#MON have"
-	line "taken over an"
-	cont "abandoned mansion"
-	cont "on CINNABAR!"
+	text "Pokémon przejął"
+	line "opuszczoną"
+	cont "posiadłość na"
+	cont "CINNABAR!"
 	done
 
 _Route20Swimmer9BattleText::
-	text "CINNABAR, in the"
-	line "west, has a LAB"
-	cont "for #MON."
+	text "CINNABAR, na"
+	line "zachodzie, ma LAB"
+	cont "dla Pokémon."
 	done
 
 _Route20Swimmer9EndBattleText::
-	text "Wait!"
+	text "Czekaj!"
 	prompt
 
 _Route20Swimmer9AfterBattleText::
-	text "CINNABAR is a "
-	line "volcanic island!"
+	text "CINNABAR to wyspa"
+	line "wulkaniczna!"
 	done
 
 _Route20SeafoamIslandsSignText::
-	text "SEAFOAM ISLANDS"
+	text "WYSPY SEAFOAM"
 	done

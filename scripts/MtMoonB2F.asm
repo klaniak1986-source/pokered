@@ -75,7 +75,7 @@ MtMoonB2FCheckGotAFossil:
 
 MtMoonB2FDefeatedSuperNerdScript:
 	ld a, [wIsInBattle]
-	cp LOST_BATTLE
+	cp $ff
 	jp z, MtMoonB2FResetScripts
 	call UpdateSprites
 	call Delay3
@@ -97,10 +97,10 @@ MtMoonB2FMoveSuperNerdScript:
 	ld hl, MtMoonB2FPlayerNearHelixFossilCoords
 	call ArePlayerCoordsInArray
 	jp nc, CheckFightingMapTrainers
-	ld de, MtMoonB2FSuperNerdMoveUpMovementData
+	ld de, MtMoon3FSuperNerdMoveUpMovementData
 	jr .continue
 .player_near_dome_fossil
-	ld de, MtMoonB2FSuperNerdMoveRightMovementData
+	ld de, MtMoon3FSuperNerdMoveRightMovementData
 .continue
 	ld a, MTMOONB2F_SUPER_NERD
 	ldh [hSpriteIndex], a
@@ -122,9 +122,9 @@ MtMoonB2FPlayerNearHelixFossilCoords:
 	dbmapcoord 14,  5
 	db -1 ; end
 
-MtMoonB2FSuperNerdMoveRightMovementData:
+MtMoon3FSuperNerdMoveRightMovementData:
 	db NPC_MOVEMENT_RIGHT
-MtMoonB2FSuperNerdMoveUpMovementData:
+MtMoon3FSuperNerdMoveUpMovementData:
 	db NPC_MOVEMENT_UP
 	db -1 ; end
 

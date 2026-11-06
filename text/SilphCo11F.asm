@@ -1,7 +1,6 @@
 _SilphCo11FSilphPresidentText::
-	text "PRESIDENT: Thank"
-	line "you for saving"
-	cont "SILPH!"
+	text "Dziękuję za"
+	line "uratowanie SILPH!"
 
 	para "I will never"
 	line "forget you saved"
@@ -27,9 +26,8 @@ _SilphCo11FSilphPresidentReceivedMasterBallText::
 	text_end
 
 _SilphCo11FSilphPresidentMasterBallDescriptionText::
-	text "PRESIDENT: You"
-	line "can't buy that"
-	cont "anywhere!"
+	text "Nie kupuj tego"
+	line "nigdzie!"
 
 	para "It's our secret"
 	line "prototype MASTER"
@@ -45,14 +43,14 @@ _SilphCo11FSilphPresidentMasterBallDescriptionText::
 	done
 
 _SilphCo11FSilphPresidentNoRoomText::
-	text "You have no"
-	line "room for this."
+	text "Nie masz na to"
+	line "miejsca."
 	done
 
 _SilphCo11FBeautyText::
-	text "SECRETARY: Thank"
-	line "you for rescuing"
-	cont "all of us!"
+	text "Dziękuję za"
+	line "uratowanie nas"
+	cont "wszystkich!"
 
 	para "We admire your"
 	line "courage."
@@ -75,15 +73,13 @@ _SilphCo11FGiovanniText::
 	line "world of pain!"
 	done
 
-_SilphCo11FGiovanniILostAgainText::
-	text "Arrgh!!"
-	line "I lost again!?"
+_SilphCo10FGiovanniILostAgainText::
+	text "Znowu przegrałem!"
 	prompt
 
 _SilphCo11FGiovanniYouRuinedOurPlansText::
-	text "Blast it all!"
-	line "You ruined our"
-	cont "plans for SILPH!"
+	text "Zrujnowałeś nasze"
+	line "plany dla SILPH!"
 
 	para "But, TEAM ROCKET"
 	line "will never fall!"
@@ -98,38 +94,34 @@ _SilphCo11FGiovanniYouRuinedOurPlansText::
 	done
 
 _SilphCo11FRocket1BattleText::
-	text "Stop right there!"
-	line "Don't you move!"
+	text "Nie ruszaj się!"
 	done
 
 _SilphCo11FRocket1EndBattleText::
-	text "Don't..."
-	line "Please!"
+	text "Proszę!"
 	prompt
 
 _SilphCo11FRocket1AfterBattleText::
-	text "So, you want to"
-	line "see my BOSS?"
+	text "Więc, chcesz"
+	line "zobaczyć mój BOSS?"
 	done
 
 _SilphCo11FRocket2BattleText::
-	text "Halt! Do you have"
-	line "an appointment"
-	cont "with my BOSS?"
+	text "Jest pan umówiony"
+	line "z moim bossem?"
 	done
 
 _SilphCo11FRocket2EndBattleText::
-	text "Gaah!"
-	line "Demolished!"
+	text "Zdemolowana!"
 	prompt
 
 _SilphCo11FRocket2AfterBattleText::
-	text "Watch your step,"
-	line "my BOSS likes his"
-	cont "#MON tough!"
+	text "Uważaj pod nogi,"
+	line "mój boss lubi jego"
+	cont "Pokemon twardy!"
 	done
 
-_SilphCo11FPorygonText::
-	text "The monitor has"
-	line "#MON on it!"
+_SilphCo10FPorygonText::
+	text "Na monitorze jest"
+	line "Pokémon!"
 	done

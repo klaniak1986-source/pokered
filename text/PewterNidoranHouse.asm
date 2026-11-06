@@ -1,15 +1,16 @@
 _PewterNidoranHouseNidoranText::
-	text "NIDORAN: Bowbow!@"
+	text "Bowbow!@"
 	text_end
 
 _PewterNidoranHouseLittleBoyText::
-	text "NIDORAN sit!"
+	text "NIDORAN siada!"
 	done
 
 _PewterNidoranHouseMiddleAgedManText::
-	text "Our #MON's an"
-	line "outsider, so it's"
-	cont "hard to handle."
+	text "Nasz Pokémon jest"
+	line "outsiderem, więc"
+	cont "trudno sobie z tym"
+	cont "poradzić."
 
 	para "An outsider is a"
 	line "#MON that you"

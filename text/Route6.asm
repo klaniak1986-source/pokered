@@ -1,97 +1,89 @@
 _Route6CooltrainerM1BattleText::
-	text "Who's there?"
-	line "Quit listening in"
-	cont "on us!"
+	text "Przestań nas"
+	line "podsłuchiwać!"
 	done
 
 _Route6CooltrainerM1EndBattleText::
-	text "I"
-	line "just can't win!"
+	text "Po prostu nie mogę"
+	line "wygrać!"
 	prompt
 
 _Route6CooltrainerAfterBattleText::
-	text "Whisper..."
-	line "whisper..."
+	text "Szept... szept..."
 	done
 
 _Route6CooltrainerF1BattleText::
-	text "Excuse me! This"
-	line "is a private"
-	cont "conversation!"
+	text "Przepraszam, to"
+	line "prywatna rozmowa!"
 	done
 
 _Route6CooltrainerF1EndBattleText::
-	text "Ugh!"
-	line "I hate losing!"
+	text "Nienawidzę"
+	line "przegrywać!"
 	prompt
 
 _Route6Youngster1BattleText::
-	text "There aren't many"
-	line "bugs out here."
+	text "Jest tu wiele"
+	line "robaków."
 	done
 
 _Route6Youngster1EndBattleText::
-	text "No!"
-	line "You're kidding!"
+	text "Żartujesz sobie!"
 	prompt
 
 _Route6Youngster1AfterBattleText::
-	text "I like bugs, so"
-	line "I'm going back to"
-	cont "VIRIDIAN FOREST."
+	text "Lubię robaki, więc"
+	line "wracam do VIRIDIAN"
+	cont "Forest."
 	done
 
 _Route6CooltrainerM2BattleText::
-	text "Huh? You want"
-	line "to talk to me?"
+	text "Chcesz ze mną"
+	line "porozmawiać?"
 	done
 
 _Route6CooltrainerM2EndBattleText::
-	text "I"
-	line "didn't start it!"
+	text "Nie miałem zamiaru"
+	line "tego zaczynać!"
 	prompt
 
 _Route6CooltrainerM2AfterBattleText::
-	text "I should carry"
-	line "more #MON with"
-	cont "me for safety."
+	text "Powinienem nosić"
+	line "ze sobą więcej"
+	cont "Pokémona dla"
+	cont "bezpieczeństwa."
 	done
 
 _Route6CooltrainerF2BattleText::
-	text "Me? Well, OK."
-	line "I'll play!"
+	text "No dobra, zagram!"
 	done
 
 _Route6CooltrainerF2EndBattleText::
-	text "Just"
-	line "didn't work!"
+	text "Po prostu się nie"
+	line "udało!"
 	prompt
 
 _Route6CooltrainerF2AfterBattleText::
-	text "I want to get"
-	line "stronger! What's"
-	cont "your secret?"
+	text "Chcę być"
+	line "silniejsza!"
 	done
 
 _Route6Youngster2BattleText::
-	text "I've never seen"
-	line "you around!"
-	cont "Are you good?"
+	text "Nigdy cię tu nie"
+	line "widziałem!"
 	done
 
 _Route6Youngster2EndBattleText::
-	text "You"
-	line "are too good!"
+	text "Jesteś zbyt dobry!"
 	prompt
 
 _Route6Youngster2AfterBattleText::
-	text "Are my #MON"
-	line "weak? Or, am I"
-	cont "just bad?"
+	text "Czy mój Pokemon"
+	line "jest słaby?"
 	done
 
 _Route6UndergroundPathSignText::
-	text "UNDERGROUND PATH"
+	text "ZOBOWIĄZANIA PATH"
 	line "CERULEAN CITY -"
 	cont "VERMILION CITY"
 	done

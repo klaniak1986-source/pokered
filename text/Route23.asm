@@ -10,9 +10,9 @@ _Route23YouDontHaveTheBadgeYetText::
 	text_ram wNameBuffer
 	text " yet!"
 
-	para "You have to have"
-	line "it to get to"
-	cont "#MON LEAGUE!@"
+	para "Musisz go mieć,"
+	line "żeby dostać się do"
+	cont "Pokémon LEAGUE!@"
 	text_end
 
 _Route23OhThatIsTheBadgeText::
@@ -31,11 +31,10 @@ _Route23OhThatIsTheBadgeText::
 _Route23GoRightAheadText::
 	text_start
 
-	para "OK then! Please,"
-	line "go right ahead!"
+	para "Proszę, śmiało!"
 	done
 
 _Route23VictoryRoadGateSignText::
-	text "VICTORY ROAD GATE"
-	line "- #MON LEAGUE"
+	text "WICTORY ROAD GATE"
+	line "- Pokémon LEAGUE"
 	done

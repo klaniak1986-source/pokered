@@ -1,6 +1,5 @@
 _CinnabarLabMetronomeRoomScientist1Text::
-	text "Tch-tch-tch!"
-	line "I made a cool TM!"
+	text "Zrobiłem fajną TM!"
 
 	para "It can cause all"
 	line "kinds of fun!"
@@ -14,9 +13,9 @@ _CinnabarLabMetronomeRoomScientist1ReceivedTM35Text::
 	text_end
 
 _CinnabarLabMetronomeRoomScientist1TM35ExplanationText::
-	text "Tch-tch-tch!"
-	line "That's the sound"
-	cont "of a METRONOME!"
+	text "Tch - tch - tch!"
+	line "To zakłóca dźwięk"
+	cont "METRONOME!"
 
 	para "It tweaks your"
 	line "#MON's brain"
@@ -25,14 +24,14 @@ _CinnabarLabMetronomeRoomScientist1TM35ExplanationText::
 	done
 
 _CinnabarLabMetronomeRoomScientist1TM35NoRoomText::
-	text "Your pack is"
-	line "crammed full!"
+	text "Twoja wataha jest"
+	line "pełna!"
 	done
 
 _CinnabarLabMetronomeRoomScientist2Text::
-	text "EEVEE can evolve"
-	line "into 1 of 3 kinds"
-	cont "of #MON."
+	text "EEVEE może"
+	line "ewoluować w 1 z 3"
+	cont "rodzajów Pokémon."
 	done
 
 _CinnabarLabMetronomeRoomPCText::
@@ -41,10 +40,10 @@ _CinnabarLabMetronomeRoomPCText::
 
 	para "..."
 
-	para "The 3 legendary"
-	line "bird #MON are"
-	cont "ARTICUNO, ZAPDOS"
-	cont "and MOLTRES."
+	para "Trzy legendarne"
+	line "ptaki Pokémon są"
+	cont "ARTYKUNO, ZAPDOS i"
+	cont "MOLTRES."
 
 	para "Their whereabouts"
 	line "are unknown."
@@ -60,5 +59,5 @@ _CinnabarLabMetronomeRoomPCText::
 	done
 
 _CinnabarLabMetronomeRoomAmberPipeText::
-	text "An amber pipe!"
+	text "Rura bursztynowa!"
 	done

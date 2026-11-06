@@ -7,7 +7,11 @@
 	db 190 ; catch rate
 	db 99 ; base exp
 
+IF GEN_2_GRAPHICS
+	INCBIN "gfx/pokemon/gsfront/slowpoke.pic", 0, 1 ; sprite dimensions
+ELSE
 	INCBIN "gfx/pokemon/front/slowpoke.pic", 0, 1 ; sprite dimensions
+ENDC
 	dw SlowpokePicFront, SlowpokePicBack
 
 	db CONFUSION, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
@@ -22,4 +26,4 @@
 	     TRI_ATTACK,   SUBSTITUTE,   SURF,         STRENGTH,     FLASH
 	; end
 
-	db 0 ; padding
+	db BANK(SlowpokePicFront)

@@ -1,7 +1,5 @@
 _VermilionGymLTSurgePreBattleText::
-	text "Hey, kid! What do"
-	line "you think you're"
-	cont "doing here?"
+	text "Co ty tu robisz?"
 
 	para "You won't live"
 	line "long in combat!"

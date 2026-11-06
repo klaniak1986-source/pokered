@@ -41,6 +41,8 @@ EnterMap::
 OverworldLoop::
 	call DelayFrame
 OverworldLoopLessDelay::
+	ld hl, wLanOverworldTick
+	inc [hl]
 	call DelayFrame
 	call LoadGBPal
 	ld a, [wMovementFlags]
@@ -352,7 +354,7 @@ OverworldLoopLessDelay::
 	call DelayFrames
 	jp EnterMap
 .allPokemonFainted
-	ld a, LOST_BATTLE
+	ld a, $ff
 	ld [wIsInBattle], a
 	call RunMapScript
 	jp HandleBlackOut
@@ -700,7 +702,7 @@ PlayMapChangeSound::
 	ld a, [wMapPalOffset]
 	and a
 	ret nz
-	jp GBFadeOutToBlack
+	jp GBFadeOutToWhite ; HAX: Fade to white instead of black. Looks nicer IMO.
 
 CheckIfInOutsideMap::
 ; If the player is in an outside map (a town or route), set the z flag
@@ -875,7 +877,7 @@ LoadTilesetTilePatternData::
 	ld a, [wTilesetGfxPtr + 1]
 	ld h, a
 	ld de, vTileset
-	ld bc, MAP_TILESET_SIZE tiles
+	ld bc, $600
 	ld a, [wTilesetBank]
 	jp FarCopyData2
 
@@ -935,7 +937,7 @@ LoadTileBlockMap::
 .noCarry
 	dec b
 	jr nz, .rowLoop
-; north connection
+.northConnection
 	ld a, [wNorthConnectedMap]
 	cp $ff
 	jr z, .southConnection
@@ -1132,7 +1134,7 @@ IsSpriteInFrontOfPlayer::
 IsSpriteInFrontOfPlayer2::
 	lb bc, $3c, $40 ; Y and X position of player sprite
 	ld a, [wSpritePlayerStateData1FacingDirection]
-; check if player facing up
+.checkIfPlayerFacingUp
 	cp SPRITE_FACING_UP
 	jr nz, .checkIfPlayerFacingDown
 ; facing up
@@ -1400,7 +1402,7 @@ LoadCurrentMapView::
 	jr nz, .rowLoop
 	ld hl, wSurroundingTiles
 	ld bc, 0
-; adjust for Y coord within tile block
+.adjustForYCoordWithinTileBlock
 	ld a, [wYBlockCoord]
 	and a
 	jr z, .adjustForXCoordWithinTileBlock
@@ -1898,7 +1900,7 @@ CollisionCheckOnWater::
 	call CheckForJumpingAndTilePairCollisions
 	jr c, .collision
 	predef GetTileAndCoordsInFrontOfPlayer ; get tile in front of player (puts it in c and [wTileInFrontOfPlayer])
-	ld a, [wTileInFrontOfPlayer]
+	ld a, [wTileInFrontOfPlayer] ; tile in front of player
 	cp $14 ; water tile
 	jr z, .noCollision ; keep surfing if it's a water tile
 	cp $32 ; either the left tile of the S.S. Anne boarding platform or the tile on eastern coastlines (depending on the current tileset)
@@ -1939,10 +1941,11 @@ CollisionCheckOnWater::
 	jr .noCollision
 .checkIfVermilionDockTileset
 	ld a, [wCurMapTileset]
-	cp SHIP_PORT
+	cp SHIP_PORT ; Vermilion Dock tileset
 	jr nz, .noCollision ; keep surfing if it's not the boarding platform tile
 	jr .stopSurfing ; if it is the boarding platform tile, stop surfing
 
+; function to run the current map's script
 RunMapScript::
 	push hl
 	push de
@@ -1957,15 +1960,15 @@ RunMapScript::
 	pop de
 	pop hl
 	call RunNPCMovementScript
-	ld a, [wCurMap]
-	call SwitchToMapRomBank
+	ld a, [wCurMap] ; current map number
+	call SwitchToMapRomBank ; change to the ROM bank the map's data is in
 	ld hl, wCurMapScriptPtr
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
 	ld de, .return
 	push de
-	jp hl
+	jp hl ; jump to script
 .return
 	ret
 
@@ -2310,31 +2313,15 @@ LoadMapData::
 	call LoadTileBlockMap
 	call LoadTilesetTilePatternData
 	call LoadCurrentMapView
-; copy current map view to VRAM
-	hlcoord 0, 0
-	ld de, vBGMap0
-	ld b, SCREEN_HEIGHT
-.vramCopyLoop
-	ld c, SCREEN_WIDTH
-.vramCopyInnerLoop
-	ld a, [hli]
-	ld [de], a
-	inc e
-	dec c
-	jr nz, .vramCopyInnerLoop
-	ld a, TILEMAP_WIDTH - SCREEN_WIDTH
-	add e
-	ld e, a
-	jr nc, .noCarry
-	inc d
-.noCarry
-	dec b
-	jr nz, .vramCopyLoop
+
+	ld b, SET_PAL_OVERWORLD
+	call RunPaletteCommand ; HAX: this function call was moved to be above _LoadMapVramAndColors
+; copy current map view + corresponding palettes to VRAM
+	call _LoadMapVramAndColors ; HAX
+
 	ld a, $01
 	ld [wUpdateSpritesEnabled], a
 	call EnableLCD
-	ld b, SET_PAL_OVERWORLD
-	call RunPaletteCommand
 	call LoadPlayerSpriteGraphics
 	ld a, [wStatusFlags6]
 	and (1 << BIT_FLY_WARP) | (1 << BIT_DUNGEON_WARP)
@@ -2349,6 +2336,11 @@ LoadMapData::
 	ldh [hLoadedROMBank], a
 	ld [rROMB], a
 	ret
+
+; HAX: Padding to prevent data shifting
+rept $17
+	nop
+endr
 
 ; function to switch to the ROM bank that a map is stored in
 ; Input: a = map number

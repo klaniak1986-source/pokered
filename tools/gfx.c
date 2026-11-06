@@ -67,9 +67,6 @@ void parse_args(int argc, char *argv[]) {
 			break;
 		case 'd':
 			options.depth = strtoul(optarg, NULL, 0);
-			if (options.depth != 1 && options.depth != 2) {
-				error_exit("bit depth must be 1 or 2, not %d\n", options.depth);
-			}
 			break;
 		case 'p':
 			options.png_file = optarg;
@@ -274,7 +271,7 @@ int main(int argc, char *argv[]) {
 	}
 	if (options.interleave) {
 		if (!options.png_file) {
-			error_exit("--interleave needs --png to infer dimensions\n");
+			error_exit("--interleave needs --png to infer dimensions");
 		}
 		int width = read_png_width(options.png_file);
 		interleave(&graphic, width);

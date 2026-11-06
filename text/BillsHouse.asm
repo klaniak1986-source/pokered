@@ -3,7 +3,7 @@ _BillsHouseBillImNotAPokemonText::
 	line "#MON..."
 	cont "...No I'm not!"
 
-	para "Call me BILL!"
+	para "Call me BARTEK!"
 	line "I'm a true blue"
 	cont "#MANIAC! Hey!"
 	cont "What's with that"
@@ -20,17 +20,19 @@ _BillsHouseBillImNotAPokemonText::
 	done
 
 _BillsHouseBillUseSeparationSystemText::
-	text "When I'm in the"
-	line "TELEPORTER, go to"
-	cont "my PC and run the"
-	cont "Cell Separation"
-	cont "System!"
+	text "Kiedy wsiądę do"
+	line "TELEPORTER, idź do"
+	cont "mojego komputera i"
+	cont "uruchom system"
+	cont "rozdzielania"
+	cont "komórek!"
 	done
 
 _BillsHouseBillNoYouGottaHelpText::
-	text "No!? Come on, you"
-	line "gotta help a guy"
-	cont "in deep trouble!"
+	text "Musisz pomóc"
+	line "facetowi w"
+	cont "poważnych"
+	cont "tarapatach!"
 
 	para "What do you say,"
 	line "chief? Please?"
@@ -38,9 +40,9 @@ _BillsHouseBillNoYouGottaHelpText::
 	prompt
 
 _BillsHouseBillThankYouText::
-	text "BILL: Yeehah!"
-	line "Thanks, bud! I"
-	cont "owe you one!"
+	text "Dzięki stary,"
+	line "jestem ci coś"
+	cont "winien!"
 
 	para "So, did you come"
 	line "to see my #MON"
@@ -61,16 +63,18 @@ _SSTicketReceivedText::
 	text_end
 
 _SSTicketNoRoomText::
-	text "You've got too"
-	line "much stuff, bud!"
+	text "Masz za dużo"
+	line "rzeczy, kolego!"
 	done
 
 _BillsHouseBillWhyDontYouGoInsteadOfMeText::
-	text "That cruise ship,"
-	line "S.S.ANNE, is in"
-	cont "VERMILION CITY."
-	cont "Its passengers"
-	cont "are all trainers!"
+	text "Ten statek"
+	line "wycieczkowy, S. S."
+	cont "ANNE, znajduje się"
+	cont "w mieście"
+	cont "VERMILION. Wszyscy"
+	cont "pasażerowie są"
+	cont "trenerami!"
 
 	para "They invited me"
 	line "to their party,"
@@ -81,8 +85,9 @@ _BillsHouseBillWhyDontYouGoInsteadOfMeText::
 	done
 
 _BillsHouseBillCheckOutMyRarePokemonText::
-	text "BILL: Look, bud,"
-	line "just check out"
-	cont "some of my rare"
-	cont "#MON on my PC!"
+	text "Słuchaj, kolego,"
+	line "sprawdź trochę"
+	cont "mojego rzadkiego"
+	cont "Pokémona na moim"
+	cont "komputerze!"
 	done

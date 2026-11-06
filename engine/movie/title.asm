@@ -293,7 +293,8 @@ TitleScreenPickNewMon:
 	ld a, $90
 	ldh [hWY], a
 	ld d, 1 ; scroll out
-	farcall TitleScroll
+	; HAX; palette must be refreshed
+	farcall LoadTitleMonTilesAndPalettes
 	ret
 
 TitleScreenScrollInMon:

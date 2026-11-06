@@ -1,7 +1,5 @@
 _SSAnneCaptainsRoomRubCaptainsBackText::
-	text "CAPTAIN: Ooargh..."
-	line "I feel hideous..."
-	cont "Urrp! Seasick..."
+	text "Czuję się ohydnie."
 
 	para "<PLAYER> rubbed"
 	line "the CAPTAIN's"
@@ -12,9 +10,8 @@ _SSAnneCaptainsRoomRubCaptainsBackText::
 	text_end
 
 _SSAnneCaptainsRoomCaptainIFeelMuchBetterText::
-	text "CAPTAIN: Whew!"
-	line "Thank you! I"
-	cont "feel much better!"
+	text "Dziękuję, czuję"
+	line "się dużo lepiej!"
 
 	para "You want to see"
 	line "my CUT technique?"
@@ -39,26 +36,26 @@ _SSAnneCaptainsRoomCaptainReceivedHM01Text::
 	text_end
 
 _SSAnneCaptainsRoomCaptainNotSickAnymoreText::
-	text "CAPTAIN: Whew!"
+	text "Uff!"
 
-	para "Now that I'm not"
-	line "sick any more, I"
-	cont "guess it's time."
+	para "Teraz, kiedy już"
+	line "nie choruję, to"
+	cont "chyba czas."
 	done
 
 _SSAnneCaptainsRoomCaptainHM01NoRoomText::
-	text "Oh no! You have"
-	line "no room for this!"
+	text "Nie masz na to"
+	line "miejsca!"
 	done
 
 _SSAnneCaptainsRoomTrashText::
-	text "Yuck! Shouldn't"
-	line "have looked!"
+	text "Nie powinienem był"
+	line "tego oglądać!"
 	done
 
 _SSAnneCaptainsRoomSeasickBookText::
-	text "How to Conquer"
-	line "Seasickness..."
-	cont "The CAPTAIN's"
-	cont "reading this!"
+	text "Jak zdobyć choroby"
+	line "morskiej.. CAPTAIN"
+	cont "jest czytanie"
+	cont "tego!"
 	done

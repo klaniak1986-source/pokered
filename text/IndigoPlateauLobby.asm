@@ -1,6 +1,5 @@
 _IndigoPlateauLobbyGymGuideText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Mistrz w robieniu!"
 
 	para "At #MON LEAGUE,"
 	line "you have to face"
@@ -14,9 +13,11 @@ _IndigoPlateauLobbyGymGuideText::
 	done
 
 _IndigoPlateauLobbyCooltrainerFText::
-	text "From here on, you"
-	line "face the ELITE"
-	cont "FOUR one by one!"
+	text "Od tej chwili"
+	line "stajesz twarzą w"
+	cont "twarz z Elitarną"
+	cont "Czwórką jeden po"
+	cont "drugim!"
 
 	para "If you win, a"
 	line "door opens to the"

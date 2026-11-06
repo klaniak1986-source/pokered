@@ -1,5 +1,5 @@
 _PokemartGreetingText::
-	text "Hi there!"
+	text "Cześć!"
 	next "May I help you?"
 	done
 
@@ -18,12 +18,12 @@ _PlayerBlackedOutText::
 	prompt
 
 _RepelWoreOffText::
-	text "REPEL's effect"
-	line "wore off."
+	text "Efekt REPEL"
+	line "ucichł."
 	done
 
 _PokemartBuyingGreetingText::
-	text "Take your time."
+	text "Nie spiesz się."
 	done
 
 _PokemartTellBuyPriceText::
@@ -36,23 +36,22 @@ _PokemartTellBuyPriceText::
 	done
 
 _PokemartBoughtItemText::
-	text "Here you are!"
-	line "Thank you!"
+	text "Dziękuję!"
 	prompt
 
 _PokemartNotEnoughMoneyText::
-	text "You don't have"
-	line "enough money."
+	text "Nie masz dość"
+	line "pieniędzy."
 	prompt
 
 _PokemartItemBagFullText::
-	text "You can't carry"
-	line "any more items."
+	text "Nie możesz nosić"
+	line "więcej rzeczy."
 	prompt
 
 _PokemonSellingGreetingText::
-	text "What would you"
-	line "like to sell?"
+	text "Co chciałbyś"
+	line "sprzedać?"
 	done
 
 _PokemartTellSellPriceText::
@@ -63,22 +62,22 @@ _PokemartTellSellPriceText::
 	done
 
 _PokemartItemBagEmptyText::
-	text "You don't have"
-	line "anything to sell."
+	text "Nie masz nic do"
+	line "sprzedania."
 	prompt
 
 _PokemartUnsellableItemText::
-	text "I can't put a"
-	line "price on that."
+	text "Nie mogę wycenić"
+	line "tego."
 	prompt
 
 _PokemartThankYouText::
-	text "Thank you!"
+	text "Dziękuję!"
 	done
 
 _PokemartAnythingElseText::
-	text "Is there anything"
-	line "else I can do?"
+	text "Mogę coś jeszcze"
+	line "zrobić?"
 	done
 
 _LearnedMove1Text::
@@ -90,7 +89,8 @@ _LearnedMove1Text::
 	text_end
 
 _WhichMoveToForgetText::
-	text "Which move should"
+	text "Który ruch"
+	line "powinien"
 	next "be forgotten?"
 	done
 
@@ -132,16 +132,15 @@ _TryingToLearnText::
 	done
 
 _OneTwoAndText::
-	text "1, 2 and...@"
+	text "1, 2 i...@"
 	text_end
 
 _PoofText::
-	text " Poof!@"
+	text "Poof!@"
 	text_end
 
 _ForgotAndText::
 	text_start
-
 	para "@"
 	text_ram wLearnMoveMonName
 	text " forgot"
@@ -149,17 +148,17 @@ _ForgotAndText::
 	text_ram wNameBuffer
 	text "!"
 
-	para "And..."
+	para "I..."
 	prompt
 
 _HMCantDeleteText::
-	text "HM techniques"
-	line "can't be deleted!"
+	text "Techniki HM mogą"
+	line "zostać usunięte!"
 	prompt
 
 _PokemonCenterWelcomeText::
-	text "Welcome to our"
-	line "#MON CENTER!"
+	text "Witamy w naszym"
+	line "Centrum Pokémona!"
 
 	para "We heal your"
 	line "#MON back to"
@@ -167,66 +166,71 @@ _PokemonCenterWelcomeText::
 	prompt
 
 _ShallWeHealYourPokemonText::
-	text "Shall we heal your"
-	line "#MON?"
+	text "Wyleczymy twojego"
+	line "Pokemona?"
 	done
 
 _NeedYourPokemonText::
-	text "OK. We'll need"
-	line "your #MON."
+	text "Potrzebujemy"
+	line "twojego Pokémona."
 	done
 
 _PokemonFightingFitText::
-	text "Thank you!"
-	line "Your #MON are"
-	cont "fighting fit!"
+	text "Twój Pokémon"
+	line "walczy jak należy!"
 	prompt
 
 _PokemonCenterFarewellText::
-	text "We hope to see"
-	line "you again!"
+	text "Mamy nadzieję, że"
+	line "jeszcze cię"
+	cont "zobaczymy!"
 	done
 
 _CableClubNPCAreaReservedFor2FriendsLinkedByCableText::
-	text "This area is"
-	line "reserved for 2"
-	cont "friends who are"
-	cont "linked by cable."
+	text "Ten obszar jest"
+	line "zarezerwowany dla"
+	cont "2 przyjaciół,"
+	cont "którzy są"
+	cont "podłączeni przez"
+	cont "kabel."
 	done
 
 _CableClubNPCWelcomeText::
-	text "Welcome to the"
-	line "Cable Club!"
+	text "Witamy w Cable"
+	line "Club!"
 	done
 
 _CableClubNPCPleaseApplyHereHaveToSaveText::
-	text "Please apply here."
+	text "Proszę się tu"
+	line "zgłosić."
 
-	para "Before opening"
-	line "the link, we have"
-	cont "to save the game."
+	para "Przed otwarciem"
+	line "łącza, musimy"
+	cont "zapisać grę."
 	done
 
 _CableClubNPCPleaseWaitText::
-	text "Please wait.@"
+	text "Proszę poczekać.@"
 	text_end
 
 _CableClubNPCLinkClosedBecauseOfInactivityText::
 	vc_patch Change_link_closed_inactivity_message
 IF DEF(_RED_VC) || DEF(_BLUE_VC)
-	text "Please come again!"
+	text "Proszę, przyjdź"
+	line "jeszcze raz!"
 	done
 	text_start
 	db   "osed because of"
 	cont "inactivity."
 ELSE
-	text "The link has been"
-	line "closed because of"
-	cont "inactivity."
+	text "Połączenie zostało"
+	line "zamknięte z powodu"
+	cont "braku aktywności."
 ENDC
 	vc_patch_end
 
-	para "Please contact"
-	line "your friend and"
-	cont "come again!"
+	para "Proszę"
+	line "skontaktować się z"
+	cont "przyjacielem i"
+	cont "przyjść ponownie!"
 	done

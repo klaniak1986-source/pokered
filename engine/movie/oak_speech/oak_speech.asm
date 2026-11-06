@@ -61,9 +61,18 @@ OakSpeech:
 	call PrepareForSpecialWarp
 	xor a
 	ldh [hTileAnimations], a
-	ld a, [wStatusFlags6]
-	bit BIT_DEBUG_MODE, a
-	jp nz, .skipSpeech
+IF GEN_2_GRAPHICS
+	ld a, PAL_OAK
+ELSE
+	ld a, PAL_BROWNMON
+ENDC
+	call GotPalID ; HAX
+	nop
+	nop
+	nop
+	;ld a, [wStatusFlags6]
+	;bit BIT_DEBUG_MODE, a
+	;jp nz, .skipSpeech
 	ld de, ProfOakPic
 	lb bc, BANK(ProfOakPic), $00
 	call IntroDisplayPicCenteredOrUpperRight
@@ -71,7 +80,8 @@ OakSpeech:
 	ld hl, OakSpeechText1
 	call PrintText
 	call GBFadeOutToWhite
-	call ClearScreen
+	;call ClearScreen
+	call GetNidorinoPalID ; HAX
 	ld a, NIDORINO
 	ld [wCurSpecies], a
 	ld [wCurPartySpecies], a
@@ -82,7 +92,7 @@ OakSpeech:
 	ld hl, OakSpeechText2
 	call PrintText
 	call GBFadeOutToWhite
-	call ClearScreen
+	call GetRedPalID ; HAX
 	ld de, RedPicFront
 	lb bc, BANK(RedPicFront), $00
 	call IntroDisplayPicCenteredOrUpperRight
@@ -91,7 +101,7 @@ OakSpeech:
 	call PrintText
 	call ChoosePlayerName
 	call GBFadeOutToWhite
-	call ClearScreen
+	call GetRivalPalID ; HAX
 	ld de, Rival1Pic
 	lb bc, BANK(Rival1Pic), $00
 	call IntroDisplayPicCenteredOrUpperRight
@@ -101,7 +111,7 @@ OakSpeech:
 	call ChooseRivalName
 .skipSpeech
 	call GBFadeOutToWhite
-	call ClearScreen
+	call GetRedPalID ; HAX
 	ld de, RedPicFront
 	lb bc, BANK(RedPicFront), $00
 	call IntroDisplayPicCenteredOrUpperRight

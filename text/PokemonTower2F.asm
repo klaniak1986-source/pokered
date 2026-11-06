@@ -11,8 +11,7 @@ _PokemonTower2FRivalWhatBringsYouHereText::
 	done
 
 _PokemonTower2FRivalDefeatedText::
-	text "What?"
-	line "You stinker!"
+	text "Ty śmierdzielu!"
 
 	para "I took it easy on"
 	line "you too!"
@@ -28,10 +27,8 @@ _PokemonTower2FRivalVictoryText::
 	prompt
 
 _PokemonTower2FRivalHowsYourDexText::
-	text "How's your #DEX"
-	line "coming, pal?"
-	cont "I just caught a"
-	cont "CUBONE!"
+	text "Jak się czuje twój"
+	line "Pokédex?"
 
 	para "I can't find the"
 	line "grown-up MAROWAK"
@@ -47,9 +44,10 @@ _PokemonTower2FRivalHowsYourDexText::
 	done
 
 _PokemonTower2FChannelerText::
-	text "Even we could not"
-	line "identify the"
-	cont "wayward GHOSTs!"
+	text "Nawet my nie"
+	line "potrafiliśmy"
+	cont "zidentyfikować"
+	cont "GHOST!"
 
 	para "A SILPH SCOPE"
 	line "might be able to"

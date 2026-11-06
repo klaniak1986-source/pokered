@@ -7,7 +7,11 @@
 	db 45 ; catch rate
 	db 190 ; base exp
 
+IF GEN_2_GRAPHICS
+	INCBIN "gfx/pokemon/gsfront/gengar.pic", 0, 1 ; sprite dimensions
+ELSE
 	INCBIN "gfx/pokemon/front/gengar.pic", 0, 1 ; sprite dimensions
+ENDC
 	dw GengarPicFront, GengarPicBack
 
 	db LICK, CONFUSE_RAY, NIGHT_SHADE, NO_MOVE ; level 1 learnset
@@ -22,4 +26,4 @@
 	     SUBSTITUTE,   STRENGTH
 	; end
 
-	db 0 ; padding
+	db BANK(GengarPicFront)

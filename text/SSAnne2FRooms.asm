@@ -1,113 +1,117 @@
 _SSAnne2FRoomsGentleman3Text::
-	text "In all my travels"
-	line "I've never seen"
-	cont "any #MON sleep"
-	cont "like this one!"
+	text "We wszystkich"
+	line "moich podróżach"
+	cont "nigdy nie"
+	cont "widziałem żadnego"
+	cont "Pokémona śpiącego"
+	cont "jak ten!"
 
 	para "It was something"
 	line "like this!"
 	prompt
 
 _SSAnne2FRoomsGentleman4Text::
-	text "Ah yes, I have"
-	line "seen some #MON"
-	cont "ferry people"
-	cont "across the water!"
+	text "Ach tak, widziałem"
+	line "ludzi Pokémona,"
+	cont "którzy"
+	cont "przejeżdżali przez"
+	cont "wodę!"
 	done
 
 _SSAnne2FRoomsGrampsText::
-	text "#MON can CUT"
-	line "down small bushes."
+	text "Pokémon może ściąć"
+	line "małe krzaki."
 	done
 
 _SSAnne2FRoomsGentleman5Text::
-	text "Have you gone to"
-	line "the SAFARI ZONE"
-	cont "in FUCHSIA CITY?"
+	text "Byłeś w strefie"
+	line "SAFARI w mieście"
+	cont "FUCHSIA?"
 
 	para "It had many rare"
 	line "kinds of #MON!!"
 	done
 
 _SSAnne2FRoomsLittleBoyText::
-	text "Me and my Daddy"
-	line "think the SAFARI"
-	cont "ZONE is awesome!"
+	text "Ja i mój tata"
+	line "uważamy, że strefa"
+	cont "SAFARI jest"
+	cont "niesamowita!"
 	done
 
 _SSAnne2FRoomsBrunetteGirlText::
-	text "The CAPTAIN looked"
-	line "really sick and"
-	cont "pale!"
+	text "CAPTAIN wyglądał"
+	line "na bardzo chorego"
+	cont "i bladego!"
 	done
 
 _SSAnne2FRoomsBeautyText::
-	text "I hear many people"
-	line "get seasick!"
+	text "Słyszałem, że"
+	line "wielu ludzi cierpi"
+	cont "na chorobę morską!"
 	done
 
 _SSAnne2FRoomsGentleman1BattleText::
-	text "Competing against"
-	line "the young keeps"
-	cont "me youthful."
+	text "Konkurowanie z"
+	line "młodymi sprawia,"
+	cont "że jestem młody."
 	done
 
 _SSAnne2FRoomsGentleman1EndBattleText::
-	text "Good"
-	line "fight! Ah, I feel"
-	cont "young again!"
+	text "Znowu czuję się"
+	line "młody!"
 	prompt
 
 _SSAnne2FRoomsGentleman1AfterBattleText::
-	text "15 years ago, I"
-	line "would have won!"
+	text "15 lat temu"
+	line "wygrałbym!"
 	done
 
 _SSAnne2FRoomsFisherBattleText::
-	text "Check out what I"
-	line "fished up!"
+	text "Zobacz, co"
+	line "wyłowiłem!"
 	done
 
 _SSAnne2FRoomsFisherEndBattleText::
-	text "I'm"
-	line "all out!"
+	text "Ja się rozklejam!"
 	prompt
 
 _SSAnne2FRoomsFisherAfterBattleText::
-	text "Party?"
+	text "Impreza?"
 
-	para "The cruise ship's"
-	line "party should be"
-	cont "over by now."
+	para "Impreza na statku"
+	line "wycieczkowym"
+	cont "powinna się już"
+	cont "skończyć."
 	done
 
 _SSAnne2FRoomsGentleman2BattleText::
-	text "Which do you like,"
-	line "a strong or a"
-	cont "rare #MON?"
+	text "Co lubisz, silny"
+	line "czy rzadki"
+	cont "Pokémon?"
 	done
 
 _SSAnne2FRoomsGentleman2EndBattleText::
-	text "I must"
-	line "salute you!"
+	text "Muszę ci"
+	line "salutować!"
 	prompt
 
 _SSAnne2FRoomsGentleman2AfterBattleText::
-	text "I prefer strong"
-	line "and rare #MON."
+	text "Wolę silne i"
+	line "rzadkie Pokémon."
 	done
 
 _SSAnne2FRoomsCooltrainerFBattleText::
-	text "I never saw you"
-	line "at the party."
+	text "Nigdy nie"
+	line "widziałam cię na"
+	cont "imprezie."
 	done
 
 _SSAnne2FRoomsCooltrainerFEndBattleText::
-	text "Take"
-	line "it easy!"
+	text "Spokojnie!"
 	prompt
 
 _SSAnne2FRoomsCooltrainerFAfterBattleText::
-	text "Oh, I adore your"
-	line "strong #MON!"
+	text "Uwielbiam twój"
+	line "silny Pokemon!"
 	done

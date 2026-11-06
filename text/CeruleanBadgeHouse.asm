@@ -1,7 +1,8 @@
 _CeruleanBadgeHouseMiddleAgedManText::
-	text "#MON BADGEs"
-	line "are owned only by"
-	cont "skilled trainers."
+	text "Pokémon BADGE"
+	line "należą tylko do"
+	cont "wykwalifikowanych"
+	cont "trenerów."
 
 	para "I see you have"
 	line "at least one."
@@ -11,22 +12,21 @@ _CeruleanBadgeHouseMiddleAgedManText::
 	prompt
 
 _CeruleanBadgeHouseMiddleAgedManWhichBadgeText::
-	text "Now then..."
+	text "A teraz..."
 
-	para "Which of the 8"
-	line "BADGEs should I"
-	cont "describe?"
+	para "Które z 8 BADGów"
+	line "powinienem opisać?"
 	done
 
 _CeruleanBadgeHouseMiddleAgedManVisitAnyTimeText::
-	text "Come visit me any"
-	line "time you wish."
+	text "Odwiedź mnie,"
+	line "kiedy zechcesz."
 	done
 
 _CeruleanBadgeHouseBoulderBadgeText::
-	text "The ATTACK of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "ATTACK wszystkich"
+	line "Pokémon zwiększa"
+	cont "się trochę."
 
 	para "It also lets you"
 	line "use FLASH any"
@@ -34,8 +34,9 @@ _CeruleanBadgeHouseBoulderBadgeText::
 	prompt
 
 _CeruleanBadgeHouseCascadeBadgeText::
-	text "#MON up to L30"
-	line "will obey you."
+	text "Pokémon do 30"
+	line "funtów będzie ci"
+	cont "posłuszny."
 
 	para "Any higher, they"
 	line "become unruly!"
@@ -46,9 +47,9 @@ _CeruleanBadgeHouseCascadeBadgeText::
 	prompt
 
 _CeruleanBadgeHouseThunderBadgeText::
-	text "The SPEED of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "Speed wszystkich"
+	line "Pokémon zwiększa"
+	cont "się trochę."
 
 	para "It also lets you"
 	line "use FLY outside"
@@ -56,8 +57,9 @@ _CeruleanBadgeHouseThunderBadgeText::
 	prompt
 
 _CeruleanBadgeHouseRainbowBadgeText::
-	text "#MON up to L50"
-	line "will obey you."
+	text "Pokémon do 50"
+	line "funtów będzie ci"
+	cont "posłuszny."
 
 	para "Any higher, they"
 	line "become unruly!"
@@ -68,9 +70,9 @@ _CeruleanBadgeHouseRainbowBadgeText::
 	prompt
 
 _CeruleanBadgeHouseSoulBadgeText::
-	text "The DEFENSE of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "DEFENSE wszystkich"
+	line "Pokémon zwiększa"
+	cont "się trochę."
 
 	para "It also lets you"
 	line "use SURF outside"
@@ -78,20 +80,22 @@ _CeruleanBadgeHouseSoulBadgeText::
 	prompt
 
 _CeruleanBadgeHouseMarshBadgeText::
-	text "#MON up to L70"
-	line "will obey you."
+	text "Pokémon do L70"
+	line "będzie ci"
+	cont "posłuszny."
 
 	para "Any higher, they"
 	line "become unruly!"
 	prompt
 
 _CeruleanBadgeHouseVolcanoBadgeText::
-	text "Your #MON's"
-	line "SPECIAL abilities"
-	cont "increase a bit."
+	text "Twoje zdolności"
+	line "specjalne Pokémon"
+	cont "nieco się"
+	cont "zwiększają."
 	prompt
 
 _CeruleanBadgeHouseEarthBadgeText::
-	text "All #MON will"
-	line "obey you!"
+	text "Wszyscy Pokémon"
+	line "będą ci posłuszni!"
 	prompt

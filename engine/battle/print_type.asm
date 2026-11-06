@@ -26,9 +26,9 @@ PrintType:
 ; erase "TYPE2/" if the mon only has 1 type
 EraseType2Text:
 	ld a, ' '
-	ld bc, SCREEN_WIDTH - 1
+	ld bc, $13
 	add hl, bc
-	ld bc, CHARLEN("TYPE2/")
+	ld bc, $6
 	jp FillMemory
 
 PrintMoveType:

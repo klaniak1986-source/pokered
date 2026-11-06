@@ -1,6 +1,6 @@
 _Route12SuperRodHouseFishingGuruDoYouLikeToFishText::
-	text "I'm the FISHING"
-	line "GURU's brother!"
+	text "Jestem bratem"
+	line "GURU!"
 
 	para "I simply Looove"
 	line "fishing!"
@@ -10,8 +10,8 @@ _Route12SuperRodHouseFishingGuruDoYouLikeToFishText::
 	done
 
 _Route12SuperRodHouseFishingGuruReceivedSuperRodText::
-	text "Grand! I like"
-	line "your style!"
+	text "Podoba mi się twój"
+	line "styl!"
 
 	para "Take this and"
 	line "fish, young one!"
@@ -25,8 +25,8 @@ _Route12SuperRodHouseFishingGuruReceivedSuperRodText::
 _Route12SuperRodHouseFishingGuruFishingWayOfLifeText::
 	text_start
 
-	para "Fishing is a way"
-	line "of life!"
+	para "Łowienie ryb to"
+	line "sposób na życie!"
 
 	para "From the seas to"
 	line "rivers, go out"
@@ -35,8 +35,8 @@ _Route12SuperRodHouseFishingGuruFishingWayOfLifeText::
 	done
 
 _Route12SuperRodHouseFishingGuruThatsDisappointingText::
-	text "Oh... That's so"
-	line "disappointing..."
+	text "To takie"
+	line "rozczarowujące."
 	done
 
 _Route12SuperRodHouseFishingGuruTryFishingText::
@@ -54,9 +54,10 @@ _Route12SuperRodHouseFishingGuruTryFishingText::
 	done
 
 _Route12SuperRodHouseFishingGuruNoRoomText::
-	text "Oh no!"
+	text "O nie!"
 
-	para "I had a gift for"
-	line "you, but you have"
-	cont "no room for it!"
+	para "Miałem dla ciebie"
+	line "prezent, ale ty"
+	cont "nie masz na to"
+	cont "miejsca!"
 	done

@@ -38,7 +38,7 @@ PewterGym_ScriptPointers:
 
 PewterGymBrockPostBattle:
 	ld a, [wIsInBattle]
-	cp LOST_BATTLE
+	cp $ff
 	jp z, PewterGymResetScripts
 	ld a, PAD_CTRL_PAD
 	ld [wJoyIgnore], a

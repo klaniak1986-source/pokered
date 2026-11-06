@@ -1,156 +1,150 @@
 _Route25Youngster1BattleText::
-	text "Local trainers"
-	line "come here to"
-	cont "practice!"
+	text "Lokalni trenerzy"
+	line "przychodzą tu"
+	cont "poćwiczyć!"
 	done
 
 _Route25Youngster1EndBattleText::
-	text "You're"
-	line "decent."
+	text "Jesteś przyzwoity."
 	prompt
 
 _Route25Youngster1AfterBattleText::
-	text "All #MON have"
-	line "weaknesses. It's"
-	cont "best to raise"
-	cont "different kinds."
+	text "Wszystkie Pokémon"
+	line "mają słabości."
+	cont "Najlepiej wychować"
+	cont "różne rodzaje."
 	done
 
 _Route25Youngster2BattleText::
-	text "Dad took me to a"
-	line "great party on"
-	cont "S.S.ANNE at"
-	cont "VERMILION CITY!"
+	text "Tata zabrał mnie"
+	line "na wielkie"
+	cont "przyjęcie na S."
 	done
 
 _Route25Youngster2EndBattleText::
-	text "I'm"
-	line "not mad!"
+	text "Nie jestem zły!"
 	prompt
 
 _Route25Youngster2AfterBattleText::
-	text "On S.S.ANNE, I"
-	line "saw trainers from"
-	cont "around the world."
+	text "Na S. ANNE,"
+	line "widziałam trenerów"
+	cont "z całego świata."
 	done
 
 _Route25CooltrainerMBattleText::
-	text "I'm a cool guy."
-	line "I've got a girl"
-	cont "friend!"
+	text "Jestem fajnym"
+	line "facetem, mam"
+	cont "przyjaciółkę!"
 	done
 
 _Route25CooltrainerMEndBattleText::
-	text "Aww,"
-	line "darn..."
+	text "Cholera."
 	prompt
 
 _Route25CooltrainerMAfterBattleText::
-	text "Oh well. My girl"
-	line "will cheer me up."
+	text "Moja dziewczyna"
+	line "mnie rozweseli."
 	done
 
 _Route25CooltrainerF1BattleText::
-	text "Hi! My boy"
-	line "friend is cool!"
+	text "Mój kumpel jest"
+	line "spoko!"
 	done
 
 _Route25CooltrainerF1EndBattleText::
-	text "I was in"
-	line "bad condition!"
+	text "Byłem w złym"
+	line "stanie!"
 	prompt
 
 _Route25CooltrainerF1AfterBattleText::
-	text "I wish my guy was"
-	line "as good as you!"
+	text "Chciałbym, żeby"
+	line "mój facet był tak"
+	cont "dobry jak ty!"
 	done
 
 _Route25Youngster3BattleText::
-	text "I knew I had to"
-	line "fight you!"
+	text "Wiedziałem, że"
+	line "muszę z tobą"
+	cont "walczyć!"
 	done
 
 _Route25Youngster3EndBattleText::
-	text "I knew"
-	line "I'd lose too!"
+	text "Wiedziałam, że też"
+	line "przegram!"
 	prompt
 
 _Route25Youngster3AfterBattleText::
-	text "If your #MON"
-	line "gets confused or"
-	cont "falls asleep,"
-	cont "switch it!"
+	text "Jeśli twój Pokémon"
+	line "się pomyli lub"
+	cont "zaśnie, przełącz"
+	cont "go!"
 	done
 
 _Route25CooltrainerF2BattleText::
-	text "My friend has a"
-	line "cute #MON."
-	cont "I'm so jealous!"
+	text "Mój przyjaciel ma"
+	line "słodkie Pokémon."
+	cont "Jestem tak"
+	cont "zazdrosny!"
 	done
 
 _Route25CooltrainerF2EndBattleText::
-	text "I'm"
-	line "not so jealous!"
+	text "Nie jestem taki"
+	line "zazdrosny!"
 	prompt
 
 _Route25CooltrainerF2AfterBattleText::
-	text "You came from MT."
-	line "MOON? May I have"
-	cont "a CLEFAIRY?"
+	text "Przyjechałaś z MT."
 	done
 
 _Route25Hiker1BattleText::
-	text "I just got down"
-	line "from MT.MOON,"
-	cont "but I'm ready!"
+	text "Właśnie wróciłem z"
+	line "MT, ale jestem"
+	cont "gotowy!"
 	done
 
 _Route25Hiker1EndBattleText::
-	text "You"
-	line "worked hard!"
+	text "Ciężko pracowałeś!"
 	prompt
 
 _Route25Hiker1AfterBattleText::
-	text "Drat!"
-	line "A ZUBAT bit me"
-	cont "back in there."
+	text "ZUBAT ugryzło mnie"
+	line "tam z powrotem."
 	done
 
 _Route25Hiker2BattleText::
-	text "I'm off to see a"
-	line "#MON collector"
-	cont "at the cape!"
+	text "Idę zobaczyć"
+	line "kolekcjonera"
+	cont "Pokémona na"
+	cont "pelerynie!"
 	done
 
 _Route25Hiker2EndBattleText::
-	text "You"
-	line "got me."
+	text "Masz mnie."
 	prompt
 
 _Route25Hiker2AfterBattleText::
-	text "The collector has"
-	line "many rare kinds"
-	cont "of #MON."
+	text "Kolekcjoner ma"
+	line "wiele rzadkich"
+	cont "rodzajów Pokémon."
 	done
 
 _Route25Hiker3BattleText::
-	text "You're going to"
-	line "see BILL? First,"
-	cont "let's fight!"
+	text "Najpierw pozwól mu"
+	line "walczyć!"
 	done
 
 _Route25Hiker3EndBattleText::
-	text "You're"
-	line "something."
+	text "Coś ci się"
+	line "przydarzyło."
 	prompt
 
 _Route25Hiker3AfterBattleText::
-	text "The trail below"
-	line "is a shortcut to"
+	text "Poniższy szlak"
+	line "jest skrótem do"
 	cont "CERULEAN CITY."
 	done
 
 _Route25BillSignText::
-	text "SEA COTTAGE"
-	line "BILL lives here!"
+	text "SEA COTTAGE BARTEK"
+	line "mieszka tutaj!"
 	done

@@ -1,6 +1,5 @@
 _CeruleanTrashedHouseFishingGuruTheyStoleATMText::
-	text "Those miserable"
-	line "ROCKETs!"
+	text "Te żałosne ROCKET!"
 
 	para "Look what they"
 	line "did here!"
@@ -15,8 +14,10 @@ _CeruleanTrashedHouseFishingGuruTheyStoleATMText::
 	done
 
 _CeruleanTrashedHouseFishingGuruWhatsLostIsLostText::
-	text "I figure what's"
-	line "lost is lost!"
+	text "Domyśliłem się, że"
+	line "to, co Guils"
+	cont "stracił, jest"
+	cont "stracone!"
 
 	para "I decided to teach"
 	line "DIGLETT how to"
@@ -24,13 +25,13 @@ _CeruleanTrashedHouseFishingGuruWhatsLostIsLostText::
 	done
 
 _CeruleanTrashedHouseGirlText::
-	text "TEAM ROCKET must"
-	line "be trying to DIG"
-	cont "their way into no"
-	cont "good!"
+	text "TEAM ROCKET musi"
+	line "próbować wydymać"
+	cont "ich drogę do"
+	cont "niczego dobrego!"
 	done
 
 _CeruleanTrashedHouseWallHoleText::
-	text "TEAM ROCKET left"
-	line "a way out!"
+	text "TEAM ROCKET"
+	line "wyszedł!"
 	done

@@ -1,45 +1,41 @@
 _PokemonTower3FChanneler1BattleText::
-	text "Urrg...Awaa..."
-	line "Huhu...graa.."
+	text "Urrg... Awaa..."
+	line "Huhu... graa.."
 	done
 
 _PokemonTower3FChanneler1EndBattleText::
-	text "Hwa!"
-	line "I'm saved!"
+	text "Jestem ocalony!"
 	prompt
 
 _PokemonTower3FChanneler1AfterBattleText::
-	text "The GHOSTs can be"
-	line "identified by the"
-	cont "SILPH SCOPE."
+	text "GHOST można"
+	line "zidentyfikować za"
+	cont "pomocą SCOPE"
+	cont "SILPH."
 	done
 
 _PokemonTower3FChanneler2BattleText::
-	text "Kekeke...."
-	line "Kwaaah!"
+	text "Kekeke."
 	done
 
 _PokemonTower3FChanneler2EndBattleText::
-	text "Hmm?"
-	line "What am I doing?"
+	text "Co ja robię?"
 	prompt
 
 _PokemonTower3FChanneler2AfterBattleText::
-	text "Sorry! I was"
-	line "possessed!"
+	text "Przepraszam, byłam"
+	line "opętana!"
 	done
 
 _PokemonTower3FChanneler3BattleText::
-	text "Be gone!"
-	line "Evil spirit!"
+	text "Zła dusza!"
 	done
 
 _PokemonTower3FChanneler3EndBattleText::
-	text "Whew!"
-	line "The spirit left!"
+	text "Duch odszedł!"
 	prompt
 
 _PokemonTower3FChanneler3AfterBattleText::
-	text "My friends were"
-	line "possessed too!"
+	text "Moi przyjaciele"
+	line "też byli opętani!"
 	done

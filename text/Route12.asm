@@ -1,57 +1,57 @@
 _Route12SnorlaxText::
-	text "A sleeping #MON"
-	line "blocks the way!"
+	text "Śpiący Pokémon"
+	line "blokuje drogę!"
 	done
 
 _Route12SnorlaxWokeUpText::
-	text "SNORLAX woke up!"
+	text "SNORLAX się"
+	line "obudził!"
 
-	para "It attacked in a"
-	line "grumpy rage!"
+	para "Zaatakował w"
+	line "zrzędliwym"
+	cont "gniewie!"
 	done
 
 _Route12SnorlaxCalmedDownText::
-	text "SNORLAX calmed"
-	line "down! With a big"
-	cont "yawn, it returned"
-	cont "to the mountains!"
+	text "SNORLAX uspokoił"
+	line "się! Z dużym"
+	cont "ziewanie, wrócił"
+	cont "do gór!"
 	done
 
 _Route12Fisher1BattleText::
-	text "Yeah! I got a"
-	line "bite, here!"
+	text "Mam tu gryza!"
 	done
 
 _Route12Fisher1EndBattleText::
-	text "Tch!"
-	line "Just a small fry!"
+	text "Tylko mała frytka!"
 	prompt
 
 _Route12Fisher1AfterBattleText::
-	text "Hang on! My line's"
-	line "snagged!"
+	text "Moja linia jest"
+	line "zablokowana!"
 	done
 
 _Route12Fisher2BattleText::
-	text "Be patient!"
-	line "Fishing is a"
-	cont "waiting game!"
+	text "Bądź cierpliwy!"
+	line "Łowienie ryb to"
+	cont "gra oczekiwania!"
 	done
 
 _Route12Fisher2EndBattleText::
-	text "That"
-	line "one got away!"
+	text "Ten uciekł!"
 	prompt
 
 _Route12Fisher2AfterBattleText::
-	text "With a better ROD,"
-	line "I could catch"
-	cont "better #MON!"
+	text "Dzięki lepszemu"
+	line "ROD, mógłbym"
+	cont "złapać lepszego"
+	cont "Pokémona!"
 	done
 
 _Route12CooltrainerMBattleText::
-	text "Have you found a"
-	line "MOON STONE?"
+	text "Znalazłaś kamień"
+	line "księżycowy?"
 	done
 
 _Route12CooltrainerMEndBattleText::
@@ -59,81 +59,80 @@ _Route12CooltrainerMEndBattleText::
 	prompt
 
 _Route12CooltrainerMAfterBattleText::
-	text "I could have made"
-	line "my #MON evolve"
-	cont "with MOON STONE!"
+	text "Mogłem sprawić, że"
+	line "mój Pokémon"
+	cont "ewoluuje z MOON"
+	cont "STONE!"
 	done
 
 _Route12SuperNerdBattleText::
-	text "Electricity is my"
-	line "specialty!"
+	text "Elektryczność to"
+	line "moja specjalność!"
 	done
 
 _Route12SuperNerdEndBattleText::
-	text "Unplugged!"
+	text "Odłączony!"
 	prompt
 
 _Route12SuperNerdAfterBattleText::
-	text "Water conducts"
-	line "electricity, so"
-	cont "you should zap"
-	cont "sea #MON!"
+	text "Woda przewodzi"
+	line "elektryczność,"
+	cont "więc powinieneś"
+	cont "zap morze Pokémon!"
 	done
 
 _Route12Fisher3BattleText::
-	text "The FISHING FOOL"
-	line "vs. #MON KID!"
+	text "The Fishing Fool"
+	line "vs. Pokémon Kid!"
 	done
 
 _Route12Fisher3EndBattleText::
-	text "Too"
-	line "much!"
+	text "Za dużo!"
 	prompt
 
 _Route12Fisher3AfterBattleText::
-	text "You beat me at"
-	line "#MON, but I'm"
-	cont "good at fishing!"
+	text "Pokonałeś mnie w"
+	line "Pokémon, ale"
+	cont "jestem dobry w"
+	cont "łowieniu ryb!"
 	done
 
 _Route12Fisher4BattleText::
-	text "I'd rather be"
-	line "working!"
+	text "Wolę pracować!"
 	done
 
 _Route12Fisher4EndBattleText::
-	text "It's"
-	line "not easy..."
+	text "To nie jest"
+	line "łatwe.."
 	prompt
 
 _Route12Fisher4AfterBattleText::
-	text "It's all right."
-	line "Losing doesn't"
-	cont "bug me any more."
+	text "Utrata nie"
+	line "przeszkadza mi"
+	cont "już."
 	done
 
 _Route12Fisher5BattleText::
-	text "You never know"
-	line "what you could"
-	cont "catch!"
+	text "Nigdy nie wiadomo,"
+	line "co można złapać!"
 	done
 
 _Route12Fisher5EndBattleText::
-	text "Lost"
-	line "it!"
+	text "Zgubiłem!"
 	prompt
 
 _Route12Fisher5AfterBattleText::
-	text "I catch MAGIKARP"
-	line "all the time, but"
-	cont "they're so weak!"
+	text "Cały czas łapię"
+	line "MAGIKARP, ale oni"
+	cont "są tacy słabi!"
 	done
 
 _Route12SignText::
-	text "ROUTE 12 "
-	line "North to LAVENDER"
+	text "DROGA 12 Północny"
+	line "do LAVENDER"
 	done
 
 _Route12SportFishingSignText::
-	text "SPORT FISHING AREA"
+	text "OBSZAR POŁOWOWY"
+	line "SPORTU"
 	done

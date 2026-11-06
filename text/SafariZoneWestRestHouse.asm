@@ -1,19 +1,22 @@
 _SafariZoneWestRestHouseScientistText::
-	text "Tossing ROCKs at"
-	line "#MON might"
-	cont "make them run,"
-	cont "but they'll be"
-	cont "easier to catch."
+	text "Wyrzucanie rocków"
+	line "w Pokémon może"
+	cont "sprawić, że"
+	cont "uciekną, ale"
+	cont "łatwiej będzie ich"
+	cont "złapać."
 	done
 
 _SafariZoneWestRestHouseCooltrainerMText::
-	text "Using BAIT will"
-	line "make #MON"
-	cont "easier to catch."
+	text "Korzystanie z BAIT"
+	line "sprawi, że Pokémon"
+	cont "łatwiej złapać."
 	done
 
 _SafariZoneWestRestHouseSilphWorkerFText::
-	text "I hiked a lot, but"
-	line "I didn't see any"
-	cont "#MON I wanted."
+	text "Dużo podróżowałem,"
+	line "ale nie widziałem"
+	cont "żadnego Pokémona,"
+	cont "którego bym"
+	cont "chciał."
 	done

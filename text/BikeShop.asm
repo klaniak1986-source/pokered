@@ -1,27 +1,27 @@
 _BikeShopClerkWelcomeText::
-	text "Hi! Welcome to"
-	line "our BIKE SHOP."
+	text "Witam w naszym"
+	line "Bike Shop."
 
 	para "Have we got just"
 	line "the BIKE for you!"
 	prompt
 
 _BikeShopClerkDoYouLikeItText::
-	text "It's a cool BIKE!"
-	line "Do you want it?"
+	text "To jest fajny"
+	line "BIKE!"
 	done
 
 _BikeShopCantAffordText::
-	text "Sorry! You can't"
-	line "afford it!"
+	text "Nie stać cię na"
+	line "to!"
 	prompt
 
 _BikeShopClerkOhThatsAVoucherText::
-	text "Oh, that's..."
+	text "Oh, to jest..."
 
-	para "A BIKE VOUCHER!"
+	para "BIKE VOUCHER!"
 
-	para "OK! Here you go!"
+	para "Proszę bardzo!"
 	prompt
 
 _BikeShopExchangedVoucherText::
@@ -31,13 +31,12 @@ _BikeShopExchangedVoucherText::
 	text_end
 
 _BikeShopComeAgainText::
-	text "Come back again"
-	line "some time!"
+	text "Wróć kiedyś!"
 	done
 
 _BikeShopClerkHowDoYouLikeYourBicycleText::
-	text "How do you like"
-	line "your new BICYCLE?"
+	text "Jak ci się podoba"
+	line "twój nowy BICYCLE?"
 
 	para "You can take it"
 	line "on CYCLING ROAD"
@@ -45,14 +44,15 @@ _BikeShopClerkHowDoYouLikeYourBicycleText::
 	done
 
 _BikeShopBagFullText::
-	text "You better make"
-	line "room for this!"
+	text "Lepiej zrób na to"
+	line "miejsce!"
 	done
 
 _BikeShopMiddleAgedWomanText::
-	text "A plain city BIKE"
-	line "is good enough"
-	cont "for me!"
+	text "Zwykłe miasto BIKE"
+	line "jest dla mnie"
+	cont "wystarczająco"
+	cont "dobre!"
 
 	para "You can't put a"
 	line "shopping basket"
@@ -60,12 +60,12 @@ _BikeShopMiddleAgedWomanText::
 	done
 
 _BikeShopYoungsterTheseBikesAreExpensiveText::
-	text "These BIKEs are"
-	line "cool, but they're"
-	cont "way expensive!"
+	text "Te BIKY są fajne,"
+	line "ale są bardzo"
+	cont "drogie!"
 	done
 
 _BikeShopYoungsterCoolBikeText::
-	text "Wow. Your BIKE is"
-	line "really cool!"
+	text "Twój rower jest"
+	line "naprawdę fajny!"
 	done

@@ -205,7 +205,7 @@ SilphCo7FRivalStartBattleScript:
 
 SilphCo7FRivalAfterBattleScript:
 	ld a, [wIsInBattle]
-	cp LOST_BATTLE
+	cp $ff
 	jp z, SilphCo7FSetDefaultScript
 	ld a, PAD_CTRL_PAD
 	ld [wJoyIgnore], a

@@ -1,6 +1,7 @@
 _Route2TradeHouseScientistText::
-	text "A fainted #MON"
-	line "can't fight. But, "
-	cont "it can still use "
-	cont "moves like CUT!"
+	text "Omdlenie Pokémon"
+	line "może powstrzymać"
+	cont "walkę, ale nadal"
+	cont "może używać ruchów"
+	cont "jak CUT!"
 	done

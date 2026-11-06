@@ -1,8 +1,8 @@
 _VermilionMartCooltrainerMText::
-	text "There are evil"
-	line "people who will"
-	cont "use #MON for"
-	cont "criminal acts."
+	text "Są źli ludzie,"
+	line "którzy użyją"
+	cont "Pokémona do"
+	cont "zbrodni."
 
 	para "TEAM ROCKET"
 	line "traffics in rare"
@@ -16,8 +16,7 @@ _VermilionMartCooltrainerMText::
 	done
 
 _VermilionMartCooltrainerFText::
-	text "I think #MON"
-	line "can be good or"
-	cont "evil. It depends"
-	cont "on the trainer."
+	text "Myślę, że Pokémon"
+	line "może być dobry"
+	cont "albo zły."
 	done

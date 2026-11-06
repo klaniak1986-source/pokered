@@ -1,47 +1,48 @@
 _MrFujisHouseSuperNerdMrFujiIsntHereText::
-	text "That's odd, MR.FUJI"
-	line "isn't here."
-	cont "Where'd he go?"
+	text "To dziwne, panie"
+	line "Górecki."
 	done
 
 _MrFujisHouseSuperNerdMrFujiHadBeenPrayingText::
-	text "MR.FUJI had been"
-	line "praying alone for"
-	cont "CUBONE's mother."
+	text "Panie FUJI modlił"
+	line "się sam za matkę"
+	cont "CUBONE ' a."
 	done
 
 _MrFujisHouseLittleGirlThisIsMrFujisHouseText::
-	text "This is really"
-	line "MR.FUJI's house."
+	text "To naprawdę dom"
+	line "Mr.GÓRECKI."
 
 	para "He's really kind!"
 
-	para "He looks after"
-	line "abandoned and"
-	cont "orphaned #MON!"
+	para "Opiekuje się"
+	line "opuszczonym i"
+	cont "osieroconym"
+	cont "Pokémonem!"
 	done
 
 _MrFujisHouseLittleGirlPokemonAreNiceToHugText::
-	text "It's so warm!"
-	line "#MON are so"
-	cont "nice to hug!"
+	text "Pokémon jest taki"
+	line "miły do"
+	cont "przytulania!"
 	done
 
 _MrFujisHousePsyduckText::
-	text "PSYDUCK: Gwappa!@"
+	text "Gwappa!@"
 	text_end
 
 _MrFujisHouseNidorinoText::
-	text "NIDORINO: Gaoo!@"
+	text "Gaoo!@"
 	text_end
 
 _MrFujisHouseMrFujiIThinkThisMayHelpYourQuestText::
 	text "MR.FUJI: <PLAYER>."
 
-	para "Your #DEX quest"
-	line "may fail without"
-	cont "love for your"
-	cont "#MON."
+	para "Twoje zadanie"
+	line "Pokédex może się"
+	cont "nie udać bez"
+	cont "miłości do"
+	cont "Pokémon."
 
 	para "I think this may"
 	line "help your quest."
@@ -57,27 +58,27 @@ _MrFujisHouseMrFujiReceivedPokeFluteText::
 _MrFujisHouseMrFujiPokeFluteExplanationText::
 	text_start
 
-	para "Upon hearing #"
-	line "FLUTE, sleeping"
-	cont "#MON will"
-	cont "spring awake."
+	para "Po usłyszeniu Poké"
+	line "FLUTE, śpiący"
+	cont "Pokémon się"
+	cont "obudzi."
 
 	para "It works on all"
 	line "sleeping #MON."
 	done
 
 _MrFujisHouseMrFujiPokeFluteNoRoomText::
-	text "You must make"
-	line "room for this!"
+	text "Musisz zrobić na"
+	line "to miejsce!"
 	done
 
 _MrFujisHouseMrFujiHasMyFluteHelpedYouText::
-	text "MR.FUJI: Has my"
-	line "FLUTE helped you?"
+	text "Czy moja FLUTE ci"
+	line "pomogła?"
 	done
 
 _MrFujisHouseMrFujiPokedexText::
-	text "#MON Monthly"
+	text "Pokémon Monthly"
 	line "Grand Prize"
 	cont "Drawing!"
 

@@ -7,7 +7,11 @@
 	db 255 ; catch rate
 	db 77 ; base exp
 
+IF GEN_2_GRAPHICS
+	INCBIN "gfx/pokemon/gsfront/poliwag.pic", 0, 1 ; sprite dimensions
+ELSE
 	INCBIN "gfx/pokemon/front/poliwag.pic", 0, 1 ; sprite dimensions
+ENDC
 	dw PoliwagPicFront, PoliwagPicBack
 
 	db BUBBLE, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
@@ -20,4 +24,4 @@
 	     PSYWAVE,      SUBSTITUTE,   SURF
 	; end
 
-	db 0 ; padding
+	db BANK(PoliwagPicFront)

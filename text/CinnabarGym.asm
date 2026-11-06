@@ -1,9 +1,9 @@
 _CinnabarGymBlainePreBattleText::
 	text "Hah!"
 
-	para "I am BLAINE! I"
-	line "am the LEADER of"
-	cont "CINNABAR GYM!"
+	para "Ja jestem BORYS,"
+	line "LEADER CINABAR"
+	cont "GYM!"
 
 	para "My fiery #MON"
 	line "will incinerate"
@@ -14,17 +14,16 @@ _CinnabarGymBlainePreBattleText::
 	done
 
 _CinnabarGymBlaineReceivedVolcanoBadgeText::
-	text "I have"
-	line "burnt out!"
+	text "Wypaliłem się!"
 
 	para "You have earned"
 	line "the VOLCANOBADGE!@"
 	text_end
 
 _CinnabarGymBlainePostBattleAdviceText::
-	text "FIRE BLAST is the"
-	line "ultimate fire"
-	cont "technique!"
+	text "FIRE BLAST jest"
+	line "najwyższą techniką"
+	cont "ognia!"
 
 	para "Don't waste it on"
 	line "water #MON!"
@@ -33,10 +32,10 @@ _CinnabarGymBlainePostBattleAdviceText::
 _CinnabarGymBlaineVolcanoBadgeInfoText::
 	text "Hah!"
 
-	para "The VOLCANOBADGE"
-	line "heightens the"
-	cont "SPECIAL abilities"
-	cont "of your #MON!"
+	para "VOLCANOBADGE"
+	line "zwiększa"
+	cont "szczególne"
+	cont "zdolności Pokémon!"
 
 	para "Here, you can"
 	line "have this too!"
@@ -52,8 +51,8 @@ _CinnabarGymBlaineReceivedTM38Text::
 _CinnabarGymBlaineTM38ExplanationText::
 	text_start
 
-	para "TM38 contains"
-	line "FIRE BLAST!"
+	para "TM38 zawiera FIRE"
+	line "BLAST!"
 
 	para "Teach it to fire-"
 	line "type #MON!"
@@ -64,83 +63,84 @@ _CinnabarGymBlaineTM38ExplanationText::
 	done
 
 _CinnabarGymBlaineTM38NoRoomText::
-	text "Make room for my"
-	line "gift!"
+	text "Zróbcie miejsce na"
+	line "mój prezent!"
 	done
 
 _CinnabarGymSuperNerd1BattleText::
-	text "Do you know how"
-	line "hot #MON fire"
-	cont "breath can get?"
+	text "Wiesz, jak gorący"
+	line "może być ogień"
+	cont "Pokémon?"
 	done
 
 _CinnabarGymSuperNerd1EndBattleText::
-	text "Yow!"
-	line "Hot, hot, hot!"
+	text "Gorąco, gorąco,"
+	line "gorąco!"
 	prompt
 
 _CinnabarGymSuperNerd1AfterBattleText::
-	text "Fire, or to be"
-	line "more precise,"
-	cont "combustion..."
+	text "Ogień, a"
+	line "dokładniej,"
+	cont "spalanie..."
 
 	para "Blah, blah, blah,"
 	line "blah..."
 	done
 
 _CinnabarGymSuperNerd2BattleText::
-	text "I was a thief, but"
-	line "I became straight"
-	cont "as a trainer!"
+	text "Byłem złodziejem,"
+	line "ale stałem się"
+	cont "hetero jako"
+	cont "trener!"
 	done
 
 _CinnabarGymSuperNerd2EndBattleText::
-	text "I"
-	line "surrender!"
+	text "Poddaję się!"
 	prompt
 
 _CinnabarGymSuperNerd2AfterBattleText::
-	text "I can't help"
-	line "stealing other"
-	cont "people's #MON!"
+	text "Nie mogę pomóc w"
+	line "kradzieży innych"
+	cont "ludzi Pokémon!"
 	done
 
 _CinnabarGymSuperNerd3BattleText::
-	text "You can't win!"
-	line "I have studied"
-	cont "#MON totally!"
+	text "Studiowałem"
+	line "Pokémon"
+	cont "całkowicie!"
 	done
 
 _CinnabarGymSuperNerd3EndBattleText::
-	text "Waah!"
-	line "My studies!"
+	text "Moje studia!"
 	prompt
 
 _CinnabarGymSuperNerd3AfterBattleText::
-	text "My theories are"
-	line "too complicated"
-	cont "for you!"
+	text "Moje teorie są dla"
+	line "ciebie zbyt"
+	cont "skomplikowane!"
 	done
 
 _CinnabarGymSuperNerd4BattleText::
-	text "I just like using"
-	line "fire #MON!"
+	text "Lubię używać ognia"
+	line "Pokémon!"
 	done
 
 _CinnabarGymSuperNerd4EndBattleText::
-	text "Too hot"
-	line "to handle!"
+	text "Za gorąco, by"
+	line "sobie z tym"
+	cont "poradzić!"
 	prompt
 
 _CinnabarGymSuperNerd4AfterBattleText::
-	text "I wish there was"
-	line "a thief #MON!"
-	cont "I'd use that!"
+	text "Szkoda, że nie ma"
+	line "złodzieja"
+	cont "Pokémona!"
 	done
 
 _CinnabarGymSuperNerd5BattleText::
-	text "I know why BLAINE"
-	line "became a trainer!"
+	text "Wiem, dlaczego"
+	line "Borys został"
+	cont "trenerem!"
 	done
 
 _CinnabarGymSuperNerd5EndBattleText::
@@ -148,55 +148,53 @@ _CinnabarGymSuperNerd5EndBattleText::
 	prompt
 
 _CinnabarGymSuperNerd5AfterBattleText::
-	text "BLAINE was lost"
-	line "in the mountains"
-	cont "when a fiery bird"
-	cont "#MON appeared."
+	text "BORYS zaginęła w"
+	line "górach, kiedy"
+	cont "pojawił się"
+	cont "ognisty ptak"
+	cont "Pokémon."
 
 	para "Its light enabled"
-	line "BLAINE to find"
+	line "BORYS to find"
 	cont "his way down!"
 	done
 
 _CinnabarGymSuperNerd6BattleText::
-	text "I've been to many"
-	line "GYMs, but this is"
-	cont "my favorite!"
+	text "Byłem na wielu"
+	line "GYM, ale to moje"
+	cont "ulubione!"
 	done
 
 _CinnabarGymSuperNerd6EndBattleText::
-	text "Yowza!"
-	line "Too hot!"
+	text "Za gorąco!"
 	prompt
 
 _CinnabarGymSuperNerd6AfterBattleText::
-	text "Us fire #MON"
-	line "fans like PONYTA"
-	cont "and NINETALES!"
+	text "Strzelamy do fanów"
+	line "Pokémona, takich"
+	cont "jak PONYTA i"
+	cont "NINETALES!"
 	done
 
 _CinnabarGymSuperNerd7BattleText::
-	text "Fire is weak"
-	line "against H2O!"
+	text "Ogień jest słaby"
+	line "przeciwko H2O!"
 	done
 
 _CinnabarGymSuperNerd7EndBattleText::
-	text "Oh!"
-	line "Snuffed out!"
+	text "Wyślizgnął się!"
 	prompt
 
 _CinnabarGymSuperNerd7AfterBattleText::
-	text "Water beats fire!"
-	line "But, fire melts"
-	cont "ice #MON!"
+	text "Ale ogień topi lód"
+	line "Pokémon!"
 	done
 
 _CinnabarGymGymGuideChampInMakingText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Mistrz w robieniu!"
 
 	para "The hot-headed"
-	line "BLAINE is a fire"
+	line "BORYS is a fire"
 	cont "#MON pro!"
 
 	para "Douse his spirits"

@@ -1,7 +1,8 @@
 _CeladonMart5FGentlemanText::
-	text "#MON ability"
-	line "enhancers can be"
-	cont "bought only here."
+	text "Wzmacniacze"
+	line "zdolności Pokémon"
+	cont "można kupić tylko"
+	cont "tutaj."
 
 	para "Use CALCIUM to"
 	line "increase SPECIAL"
@@ -12,9 +13,10 @@ _CeladonMart5FGentlemanText::
 	done
 
 _CeladonMart5FSailorText::
-	text "I'm here for"
-	line "#MON ability"
-	cont "enhancers."
+	text "Przychodzę tu po"
+	line "wzmacniacze"
+	cont "zdolności"
+	cont "Pokémona."
 
 	para "PROTEIN increases"
 	line "ATTACK power."
@@ -24,5 +26,5 @@ _CeladonMart5FSailorText::
 	done
 
 _CeladonMart5FCurrentFloorSignText::
-	text "5F: DRUG STORE"
+	text "5F: DRUG STORK"
 	done

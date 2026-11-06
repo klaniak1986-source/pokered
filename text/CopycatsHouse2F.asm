@@ -16,8 +16,7 @@ _CopycatsHouse2FCopycatDoYouLikePokemonText::
 	prompt
 
 _CopycatsHouse2FCopycatTM31PreReceiveText::
-	text "Oh wow!"
-	line "A # DOLL!"
+	text "Poké Doll!"
 
 	para "For me?"
 	line "Thank you!"
@@ -36,8 +35,8 @@ _CopycatsHouse2FCopycatReceivedTM31Text::
 _CopycatsHouse2FCopycatTM31Explanation1Text::
 	text_start
 
-	para "TM31 contains my"
-	line "favorite, MIMIC!"
+	para "TM31 zawiera moje"
+	line "ulubione, MIMIC!"
 
 	para "Use it on a good"
 	line "#MON!@"
@@ -58,43 +57,39 @@ _CopycatsHouse2FCopycatTM31Explanation2Text::
 	done
 
 _CopycatsHouse2FCopycatTM31NoRoomText::
-	text "Don't you want"
-	line "this?@"
+	text "Nie chcesz tego?@"
 	text_end
 
 _CopycatsHouse2FDoduoText::
-	text "DODUO: Giiih!"
+	text "Giiih!"
 
 	para "MIRROR MIRROR ON"
-	line "THE WALL, WHO IS"
-	cont "THE FAIREST ONE"
-	cont "OF ALL?"
+	line "THE WALL, Who ' s"
+	cont "the fairest one of"
+	cont "all?"
 	done
 
 _CopycatsHouse2FRareDollText::
-	text "This is a rare"
-	line "#MON! Huh?"
-	cont "It's only a doll!"
+	text "To rzadki Pokémon!"
 	done
 
 _CopycatsHouse2FSNESText::
-	text "A game with MARIO"
-	line "wearing a bucket"
-	cont "on his head!"
+	text "Gra z MARIO nosząc"
+	line "wiadro na głowie!"
 	done
 
 _CopycatsHouse2FPCMySecretsText::
 	text "..."
 
-	para "My Secrets!"
+	para "Moje tajemnice!"
 
-	para "Skill: Mimicry!"
-	line "Hobby: Collecting"
-	cont "dolls!"
-	cont "Favorite #MON:"
+	para "Umiejętności:"
+	line "Mimicry! Hobby:"
+	cont "Zbieranie lalek!"
+	cont "Ulubione Pokémon:"
 	cont "CLEFAIRY!"
 	done
 
 _CopycatsHouse2FPCCantSeeText::
-	text "Huh? Can't see!"
+	text "Nie mogę zobaczyć!"
 	done

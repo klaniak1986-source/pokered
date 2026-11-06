@@ -18,9 +18,10 @@ _Route22RivalBeforeBattleText1::
 	done
 
 _Route22RivalAfterBattleText1::
-	text "I heard #MON"
-	line "LEAGUE has many"
-	cont "tough trainers!"
+	text "Słyszałem, że"
+	line "Pokémon LEAGUE ma"
+	cont "wielu twardych"
+	cont "trenerów!"
 
 	para "I have to figure"
 	line "out how to get"
@@ -32,9 +33,8 @@ _Route22RivalAfterBattleText1::
 	done
 
 _Route22Rival1DefeatedText::
-	text "Awww!"
-	line "You just lucked"
-	cont "out!"
+	text "Właśnie ci się"
+	line "poszczęściło!"
 	prompt
 
 _Route22Rival1VictoryText::
@@ -68,9 +68,8 @@ _Route22RivalBeforeBattleText2::
 	done
 
 _Route22RivalAfterBattleText2::
-	text "That loosened me"
-	line "up! I'm ready for"
-	cont "#MON LEAGUE!"
+	text "Jestem gotowy na"
+	line "Pokémon LEAGUE!"
 
 	para "<PLAYER>, you need"
 	line "more practice!"
@@ -81,10 +80,10 @@ _Route22RivalAfterBattleText2::
 	done
 
 _Route22Rival2DefeatedText::
-	text "What!?"
+	text "Co?"
 
-	para "I was just"
-	line "careless!"
+	para "Byłem tylko"
+	line "nieostrożny!"
 	prompt
 
 _Route22Rival2VictoryText::
@@ -99,6 +98,6 @@ _Route22Rival2VictoryText::
 	prompt
 
 _Route22PokemonLeagueSignText::
-	text "#MON LEAGUE"
-	line "Front Gate"
+	text "Brama frontowa"
+	line "Pokémon LEAGUE"
 	done

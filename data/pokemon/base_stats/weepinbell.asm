@@ -7,7 +7,11 @@
 	db 120 ; catch rate
 	db 151 ; base exp
 
+IF GEN_2_GRAPHICS
+	INCBIN "gfx/pokemon/gsfront/weepinbell.pic", 0, 1 ; sprite dimensions
+ELSE
 	INCBIN "gfx/pokemon/front/weepinbell.pic", 0, 1 ; sprite dimensions
+ENDC
 	dw WeepinbellPicFront, WeepinbellPicBack
 
 	db VINE_WHIP, GROWTH, WRAP, NO_MOVE ; level 1 learnset
@@ -19,4 +23,4 @@
 	     BIDE,         REST,         SUBSTITUTE,   CUT
 	; end
 
-	db 0 ; padding
+	db BANK(WeepinbellPicFront)

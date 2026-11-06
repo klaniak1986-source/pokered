@@ -1,12 +1,12 @@
 _CeladonMart4FSuperNerdText::
-	text "I'm getting a"
-	line "# DOLL for my"
-	cont "girl friend!"
+	text "Dostaję Poké DOLL"
+	line "dla mojej"
+	cont "przyjaciółki!"
 	done
 
 _CeladonMart4FYoungsterText::
-	text "I heard something"
-	line "useful."
+	text "Słyszałem coś"
+	line "pożytecznego."
 
 	para "You can run from"
 	line "wild #MON by"
@@ -15,12 +15,12 @@ _CeladonMart4FYoungsterText::
 	done
 
 _CeladonMart4FCurrentFloorSignText::
-	text "Express yourself"
-	line "with gifts!"
+	text "Wyraź się z"
+	line "prezentami!"
 
 	para "4F: WISEMAN GIFTS"
 
 	para "Evolution Special!"
-	line "Element STONEs on"
-	cont "sale now!"
+	line "Element Stones na"
+	cont "sprzedaż teraz!"
 	done

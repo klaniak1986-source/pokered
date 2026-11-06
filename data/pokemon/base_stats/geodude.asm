@@ -7,7 +7,11 @@
 	db 255 ; catch rate
 	db 86 ; base exp
 
+IF GEN_2_GRAPHICS
+	INCBIN "gfx/pokemon/gsfront/geodude.pic", 0, 1 ; sprite dimensions
+ELSE
 	INCBIN "gfx/pokemon/front/geodude.pic", 0, 1 ; sprite dimensions
+ENDC
 	dw GeodudePicFront, GeodudePicBack
 
 	db TACKLE, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
@@ -21,4 +25,4 @@
 	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
 	; end
 
-	db 0 ; padding
+	db BANK(GeodudePicFront)

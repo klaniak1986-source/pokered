@@ -1,7 +1,7 @@
 _FuchsiaPokecenterRockerText::
-	text "You can't win"
-	line "with just one"
-	cont "strong #MON."
+	text "Nie wygrasz z"
+	line "jednym silnym"
+	cont "Pokémonem."
 
 	para "It's tough, but"
 	line "you have to raise"
@@ -9,9 +9,9 @@ _FuchsiaPokecenterRockerText::
 	done
 
 _FuchsiaPokecenterCooltrainerFText::
-	text "There's a narrow"
-	line "trail west of"
-	cont "VIRIDIAN CITY."
+	text "Jest wąski szlak"
+	line "na zachód od"
+	cont "miasta VIRIDIAN."
 
 	para "It goes to #MON"
 	line "LEAGUE HQ."

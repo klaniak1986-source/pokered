@@ -7,7 +7,11 @@
 	db 45 ; catch rate
 	db 198 ; base exp
 
+IF GEN_2_GRAPHICS
+	INCBIN "gfx/pokemon/gsfront/flareon.pic", 0, 1 ; sprite dimensions
+ELSE
 	INCBIN "gfx/pokemon/front/flareon.pic", 0, 1 ; sprite dimensions
+ENDC
 	dw FlareonPicFront, FlareonPicBack
 
 	db TACKLE, SAND_ATTACK, QUICK_ATTACK, EMBER ; level 1 learnset
@@ -19,4 +23,4 @@
 	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
 	; end
 
-	db 0 ; padding
+	db BANK(FlareonPicFront)

@@ -1,21 +1,21 @@
 _CeladonChiefHouseChiefText::
-	text "Hehehe! The slots"
-	line "just reel in the"
-	cont "dough, big time!"
+	text "Szczeliny tylko"
+	line "się zacinają,"
+	cont "wielki czas!"
 	done
 
 _CeladonChiefHouseRocketText::
 	text "CHIEF!"
 
-	para "We just shipped"
-	line "2000 #MON as"
-	cont "slot prizes!"
+	para "Właśnie wysłaliśmy"
+	line "2000 Pokémon jako"
+	cont "nagrody!"
 	done
 
 _CeladonChiefHouseSailorText::
-	text "Don't touch the"
-	line "poster at the"
-	cont "GAME CORNER!"
+	text "Nie dotykajcie"
+	line "plakatu w GAME"
+	cont "CORNER!"
 
 	para "There's no secret"
 	line "switch behind it!"

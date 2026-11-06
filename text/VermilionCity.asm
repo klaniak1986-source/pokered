@@ -1,6 +1,7 @@
 _VermilionCityBeautyText::
-	text "We're careful"
-	line "about pollution!"
+	text "Jesteśmy ostrożni"
+	line "z"
+	cont "zanieczyszczeniem!"
 
 	para "We've heard GRIMER"
 	line "multiplies in"
@@ -8,27 +9,25 @@ _VermilionCityBeautyText::
 	done
 
 _VermilionCityGambler1DidYouSeeText::
-	text "Did you see S.S."
-	line "ANNE moored in"
-	cont "the harbor?"
+	text "Widziałeś S. S."
+	line "ANNE zacumowaną w"
+	cont "porcie?"
 	done
 
 _VermilionCityGambler1SSAnneDepartedText::
-	text "So, S.S.ANNE has"
-	line "departed!"
+	text "Więc S. S. ANNE"
+	line "odeszła!"
 
 	para "She'll be back in"
 	line "about a year."
 	done
 
 _VermilionCitySailor1WelcomeToSSAnneText::
-	text "Welcome to S.S."
-	line "ANNE!"
+	text "Witamy w S."
 	done
 
 _VermilionCitySailor1DoYouHaveATicketText::
-	text "Welcome to S.S."
-	line "ANNE!"
+	text "Witamy w S."
 
 	para "Excuse me, do you"
 	line "have a ticket?"
@@ -49,57 +48,56 @@ _VermilionCitySailor1YouNeedATicketText::
 
 	para "Sorry!"
 
-	para "You need a ticket"
-	line "to get aboard."
+	para "Potrzebujesz"
+	line "biletu, żeby wejść"
+	cont "na pokład."
 	done
 
 _VermilionCitySailor1ShipSetSailText::
-	text "The ship set sail."
+	text "Statek odpłynął."
 	done
 
 _VermilionCityGambler2Text::
-	text "I'm putting up a"
-	line "building on this"
-	cont "plot of land."
+	text "Wybudowuję budynek"
+	line "na tej działce."
 
 	para "My #MON is"
 	line "tamping the land."
 	done
 
 _VermilionCityMachopText::
-	text "MACHOP: Guoh!"
-	line "Gogogoh!@"
+	text "Guoh, Gogogogoh!@"
 	text_end
 
 _VermilionCityMachopStompingTheLandFlatText::
 	text_start
-
-	para "A MACHOP is"
-	line "stomping the land"
-	cont "flat."
+	para "Machop depcze"
+	line "ziemię."
 	done
 
 _VermilionCitySailor2Text::
-	text "S.S.ANNE is a"
-	line "famous luxury"
-	cont "cruise ship."
+	text "S. S. ANNE to"
+	line "słynny luksusowy"
+	cont "statek"
+	cont "wycieczkowy."
 
 	para "We visit VERMILION"
 	line "once a year."
 	done
 
 _VermilionCitySignText::
-	text "VERMILION CITY"
-	line "The Port of"
-	cont "Exquisite Sunsets"
+	text "VERMILION CITY The"
+	line "Port of Extensive"
+	cont "Sunsets"
 	done
 
 _VermilionCityNoticeSignText::
-	text "NOTICE!"
+	text "UWAGA!"
 
-	para "ROUTE 12 may be"
-	line "blocked off by a"
-	cont "sleeping #MON."
+	para "Kiełbasa 12 może"
+	line "być zablokowana"
+	cont "przez śpiącego"
+	cont "Pokémona."
 
 	para "Detour through"
 	line "ROCK TUNNEL to"
@@ -109,15 +107,15 @@ _VermilionCityNoticeSignText::
 	done
 
 _VermilionCityPokemonFanClubSignText::
-	text "#MON FAN CLUB"
-	line "All #MON fans"
-	cont "welcome!"
+	text "Pokémon FAN CLUB"
+	line "Wszyscy fani"
+	cont "Pokémon powitanie!"
 	done
 
 _VermilionCityGymSignText::
 	text "VERMILION CITY"
-	line "#MON GYM"
-	cont "LEADER: LT.SURGE"
+	line "Pokémon GYM"
+	cont "LEADER: LT. SURGE"
 
 	para "The Lightning "
 	line "American!"

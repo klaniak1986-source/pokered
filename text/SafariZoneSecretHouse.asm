@@ -1,9 +1,10 @@
 _SafariZoneSecretHouseFishingGuruYouHaveWonText::
-	text "Ah! Finally!"
+	text "Nareszcie!"
 
-	para "You're the first"
-	line "person to reach"
-	cont "the SECRET HOUSE!"
+	para "Jesteś pierwszą"
+	line "osobą, która"
+	cont "dotarła do SECRET"
+	cont "HOUSE!"
 
 	para "I was getting"
 	line "worried that no"
@@ -22,11 +23,12 @@ _SafariZoneSecretHouseFishingGuruReceivedHM03Text::
 	text_end
 
 _SafariZoneSecretHouseFishingGuruHM03ExplanationText::
-	text "HM03 is SURF!"
+	text "HM03 to SURF!"
 
-	para "#MON will be"
-	line "able to ferry you"
-	cont "across water!"
+	para "Pokémon będzie w"
+	line "stanie"
+	cont "przetransportować"
+	cont "cię przez wodę!"
 
 	para "And, this HM isn't"
 	line "disposable! You"
@@ -39,7 +41,7 @@ _SafariZoneSecretHouseFishingGuruHM03ExplanationText::
 	done
 
 _SafariZoneSecretHouseFishingGuruHM03NoRoomText::
-	text "You don't have"
-	line "room for this"
-	cont "fabulous prize!"
+	text "Nie masz miejsca"
+	line "dla tej wspaniałej"
+	cont "nagrody!"
 	done

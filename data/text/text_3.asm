@@ -1,11 +1,11 @@
 _FileDataDestroyedText::
-	text "The file data is"
-	line "destroyed!"
+	text "Dane plików są"
+	line "zniszczone!"
 	prompt
 
 _WouldYouLikeToSaveText::
-	text "Would you like to"
-	line "SAVE the game?"
+	text "Chciałby pan"
+	line "ocalić grę?"
 	done
 
 _GameSavedText::
@@ -14,15 +14,16 @@ _GameSavedText::
 	done
 
 _OlderFileWillBeErasedText::
-	text "The older file"
-	line "will be erased to"
-	cont "save. Okay?"
+	text "Starszy plik"
+	line "zostanie"
+	cont "skasowany, żeby go"
+	cont "zapisać."
 	done
 
 _WhenYouChangeBoxText::
-	text "When you change a"
-	line "#MON BOX, data"
-	cont "will be saved."
+	text "Po zmianie Pokémon"
+	line "BOX dane zostaną"
+	cont "zapisane."
 
 	para "Is that okay?"
 	done
@@ -105,7 +106,7 @@ _GreatlyRoseText::
 	text_end
 
 _RoseText::
-	text " rose!"
+	text "Rose!"
 	prompt
 
 _MonsStatsFellText::
@@ -120,7 +121,7 @@ _GreatlyFellText::
 	text_end
 
 _FellText::
-	text " fell!"
+	text "Upadłem!"
 	prompt
 
 _RanFromBattleText::
@@ -194,15 +195,15 @@ _MoveWasDisabledText::
 	prompt
 
 _NothingHappenedText::
-	text "Nothing happened!"
+	text "Nic się nie stało!"
 	prompt
 
 _NoEffectText::
-	text "No effect!"
+	text "Bez efektu!"
 	prompt
 
 _ButItFailedText::
-	text "But, it failed! "
+	text "Ale się nie udało!"
 	prompt
 
 _DidntAffectText::
@@ -222,8 +223,8 @@ _ParalyzedMayNotAttackText::
 	prompt
 
 _SubstituteText::
-	text "It created a"
-	line "SUBSTITUTE!"
+	text "To stworzyło"
+	line "SUBSTYTUT!"
 	prompt
 
 _HasSubstituteText::
@@ -232,13 +233,14 @@ _HasSubstituteText::
 	prompt
 
 _TooWeakSubstituteText::
-	text "Too weak to make"
-	line "a SUBSTITUTE!"
+	text "Za słaby, żeby"
+	line "zrobić"
+	cont "podSTAWIENIE!"
 	prompt
 
 _CoinsScatteredText::
-	text "Coins scattered"
-	line "everywhere!"
+	text "Monety rozrzucone"
+	line "wszędzie!"
 	prompt
 
 _GettingPumpedText::
@@ -267,8 +269,9 @@ _ConvertedTypeText::
 	prompt
 
 _StatusChangesEliminatedText::
-	text "All STATUS changes"
-	line "are eliminated!"
+	text "Wszystkie zmiany"
+	line "STATUS są"
+	cont "wyeliminowane!"
 	prompt
 
 _StartedSleepingEffect::

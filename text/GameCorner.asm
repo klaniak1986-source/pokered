@@ -1,15 +1,15 @@
 _GameCornerBeauty1Text::
-	text "Welcome!"
+	text "Witamy!"
 
-	para "You can exchange"
-	line "your coins for"
-	cont "fabulous prizes"
-	cont "next door."
+	para "Możesz wymienić"
+	line "swoje monety na"
+	cont "wspaniałe nagrody"
+	cont "obok."
 	done
 
 _GameCornerClerk1DoYouNeedSomeGameCoinsText::
-	text "Welcome to ROCKET"
-	line "GAME CORNER!"
+	text "Witamy w Rocket"
+	line "Game Corner!"
 
 	para "Do you need some"
 	line "game coins?"
@@ -20,47 +20,47 @@ _GameCornerClerk1DoYouNeedSomeGameCoinsText::
 	done
 
 _GameCornerClerk1ThanksHereAre50CoinsText::
-	text "Thanks! Here are"
-	line "your 50 coins!"
+	text "Masz tu swoje 50"
+	line "monet!"
 	done
 
 _GameCornerClerk1PleaseComePlaySometimeText::
-	text "No? Please come"
-	line "play sometime!"
+	text "Proszę, przyjdź"
+	line "się pobawić!"
 	done
 
 _GameCornerClerk1CantAffordTheCoinsText::
-	text "You can't afford"
-	line "the coins!"
+	text "Nie stać cię na"
+	line "monety!"
 	done
 
 _GameCornerClerk1CoinCaseIsFullText::
-	text "Oops! Your COIN"
-	line "CASE is full."
+	text "Twoja walizka jest"
+	line "pełna."
 	done
 
 _GameCornerClerk1DontHaveCoinCaseText::
-	text "You don't have a"
-	line "COIN CASE!"
+	text "Nie ma pan sprawy!"
 	done
 
 _GameCornerMiddleAgedMan1Text::
-	text "Keep this quiet."
+	text "Ucisz się."
 
-	para "It's rumored that"
-	line "this place is run"
-	cont "by TEAM ROCKET."
+	para "Mówi się, że to"
+	line "miejsce jest"
+	cont "prowadzone przez"
+	cont "TEAM ROCKET."
 	done
 
 _GameCornerBeauty2Text::
-	text "I think these"
-	line "machines have"
-	cont "different odds."
+	text "Myślę, że te"
+	line "maszyny mają inne"
+	cont "szanse."
 	done
 
 _GameCornerFishingGuruWantToPlayText::
-	text "Kid, do you want"
-	line "to play?"
+	text "Kid, chcesz"
+	line "zagrać?"
 	prompt
 
 _GameCornerFishingGuruReceived10CoinsText::
@@ -69,29 +69,29 @@ _GameCornerFishingGuruReceived10CoinsText::
 	text_end
 
 _GameCornerFishingGuruDontNeedMyCoinsText::
-	text "You don't need my"
-	line "coins!"
+	text "Nie potrzebujesz"
+	line "moich monet!"
 	done
 
 _GameCornerFishingGuruWinsComeAndGoText::
-	text "Wins seem to come"
-	line "and go."
+	text "Wygrane przychodzą"
+	line "i odchodzą."
 	done
 
 _GameCornerMiddleAgedWomanText::
-	text "I'm having a"
-	line "wonderful time!"
+	text "Świetnie się"
+	line "bawię!"
 	done
 
 _GameCornerGymGuideChampInMakingText::
-	text "Hey!"
+	text "Hej!"
 
-	para "You have better"
-	line "things to do,"
-	cont "champ in making!"
+	para "Masz lepsze rzeczy"
+	line "do roboty,"
+	cont "mistrzu!"
 
 	para "CELADON GYM's"
-	line "LEADER is ERIKA!"
+	line "LEADER is ERYKA!"
 	cont "She uses grass-"
 	cont "type #MON!"
 
@@ -101,24 +101,26 @@ _GameCornerGymGuideChampInMakingText::
 	done
 
 _GameCornerGymGuideTheyOfferRarePokemonText::
-	text "They offer rare"
-	line "#MON that can"
-	cont "be exchanged for"
-	cont "your coins."
+	text "Oferują one"
+	line "rzadkie Pokémon,"
+	cont "które mogą być"
+	cont "wymieniane na"
+	cont "monety."
 
 	para "But, I just can't"
 	line "seem to win!"
 	done
 
 _GameCornerGamblerText::
-	text "Games are scary!"
-	line "It's so easy to"
-	cont "get hooked!"
+	text "Gry są"
+	line "przerażające! To"
+	cont "tak łatwo się"
+	cont "uzależnić!"
 	done
 
 _GameCornerClerk2WantSomeCoinsText::
-	text "What's up? Want"
-	line "some coins?"
+	text "Chcesz trochę"
+	line "monet?"
 	prompt
 
 _GameCornerClerk2Received20CoinsText::
@@ -127,21 +129,19 @@ _GameCornerClerk2Received20CoinsText::
 	text_end
 
 _GameCornerClerk2YouHaveLotsOfCoinsText::
-	text "You have lots of"
-	line "coins!"
+	text "Masz mnóstwo"
+	line "monet!"
 	done
 
 _GameCornerClerk2INeedMoreCoinsText::
-	text "Darn! I need more"
-	line "coins for the"
-	cont "#MON I want!"
+	text "Potrzebuję więcej"
+	line "monet na Pokemon,"
+	cont "którego chcę!"
 	done
 
 _GameCornerGentlemanThrowingMeOffText::
-	text "Hey, what? You're"
-	line "throwing me off!"
-	cont "Here are some"
-	cont "coins, shoo!"
+	text "Masz tu trochę"
+	line "monet, sio!"
 	prompt
 
 _GameCornerGentlemanReceived20CoinsText::
@@ -150,41 +150,39 @@ _GameCornerGentlemanReceived20CoinsText::
 	text_end
 
 _GameCornerGentlemanYouGotYourOwnCoinsText::
-	text "You've got your"
-	line "own coins!"
+	text "Masz własne"
+	line "monety!"
 	done
 
 _GameCornerGentlemanCloselyWatchTheReelsText::
-	text "The trick is to"
-	line "watch the reels"
-	cont "closely!"
+	text "Sztuczka polega na"
+	line "uważnym oglądaniu"
+	cont "bębnów!"
 	done
 
 _GameCornerRocketImGuardingThisPosterText::
-	text "I'm guarding this"
-	line "poster!"
-	cont "Go away, or else!"
+	text "- Mam pilnować"
+	line "tego plakatu!"
 	done
 
 _GameCornerRocketBattleEndText::
-	text "Dang!"
+	text "Cholera!"
 	prompt
 
 _GameCornerRocketAfterBattleText::
-	text "Our hideout might"
-	line "be discovered! I"
-	cont "better tell BOSS!"
+	text "Nasza kryjówka"
+	line "może zostać"
+	cont "odkryta!"
 	done
 
 _GameCornerPosterSwitchBehindPosterText::
-	text "Hey!"
+	text "Hej!"
 
-	para "A switch behind"
-	line "the poster!?"
-	cont "Let's push it!@"
+	para "Przełącznik za"
+	line "plakatem!@"
 	text_end
 
 _GameCornerOopsForgotCoinCaseText::
-	text "Oops! Forgot the"
-	line "COIN CASE!"
+	text "Zapomniałem o tej"
+	line "walizce!"
 	done

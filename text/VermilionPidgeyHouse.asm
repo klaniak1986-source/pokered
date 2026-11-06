@@ -1,17 +1,20 @@
 _VermilionPidgeyHouseYoungsterText::
-	text "I'm getting my"
-	line "PIDGEY to fly a"
-	cont "letter to SAFFRON"
-	cont "in the north!"
+	text "Namawiam mojego"
+	line "Pidgeya, by"
+	cont "poleciał listem do"
+	cont "SAFFRON na"
+	cont "północy!"
 	done
 
 _VermilionPidgeyHousePidgeyText::
-	text "PIDGEY: Kurukkoo!@"
+	text "Kurukkoo!@"
 	text_end
 
 _VermilionPidgeyHouseLetterText::
-	text "Dear PIPPI, I hope"
-	line "to see you soon."
+	text "Drogi PIPPI, mam"
+	line "nadzieję, że"
+	cont "wkrótce się"
+	cont "zobaczymy."
 
 	para "I heard SAFFRON"
 	line "has problems with"

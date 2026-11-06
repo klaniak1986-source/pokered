@@ -1,52 +1,53 @@
 _SSAnneBowSuperNerdText::
-	text "The party's over."
-	line "The ship will be"
-	cont "departing soon."
+	text "Impreza się"
+	line "kończy, statek"
+	cont "wkrótce odpłynie."
 	done
 
 _SSAnneBowSailor1Text::
-	text "Scrubbing decks"
-	line "is hard work!"
+	text "Pokrywanie"
+	line "pokładów to ciężka"
+	cont "praca!"
 	done
 
 _SSAnneBowCooltrainerMText::
-	text "Urf. I feel ill."
+	text "Źle się czuję."
 
-	para "I stepped out to"
-	line "get some air."
+	para "Wyszedłem"
+	line "zaczerpnąć"
+	cont "powietrza."
 	done
 
 _SSAnneBowSailor2BattleText::
-	text "Hey matey!"
+	text "Hej, koleżko!"
 
-	para "Let's do a little"
-	line "jig!"
+	para "Pozwól mu się"
+	line "trochę pobawić!"
 	done
 
 _SSAnneBowSailor2EndBattleText::
-	text "You're"
-	line "impressive!"
+	text "Jesteś imponujący!"
 	prompt
 
 _SSAnneBowSailor2AfterBattleText::
-	text "How many kinds of"
-	line "#MON do you"
-	cont "think there are?"
+	text "Jak myślisz, ile"
+	line "jest rodzajów"
+	cont "Pokémona?"
 	done
 
 _SSAnneBowSailor3BattleText::
-	text "Ahoy there!"
-	line "Are you seasick?"
+	text "Ahoj, jesteś chory"
+	line "na chorobę morską?"
 	done
 
 _SSAnneBowSailor3EndBattleText::
-	text "I was"
-	line "just careless!"
+	text "Byłem tylko"
+	line "nieostrożny!"
 	prompt
 
 _SSAnneBowSailor3AfterBattleText::
-	text "My Pa said there"
-	line "are 100 kinds of"
-	cont "#MON. I think"
-	cont "there are more."
+	text "Mój tata"
+	line "powiedział, że"
+	cont "jest 100 rodzajów"
+	cont "Pokémona."
 	done

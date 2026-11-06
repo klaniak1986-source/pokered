@@ -9,8 +9,8 @@ _CardKeySuccessText2::
 	done
 
 _CardKeyFailText::
-	text "Darn! It needs a"
-	line "CARD KEY!"
+	text "Cholera,"
+	line "potrzebuje KEY!"
 	done
 
 _TrainerNameText::
@@ -19,17 +19,16 @@ _TrainerNameText::
 	text_end
 
 _NoNibbleText::
-	text "Not even a nibble!"
+	text "Nawet nie gryź!"
 	prompt
 
 _NothingHereText::
-	text "Looks like there's"
-	line "nothing here."
+	text "Wygląda na to, że"
+	line "nic tu nie ma."
 	prompt
 
 _ItsABiteText::
-	text "Oh!"
-	line "It's a bite!"
+	text "Ugryzienie!"
 	prompt
 
 _ExclamationText::
@@ -37,24 +36,25 @@ _ExclamationText::
 	done
 
 _GroundRoseText::
-	text "Ground rose up"
-	line "somewhere!"
+	text "Ziemia gdzieś się"
+	line "podniosła!"
 	done
 
 _BoulderText::
-	text "This requires"
-	line "STRENGTH to move!"
+	text "To wymaga siły, by"
+	line "się poruszać!"
 	done
 
 _MartSignText::
-	text "All your item"
-	line "needs fulfilled!"
-	cont "#MON MART"
+	text "Wszystko czego"
+	line "potrzebujesz, jest"
+	cont "spełnione! Pokémon"
+	cont "MART"
 	done
 
 _PokeCenterSignText::
-	text "Heal Your #MON!"
-	line "#MON CENTER"
+	text "Ulecz swojego"
+	line "Pokémona!"
 	done
 
 _FoundItemText::
@@ -65,14 +65,12 @@ _FoundItemText::
 	text_end
 
 _NoMoreRoomForItemText::
-	text "No more room for"
-	line "items!"
+	text "Nie ma już miejsca"
+	line "na przedmioty!"
 	done
 
 _OaksAideHiText::
-	text "Hi! Remember me?"
-	line "I'm PROF.OAK's"
-	cont "AIDE!"
+	text "Pamiętasz mnie?"
 
 	para "If you caught @"
 	text_decimal hOaksAideRequirement, 1, 3
@@ -110,7 +108,7 @@ _OaksAideUhOhText::
 	done
 
 _OaksAideComeBackText::
-	text "Oh. I see."
+	text "Rozumiem."
 
 	para "When you get @"
 	text_decimal hOaksAideRequirement, 1, 3

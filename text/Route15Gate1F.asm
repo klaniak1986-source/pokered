@@ -1,7 +1,7 @@
 _Route15Gate1FGuardText::
-	text "Are you working"
-	line "on a #DEX?"
+	text "Pracujesz nad"
+	line "Pokédex?"
 
-	para "PROF.OAK's AIDE"
+	para "PROF.DĄB's AIDE"
 	line "came by here."
 	done

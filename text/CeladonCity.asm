@@ -1,6 +1,6 @@
 _CeladonCityLittleGirlText::
-	text "I got my KOFFING"
-	line "in CINNABAR!"
+	text "Mam swoje koffing"
+	line "w CINNABAR!"
 
 	para "It's nice, but it"
 	line "breathes poison"
@@ -8,20 +8,21 @@ _CeladonCityLittleGirlText::
 	done
 
 _CeladonCityGramps1Text::
-	text "Heheh! This GYM"
-	line "is great! It's"
-	cont "full of women!"
+	text "Ten GYM jest"
+	line "świetny, pełen"
+	cont "kobiet!"
 	done
 
 _CeladonCityGirlText::
-	text "The GAME CORNER"
-	line "is bad for our"
-	cont "city's image!"
+	text "GAME CORNER"
+	line "szkodzi"
+	cont "wizerunkowi"
+	cont "naszego miasta!"
 	done
 
 _CeladonCityGramps2Text::
-	text "Moan! I blew it"
-	line "all at the slots!"
+	text "Zawaliłem wszystko"
+	line "na automatach!"
 
 	para "I knew I should"
 	line "have cashed in my"
@@ -29,11 +30,12 @@ _CeladonCityGramps2Text::
 	done
 
 _CeladonCityGramps3Text::
-	text "Hello, there!"
+	text "Witam!"
 
-	para "I've seen you,"
-	line "but I never had a"
-	cont "chance to talk!"
+	para "Widziałem cię, ale"
+	line "nigdy nie miałem"
+	cont "okazji"
+	cont "porozmawiać!"
 
 	para "Here's a gift for"
 	line "dropping by!"
@@ -47,7 +49,7 @@ _CeladonCityGramps3ReceivedTM41Text::
 	text_end
 
 _CeladonCityGramps3TM41ExplanationText::
-	text "TM41 teaches"
+	text "TM41 uczy"
 	line "SOFTBOILED!"
 
 	para "Only one #MON"
@@ -58,13 +60,13 @@ _CeladonCityGramps3TM41ExplanationText::
 	done
 
 _CeladonCityGramps3TM41NoRoomText::
-	text "Oh, your pack is"
-	line "full of items!"
+	text "Twoja wataha jest"
+	line "pełna przedmiotów!"
 	done
 
 _CeladonCityFisherText::
-	text "This is my trusted"
-	line "pal, POLIWRATH!"
+	text "To mój zaufany"
+	line "kumpel, POLIWRATH!"
 
 	para "It evolved from"
 	line "POLIWHIRL when I"
@@ -72,26 +74,26 @@ _CeladonCityFisherText::
 	done
 
 _CeladonCityPoliwrathText::
-	text "POLIWRATH: Ribi"
-	line "ribit!@"
+	text "Ribi Ribit!@"
 	text_end
 
 _CeladonCityRocket1Text::
-	text "What are you"
-	line "staring at?"
+	text "Na co się gapisz?"
 	done
 
 _CeladonCityRocket2Text::
-	text "Keep out of TEAM"
-	line "ROCKET's way!"
+	text "Trzymaj się z dala"
+	line "od stylu TEAM"
+	cont "ROCKET!"
 	done
 
 _CeladonCityTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "KRYTERIA SZKOLENIA"
 
-	para "X ACCURACY boosts"
-	line "the accuracy of"
-	cont "techniques!"
+	para "X ACCURACY"
+	line "zwiększa"
+	cont "dokładność"
+	cont "technik!"
 
 	para "DIRE HIT jacks up"
 	line "the likelihood of"
@@ -104,37 +106,38 @@ _CeladonCityTrainerTips1Text::
 
 _CeladonCitySignText::
 	text "CELADON CITY"
-	line "The City of"
-	cont "Rainbow Dreams"
+	line "Miasto tęczowych"
+	cont "marzeń"
 	done
 
 _CeladonCityGymSignText::
 	text "CELADON CITY"
-	line "#MON GYM"
-	cont "LEADER: ERIKA"
+	line "Pokémon GYM"
+	cont "LEADER: ERYKA"
 
 	para "The Nature Loving"
 	line "Princess!"
 	done
 
 _CeladonCityMansionSignText::
-	text "CELADON MANSION"
+	text "ZARZĄDZANIE"
+	line "CELADON"
 	done
 
 _CeladonCityDeptStoreSignText::
-	text "Find what you"
-	line "need at CELADON"
-	cont "DEPT. STORE!"
+	text "Znajdź to, czego"
+	line "potrzebujesz w"
+	cont "CELADON DEPT."
 	done
 
 _CeladonCityTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "KRYTERIA SZKOLENIA"
 
-	para "GUARD SPEC."
-	line "protects #MON"
-	cont "against SPECIAL"
-	cont "attacks such as"
-	cont "fire and water!"
+	para "GUARD SPEC. Chroni"
+	line "Pokémon przed"
+	cont "specjalnymi"
+	cont "atakami, takimi"
+	cont "jak ogień i woda!"
 
 	para "Get your items at"
 	line "CELADON DEPT."
@@ -142,13 +145,12 @@ _CeladonCityTrainerTips2Text::
 	done
 
 _CeladonCityPrizeExchangeSignText::
-	text "Coins exchanged"
-	line "for prizes!"
-	cont "PRIZE EXCHANGE"
+	text "Monety wymieniane"
+	line "na nagrody!"
 	done
 
 _CeladonCityGameCornerSignText::
 	text "ROCKET GAME CORNER"
-	line "The playground"
-	cont "for grown-ups!"
+	line "Plac zabaw dla"
+	cont "dorosłych - up!"
 	done

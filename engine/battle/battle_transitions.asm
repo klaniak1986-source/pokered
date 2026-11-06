@@ -158,13 +158,24 @@ GetBattleTransitionID_IsDungeonMap:
 
 INCLUDE "data/maps/dungeon_maps.asm"
 
+; Load a black tile for battle transition.
+; HAXed to set the palette as well.
+; The tile itself was relocated to make room.
 LoadBattleTransitionTile:
+	ld a, 2
+	ldh [rWBK], a
+	ld a, 7
+	ld [W2_TilesetPaletteMap + $ff], a
+	xor a
+	ldh [rWBK], a
+
 	ld hl, vChars1 tile $7f
-	ld de, BattleTransitionTile
-	lb bc, BANK(BattleTransitionTile), 1
+	ld de, BlackTile
+	lb bc, BANK(BlackTile), (BlackTileEnd - BlackTile) / $10
 	jp CopyVideoData
 
-BattleTransitionTile: INCBIN "gfx/overworld/battle_transition.2bpp"
+
+SECTION "BattleTransition_BlackScreen", ROMX
 
 BattleTransition_BlackScreen:
 	ld a, $ff

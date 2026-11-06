@@ -38,7 +38,7 @@ CeruleanGym_ScriptPointers:
 
 CeruleanGymMistyPostBattleScript:
 	ld a, [wIsInBattle]
-	cp LOST_BATTLE
+	cp $ff
 	jp z, CeruleanGymResetScripts
 	ld a, PAD_CTRL_PAD
 	ld [wJoyIgnore], a

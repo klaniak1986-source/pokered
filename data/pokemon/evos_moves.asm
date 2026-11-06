@@ -40,8 +40,8 @@ EvosMovesPointerTable:
 	dw BlastoiseEvosMoves
 	dw PinsirEvosMoves
 	dw TangelaEvosMoves
-	dw MissingNo1FEvosMoves
-	dw MissingNo20EvosMoves
+	dw EspeonEvosMoves
+	dw UmbreonEvosMoves
 	dw GrowlitheEvosMoves
 	dw OnixEvosMoves
 	dw FearowEvosMoves
@@ -59,7 +59,7 @@ EvosMovesPointerTable:
 	dw PsyduckEvosMoves
 	dw DrowzeeEvosMoves
 	dw GolemEvosMoves
-	dw MissingNo32EvosMoves
+	dw KiraEvosMoves
 	dw MagmarEvosMoves
 	dw MissingNo34EvosMoves
 	dw ElectabuzzEvosMoves
@@ -2141,3 +2141,31 @@ VictreebelEvosMoves:
 	db 15, POISONPOWDER
 	db 18, SLEEP_POWDER
 	db 0
+
+EspeonEvosMoves:
+	db 0 ; no evolutions
+	db 12, PSYBEAM
+	db 20, QUICK_ATTACK
+	db 28, SWIFT
+	db 36, PSYCHIC_M
+	db 44, REFLECT
+	db 0 ; end learnset
+
+UmbreonEvosMoves:
+	db 0 ; no evolutions
+	db 12, SAND_ATTACK
+	db 20, QUICK_ATTACK
+	db 28, CONFUSE_RAY
+	db 36, SCREECH
+	db 44, TOXIC
+	db 0 ; end learnset
+
+KiraEvosMoves:
+	db 0 ; no evolutions
+	db 16, DRAGON_RAGE
+	db 24, THUNDER
+	db 32, FIRE_BLAST
+	db 40, PSYCHIC_M
+	db 48, SOLARBEAM
+	db 56, EARTHQUAKE
+	db 0 ; end learnset

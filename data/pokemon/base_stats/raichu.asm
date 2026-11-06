@@ -7,7 +7,11 @@
 	db 75 ; catch rate
 	db 122 ; base exp
 
+IF GEN_2_GRAPHICS
+	INCBIN "gfx/pokemon/gsfront/raichu.pic", 0, 1 ; sprite dimensions
+ELSE
 	INCBIN "gfx/pokemon/front/raichu.pic", 0, 1 ; sprite dimensions
+ENDC
 	dw RaichuPicFront, RaichuPicBack
 
 	db THUNDERSHOCK, GROWL, THUNDER_WAVE, NO_MOVE ; level 1 learnset
@@ -21,4 +25,4 @@
 	     THUNDER_WAVE, SUBSTITUTE,   FLASH
 	; end
 
-	db 0 ; padding
+	db BANK(RaichuPicFront)

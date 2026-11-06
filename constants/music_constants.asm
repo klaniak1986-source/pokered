@@ -26,7 +26,6 @@ ENDM
 	music_const MUSIC_ROUTES3,             Music_Routes3
 	music_const MUSIC_ROUTES4,             Music_Routes4
 	music_const MUSIC_INDIGO_PLATEAU,      Music_IndigoPlateau
-DEF MAX_SONG_ID_1 EQUS "MUSIC_INDIGO_PLATEAU + 3"
 
 	; AUDIO_2
 	music_const MUSIC_GYM_LEADER_BATTLE,   Music_GymLeaderBattle
@@ -36,7 +35,6 @@ DEF MAX_SONG_ID_1 EQUS "MUSIC_INDIGO_PLATEAU + 3"
 	music_const MUSIC_DEFEATED_TRAINER,    Music_DefeatedTrainer
 	music_const MUSIC_DEFEATED_WILD_MON,   Music_DefeatedWildMon
 	music_const MUSIC_DEFEATED_GYM_LEADER, Music_DefeatedGymLeader
-DEF MAX_SONG_ID_2 EQUS "MUSIC_DEFEATED_GYM_LEADER + 2"
 
 	; AUDIO_3
 	music_const MUSIC_TITLE_SCREEN,        Music_TitleScreen
@@ -57,7 +55,6 @@ DEF MAX_SONG_ID_2 EQUS "MUSIC_DEFEATED_GYM_LEADER + 2"
 	music_const MUSIC_MEET_EVIL_TRAINER,   Music_MeetEvilTrainer
 	music_const MUSIC_MEET_FEMALE_TRAINER, Music_MeetFemaleTrainer
 	music_const MUSIC_MEET_MALE_TRAINER,   Music_MeetMaleTrainer
-DEF MAX_SONG_ID_3 EQUS "MUSIC_MEET_MALE_TRAINER + 2"
 
 	; AUDIO_1 AUDIO_2 AUDIO_3
 DEF NOISE_INSTRUMENTS_START EQUS "SFX_NOISE_INSTRUMENT01"
@@ -227,9 +224,9 @@ DEF BATTLE_SFX_START EQUS "SFX_PECK"
 	music_const SFX_BATTLE_34,          SFX_Battle_34
 	music_const SFX_BATTLE_35,          SFX_Battle_35
 	music_const SFX_BATTLE_36,          SFX_Battle_36
-	music_const SFX_TRAINER_APPEARED,   SFX_Trainer_Appeared
-DEF BATTLE_SFX_END   EQUS "SFX_TRAINER_APPEARED + 1"
-DEF MAX_SFX_ID_2 EQUS "SFX_TRAINER_APPEARED"
+	music_const SFX_SILPH_SCOPE,        SFX_Silph_Scope
+DEF BATTLE_SFX_END   EQUS "SFX_SILPH_SCOPE + 1"
+DEF MAX_SFX_ID_2 EQUS "SFX_SILPH_SCOPE"
 
 	; AUDIO_3
 	music_const SFX_INTRO_LUNGE,        SFX_Intro_Lunge

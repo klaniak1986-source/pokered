@@ -1,51 +1,50 @@
 _Route19CooltrainerM1BattleText::
-	text "Have to warm up"
-	line "before my swim!"
+	text "Muszę się rozgrzać"
+	line "przed pływaniem!"
 	done
 
 _Route19CooltrainerM1EndBattleText::
-	text "All"
-	line "warmed up!"
+	text "Wszystko się"
+	line "rozgrzało!"
 	prompt
 
 _Route19CooltrainerM1AfterBattleText::
-	text "Thanks, kid! I'm"
-	line "ready for a swim!"
+	text "Dzięki dzieciaku,"
+	line "jestem gotowy na"
+	cont "pływanie!"
 	done
 
 _Route19CooltrainerM2BattleText::
-	text "Wait! You'll have"
-	line "a heart attack!"
+	text "Poczekaj,"
+	line "dostaniesz zawału!"
 	done
 
 _Route19CooltrainerM2EndBattleText::
-	text "Ooh!"
-	line "That's chilly!"
+	text "To chłodno!"
 	prompt
 
 _Route19CooltrainerM2AfterBattleText::
-	text "Watch out for"
+	text "Uważaj na"
 	line "TENTACOOL!"
 	done
 
 _Route19Swimmer1BattleText::
-	text "I love swimming!"
-	line "What about you?"
+	text "A co z tobą?"
 	done
 
 _Route19Swimmer1EndBattleText::
-	text "Belly"
-	line "flop!"
+	text "Boczek!"
 	prompt
 
 _Route19Swimmer1AfterBattleText::
-	text "I can beat #MON"
-	line "at swimming!"
+	text "Mogę pokonać"
+	line "Pokémona w"
+	cont "pływaniu!"
 	done
 
 _Route19Swimmer2BattleText::
-	text "What's beyond the"
-	line "horizon?"
+	text "Co jest poza"
+	line "horyzontem?"
 	done
 
 _Route19Swimmer2EndBattleText::
@@ -53,105 +52,103 @@ _Route19Swimmer2EndBattleText::
 	prompt
 
 _Route19Swimmer2AfterBattleText::
-	text "I see a couple of"
-	line "islands!"
+	text "Widzę kilka wysp!"
 	done
 
 _Route19Swimmer3BattleText::
-	text "I tried diving"
-	line "for #MON, but"
-	cont "it was a no go!"
+	text "Próbowałem"
+	line "nurkować dla"
+	cont "Pokémona, ale nie"
+	cont "mogłem!"
 	done
 
 _Route19Swimmer3EndBattleText::
-	text "Help!"
+	text "Pomocy!"
 	prompt
 
 _Route19Swimmer3AfterBattleText::
-	text "You have to fish"
-	line "for sea #MON!"
+	text "Musisz łowić dla"
+	line "morza Pokémon!"
 	done
 
 _Route19Swimmer4BattleText::
-	text "I look at the"
-	line "sea to forget!"
+	text "Patrzę na morze,"
+	line "by zapomnieć!"
 	done
 
 _Route19Swimmer4EndBattleText::
-	text "Ooh!"
-	line "Traumatic!"
+	text "Traumatyczne!"
 	prompt
 
 _Route19Swimmer4AfterBattleText::
-	text "I'm looking at the"
-	line "sea to forget!"
+	text "Patrzę na morze,"
+	line "by zapomnieć!"
 	done
 
 _Route19Swimmer5BattleText::
-	text "Oh, I just love"
-	line "your ride! Can I"
-	cont "have it if I win?"
+	text "Uwielbiam twoją"
+	line "brykę, mogę ją"
+	cont "mieć, jeśli"
+	cont "wygram?"
 	done
 
 _Route19Swimmer5EndBattleText::
-	text "Oh!"
-	line "I lost!"
+	text "Przegrałem!"
 	prompt
 
 _Route19Swimmer5AfterBattleText::
-	text "It's still a long"
-	line "way to go to"
-	cont "SEAFOAM ISLANDS."
+	text "To wciąż długa"
+	line "droga, by dostać"
+	cont "się na Wyspy"
+	cont "Seafoamów."
 	done
 
 _Route19Swimmer6BattleText::
-	text "Swimming's great!"
-	line "Sunburns aren't!"
+	text "Baseny są świetne!"
 	done
 
 _Route19Swimmer6EndBattleText::
-	text "Shocker!"
+	text "Szokujące!"
 	prompt
 
 _Route19Swimmer6AfterBattleText::
-	text "My boy friend"
-	line "wanted to swim to"
-	cont "SEAFOAM ISLANDS."
+	text "Mój kumpel chciał"
+	line "popłynąć na Wyspy"
+	cont "Seafoamów."
 	done
 
 _Route19Swimmer7BattleText::
-	text "These waters are"
-	line "treacherous!"
+	text "Te wody są"
+	line "zdradliwe!"
 	done
 
 _Route19Swimmer7EndBattleText::
-	text "Ooh!"
-	line "Dangerous!"
+	text "Niebezpieczne!"
 	prompt
 
 _Route19Swimmer7AfterBattleText::
-	text "I got a cramp!"
-	line "Glub, glub..."
+	text "Mam skurcz!"
 	done
 
 _Route19Swimmer8BattleText::
-	text "I swam here, but"
-	line "I'm tired."
+	text "Przypłynąłem tu,"
+	line "ale jestem"
+	cont "zmęczony."
 	done
 
 _Route19Swimmer8EndBattleText::
-	text "I'm"
-	line "exhausted..."
+	text "Jestem wykończony."
 	prompt
 
 _Route19Swimmer8AfterBattleText::
-	text "LAPRAS is so big,"
-	line "it must keep you"
-	cont "dry on water."
+	text "LAPRAS jest tak"
+	line "duży, że musi"
+	cont "utrzymywać suchość"
+	cont "na wodzie."
 	done
 
 _Route19SignText::
-	text "SEA ROUTE 19"
+	text "SEA IDIOT 19"
 	line "FUCHSIA CITY -"
-	cont "SEAFOAM ISLANDS"
+	cont "WYSPY SEAFOAM"
 	done

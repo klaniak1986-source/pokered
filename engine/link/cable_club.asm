@@ -13,14 +13,14 @@ CableClub_DoBattleOrTrade:
 	ld b, 2
 	ld c, 12
 	call CableClub_TextBoxBorder
-	hlcoord 4, 10
+	call CableClub_DoBattleOrTrade_ColorHook
+	;hlcoord 4, 10
 	ld de, PleaseWaitString
 	call PlaceString
-	ld hl, wLinkByteTimeout
-	ASSERT LOW(SERIAL_LINK_BYTE_TIMEOUT) == 0
+	ld hl, wPlayerNumHits
 	xor a
 	ld [hli], a
-	ld [hl], HIGH(SERIAL_LINK_BYTE_TIMEOUT)
+	ld [hl], $50
 	; fall through
 
 ; This is called after completing a trade.
@@ -634,7 +634,7 @@ TradeCenter_DisplayStats:
 	jp TradeCenter_DrawCancelBox
 
 TradeCenter_DrawPartyLists:
-	hlcoord 0, 0
+	call TradeCenter_DrawPartyLists_ColorHook
 	ld b, 6
 	ld c, 18
 	call CableClub_TextBoxBorder

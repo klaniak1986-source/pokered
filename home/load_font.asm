@@ -31,6 +31,11 @@ LoadTextBoxTilePatterns::
 	jp CopyVideoData ; if LCD is on, transfer during V-blank
 
 LoadHpBarAndStatusTilePatterns::
+IF GEN_2_GRAPHICS
+	farcall LoadHPBarAndEXPBar
+	ret
+	ds $17
+ELSE
 	ldh a, [rLCDC]
 	bit B_LCDC_ENABLE, a
 	jr nz, .on
@@ -45,3 +50,4 @@ LoadHpBarAndStatusTilePatterns::
 	ld hl, vChars2 tile $62
 	lb bc, BANK(HpBarAndStatusGraphics), (HpBarAndStatusGraphicsEnd - HpBarAndStatusGraphics) / TILE_SIZE
 	jp CopyVideoData ; if LCD is on, transfer during V-blank
+ENDC

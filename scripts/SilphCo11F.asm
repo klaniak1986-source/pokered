@@ -207,7 +207,7 @@ SilphCo11FSetPlayerAndSpriteFacingDirectionScript:
 
 SilphCo11FGiovanniAfterBattleScript:
 	ld a, [wIsInBattle]
-	cp LOST_BATTLE
+	cp $ff
 	jp z, SilphCo11FResetCurScript
 	ld a, [wSavedCoordIndex]
 	cp 1 ; index of second, upper-right entry in SilphCo11FDefaultScript.PlayerCoordsArray
@@ -261,8 +261,8 @@ SilphCo11FGiovanniStartBattleScript:
 	ld hl, wStatusFlags3
 	set BIT_TALKED_TO_TRAINER, [hl]
 	set BIT_PRINT_END_BATTLE_TEXT, [hl]
-	ld hl, SilphCo11FGiovanniILostAgainText
-	ld de, SilphCo11FGiovanniILostAgainText
+	ld hl, SilphCo10FGiovanniILostAgainText
+	ld de, SilphCo10FGiovanniILostAgainText
 	call SaveEndBattleTextPointers
 	ldh a, [hSpriteIndex]
 	ld [wSpriteIndex], a
@@ -338,8 +338,8 @@ SilphCo11FGiovanniText:
 	text_far _SilphCo11FGiovanniText
 	text_end
 
-SilphCo11FGiovanniILostAgainText:
-	text_far _SilphCo11FGiovanniILostAgainText
+SilphCo10FGiovanniILostAgainText:
+	text_far _SilphCo10FGiovanniILostAgainText
 	text_end
 
 SilphCo11FGiovanniYouRuinedOurPlansText:
@@ -382,7 +382,7 @@ SilphCo11FRocket2AfterBattleText:
 	text_far _SilphCo11FRocket2AfterBattleText
 	text_end
 
-SilphCo11FPorygonText: ; unreferenced
+SilphCo10FPorygonText: ; unreferenced
 	text_asm
 	ld hl, .Text
 	call PrintText
@@ -391,5 +391,5 @@ SilphCo11FPorygonText: ; unreferenced
 	jp TextScriptEnd
 
 .Text:
-	text_far _SilphCo11FPorygonText
+	text_far _SilphCo10FPorygonText
 	text_end

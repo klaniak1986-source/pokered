@@ -1,7 +1,7 @@
 _NameRatersHouseNameRaterWantMeToRateText::
-	text "Hello, hello!"
-	line "I am the official"
-	cont "NAME RATER!"
+	text "Witam, witam,"
+	line "jestem oficjalnym"
+	cont "RATER!"
 
 	para "Want me to rate"
 	line "the nicknames of"
@@ -9,8 +9,9 @@ _NameRatersHouseNameRaterWantMeToRateText::
 	done
 
 _NameRatersHouseNameRaterWhichPokemonText::
-	text "Which #MON"
-	line "should I look at?"
+	text "Na które Pokémon"
+	line "powinienem"
+	cont "spojrzeć?"
 	prompt
 
 _NameRatersHouseNameRaterGiveItANiceNameText::
@@ -27,8 +28,7 @@ _NameRatersHouseNameRaterGiveItANiceNameText::
 	done
 
 _NameRatersHouseNameRaterWhatShouldWeNameItText::
-	text "Fine! What should"
-	line "we name it?"
+	text "Jak to nazwać?"
 	prompt
 
 _NameRatersHouseNameRaterPokemonHasBeenRenamedText::
@@ -38,13 +38,13 @@ _NameRatersHouseNameRaterPokemonHasBeenRenamedText::
 	text_ram wBuffer
 	text "!"
 
-	para "That's a better"
-	line "name than before!"
+	para "To lepsze imię niż"
+	line "wcześniej!"
 	done
 
 _NameRatersHouseNameRaterComeAnyTimeYouLikeText::
-	text "Fine! Come any"
-	line "time you like!"
+	text "Przyjdź, kiedy"
+	line "tylko zechcesz!"
 	done
 
 _NameRatersHouseNameRaterATrulyImpeccableNameText::

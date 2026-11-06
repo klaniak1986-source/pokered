@@ -1,13 +1,13 @@
 _DaycareGentlemanIntroText::
-	text "I run a DAYCARE."
-	line "Would you like me"
-	cont "to raise one of"
-	cont "your #MON?"
+	text "Chcesz, żebym"
+	line "wychował jednego z"
+	cont "twoich Pokemonów?"
 	done
 
 _DaycareGentlemanWhichMonText::
-	text "Which #MON"
-	line "should I raise?"
+	text "Który Pokémon"
+	line "powinienem"
+	cont "podnieść?"
 	prompt
 
 _DaycareGentlemanWillLookAfterMonText::
@@ -19,8 +19,8 @@ _DaycareGentlemanWillLookAfterMonText::
 	prompt
 
 _DaycareGentlemanComeSeeMeInAWhileText::
-	text "Come see me in"
-	line "a while."
+	text "Przyjdź do mnie za"
+	line "chwilę."
 	done
 
 _DaycareGentlemanMonHasGrownText::
@@ -34,7 +34,8 @@ _DaycareGentlemanMonHasGrownText::
 	text_decimal wDayCareNumLevelsGrown, 1, 3
 	text "!"
 
-	para "Aren't I great?"
+	para "Czyż nie jestem"
+	line "wspaniały?"
 	prompt
 
 _DaycareGentlemanOweMoneyText::

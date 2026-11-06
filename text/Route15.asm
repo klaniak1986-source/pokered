@@ -1,172 +1,167 @@
 _Route15CooltrainerF1BattleText::
-	text "Let me try out the"
-	line "#MON I just"
-	cont "got in a trade!"
+	text "Pozwól mi"
+	line "wypróbować"
+	cont "Pokémona, który"
+	cont "właśnie"
+	cont "handlowałem!"
 	done
 
 _Route15CooltrainerF1EndBattleText::
-	text "Not"
-	line "good enough!"
+	text "Za mało!"
 	prompt
 
 _Route15CooltrainerF1AfterBattleText::
-	text "You can't change"
-	line "the nickname of"
-	cont "any #MON you"
-	cont "get in a trade."
+	text "Możesz zmienić"
+	line "ksywkę każdego"
+	cont "Pokémona, który"
+	cont "dostaniesz w"
+	cont "handlu."
 
 	para "Only the Original"
 	line "Trainer can."
 	done
 
 _Route15CooltrainerF2BattleText::
-	text "You look gentle,"
-	line "so I think I can"
-	cont "beat you!"
+	text "Wyglądasz"
+	line "łagodnie, więc"
+	cont "myślę, że mogę cię"
+	cont "pokonać!"
 	done
 
 _Route15CooltrainerF2EndBattleText::
-	text "No,"
-	line "wrong!"
+	text "Nie, źle!"
 	prompt
 
 _Route15CooltrainerF2AfterBattleText::
-	text "I'm afraid of"
-	line "BIKERs, they look"
-	cont "so ugly and mean!"
+	text "Boję się BIKERów,"
+	line "wyglądają tak"
+	cont "paskudnie i"
+	cont "wrednie!"
 	done
 
 _Route15CooltrainerM1BattleText::
-	text "When I whistle, I"
-	line "can summon bird"
-	cont "#MON!"
+	text "Kiedy gwiżdżę,"
+	line "mogę przywołać"
+	cont "ptaszka Pokémona!"
 	done
 
 _Route15CooltrainerM1EndBattleText::
-	text "Ow!"
-	line "That's tragic!"
+	text "To tragedia!"
 	prompt
 
 _Route15CooltrainerM1AfterBattleText::
-	text "Maybe I'm not cut"
-	line "out for battles."
+	text "Może nie nadaję"
+	line "się do bitew."
 	done
 
 _Route15CooltrainerM2BattleText::
-	text "Hmm? My birds are"
-	line "shivering! You're"
-	cont "good, aren't you?"
+	text "Moje ptaki drżą!"
 	done
 
 _Route15CooltrainerM2EndBattleText::
-	text "Just"
-	line "as I thought!"
+	text "Tak jak myślałem!"
 	prompt
 
 _Route15CooltrainerM2AfterBattleText::
-	text "Did you know moves"
-	line "like EARTHQUAKE"
-	cont "don't have any"
-	cont "effect on birds?"
+	text "Wiedziałeś, że"
+	line "ruchy jak"
+	cont "EARTHQUAKE nie"
+	cont "mają żadnego"
+	cont "wpływu na ptaki?"
 	done
 
 _Route15Beauty1BattleText::
-	text "Oh, you're a"
-	line "little cutie!"
+	text "Och, jesteś trochę"
+	line "słodki!"
 	done
 
 _Route15Beauty1EndBattleText::
-	text "You looked"
-	line "so cute too!"
+	text "Ty też wyglądałaś"
+	line "tak słodko!"
 	prompt
 
 _Route15Beauty1AfterBattleText::
-	text "I forgive you!"
-	line "I can take it!"
+	text "Wybaczam ci!"
 	done
 
 _Route15Beauty2BattleText::
-	text "I raise #MON"
-	line "because I live"
-	cont "alone!"
+	text "Wychowuję"
+	line "Pokémona, bo"
+	cont "mieszkam sam!"
 	done
 
 _Route15Beauty2EndBattleText::
-	text "I didn't"
-	line "ask for this!"
+	text "Nie prosiłem o to!"
 	prompt
 
 _Route15Beauty2AfterBattleText::
-	text "I just like going"
-	line "home to be with"
-	cont "my #MON!"
+	text "Po prostu lubię"
+	line "wracać do domu,"
+	cont "żeby być z moim"
+	cont "Pokemonem!"
 	done
 
 _Route15Biker1BattleText::
-	text "Hey kid! C'mon!"
-	line "I just got these!"
+	text "Właśnie je"
+	line "dostałem!"
 	done
 
 _Route15Biker1EndBattleText::
-	text "Why"
-	line "not?"
+	text "Dlaczego nie?"
 	prompt
 
 _Route15Biker1AfterBattleText::
-	text "You only live"
-	line "once, so I live"
-	cont "as an outlaw!"
-	cont "TEAM ROCKET RULES!"
+	text "Żyjesz tylko raz,"
+	line "więc ja żyję jak"
+	cont "banita!"
 	done
 
 _Route15Biker2BattleText::
-	text "Fork over all your"
-	line "cash when you"
-	cont "lose to me, kid!"
+	text "Zawiń całą kasę,"
+	line "kiedy przegrasz ze"
+	cont "mną, dzieciaku!"
 	done
 
 _Route15Biker2EndBattleText::
-	text "That"
-	line "can't be true!"
+	text "To nie może być"
+	line "prawda!"
 	prompt
 
 _Route15Biker2AfterBattleText::
-	text "I was just joking"
-	line "about the money!"
+	text "Żartowałem tylko o"
+	line "pieniądzach!"
 	done
 
 _Route15CooltrainerF3BattleText::
-	text "What's cool?"
-	line "Trading #MON!"
+	text "Co jest fajne?"
 	done
 
 _Route15CooltrainerF3EndBattleText::
-	text "I"
-	line "said trade!"
+	text "Powiedziałem ”"
+	line "handel ”!"
 	prompt
 
 _Route15CooltrainerF3AfterBattleText::
-	text "I trade #MON"
-	line "with my friends!"
+	text "Sprzedaję Pokémona"
+	line "z przyjaciółmi!"
 	done
 
 _Route15CooltrainerF4BattleText::
-	text "Want to play with"
-	line "my #MON?"
+	text "Chcesz się pobawić"
+	line "moim Pokemonem?"
 	done
 
 _Route15CooltrainerF4EndBattleText::
-	text "I was"
-	line "too impatient!"
+	text "Byłem zbyt"
+	line "niecierpliwy!"
 	prompt
 
 _Route15CooltrainerF4AfterBattleText::
-	text "I'll go train with"
-	line "weaker people.@"
+	text "Będę trenował ze"
+	line "słabszymi ludźmi.@"
 	text_end
 
 _Route15SignText::
-	text "ROUTE 15"
-	line "West to FUCHSIA"
-	cont "CITY"
+	text "DROGA 15 Zachód do"
+	line "FUCHSIA CITY"
 	done

@@ -1,179 +1,173 @@
 _Route13CooltrainerM1BattleText::
-	text "My bird #MON"
-	line "want to scrap!"
+	text "Mój ptaszek"
+	line "Pokémon chce się"
+	cont "pozbyć!"
 	done
 
 _Route13CooltrainerM1EndBattleText::
-	text "My"
-	line "bird combo lost?"
+	text "Mój ptasi kombi"
+	line "przegrał?"
 	prompt
 
 _Route13CooltrainerM1AfterBattleText::
-	text "My #MON look"
-	line "happy even though"
-	cont "they lost."
+	text "Mój Pokemon"
+	line "wygląda na"
+	cont "szczęśliwego, mimo"
+	cont "że przegrali."
 	done
 
 _Route13CooltrainerF1BattleText::
-	text "I'm told I'm good"
-	line "for a kid!"
+	text "Powiedziałem, że"
+	line "jestem dobry dla"
+	cont "dziecka!"
 	done
 
 _Route13CooltrainerF1EndBattleText::
-	text "Ohh!"
-	line "I lost!"
+	text "Przegrałem!"
 	prompt
 
 _Route13CooltrainerF1AfterBattleText::
-	text "I want to become"
-	line "a good trainer."
-	cont "I'll train hard."
+	text "Chcę zostać dobrym"
+	line "trenerem."
 	done
 
 _Route13CooltrainerF2BattleText::
-	text "Wow! Your BADGEs"
-	line "are too cool!"
+	text "Twoje BADGE są"
+	line "zbyt fajne!"
 	done
 
 _Route13CooltrainerF2EndBattleText::
-	text "Not"
-	line "enough!"
+	text "Za mało!"
 	prompt
 
 _Route13CooltrainerF2AfterBattleText::
-	text "You got those"
-	line "BADGEs from GYM"
-	cont "LEADERs. I know!"
+	text "Masz te BADGE z"
+	line "GYM LEADERs."
 	done
 
 _Route13CooltrainerF3BattleText::
-	text "My cute #MON"
-	line "wish to make your"
-	cont "acquaintance."
+	text "Mój słodki Pokémon"
+	line "chce cię poznać."
 	done
 
 _Route13CooltrainerF3EndBattleText::
-	text "Wow!"
-	line "You totally won!"
+	text "Wygrałeś!"
 	prompt
 
 _Route13CooltrainerF3AfterBattleText::
-	text "You have to make"
-	line "#MON fight to"
-	cont "toughen them up!"
+	text "Musisz zmusić"
+	line "Pokémona do walki,"
+	cont "żeby ich"
+	cont "zahartował!"
 	done
 
 _Route13CooltrainerF4BattleText::
-	text "I found CARBOS in"
-	line "a cave once."
+	text "Raz znalazłem"
+	line "CARBOS w jaskini."
 	done
 
 _Route13CooltrainerF4EndBattleText::
-	text "Just"
-	line "messed up!"
+	text "Po prostu"
+	line "nawaliłem!"
 	prompt
 
 _Route13CooltrainerF4AfterBattleText::
-	text "CARBOS boosted"
-	line "the SPEED of my"
-	cont "#MON."
+	text "CARBOS wzmocnił"
+	line "speed mojego"
+	cont "Pokémona."
 	done
 
 _Route13CooltrainerM2BattleText::
-	text "The wind's blowing"
-	line "my way!"
+	text "Wiatr wieje mi w"
+	line "drogę!"
 	done
 
 _Route13CooltrainerM2EndBattleText::
-	text "The"
-	line "wind turned!"
+	text "Wiatr się"
+	line "odwrócił!"
 	prompt
 
 _Route13CooltrainerM2AfterBattleText::
-	text "I'm beat. I guess"
-	line "I'll FLY home."
+	text "Chyba lecę do"
+	line "domu."
 	done
 
 _Route13Beauty1BattleText::
-	text "Sure, I'll play"
-	line "with you!"
+	text "Jasne, zagram z"
+	line "tobą!"
 	done
 
 _Route13Beauty1EndBattleText::
-	text "Oh!"
-	line "You little brute!"
+	text "Ty mały brutalu!"
 	prompt
 
 _Route13Beauty1AfterBattleText::
-	text "I wonder which is"
-	line "stronger, male or"
-	cont "female #MON?"
+	text "Zastanawiam się,"
+	line "który jest"
+	cont "silniejszy,"
+	cont "mężczyzna czy"
+	cont "kobieta Pokémon?"
 	done
 
 _Route13Beauty2BattleText::
-	text "Do you want to"
-	line "#MON with me?"
+	text "Chcesz ze mną"
+	line "pokémon?"
 	done
 
 _Route13Beauty2EndBattleText::
-	text "It's over"
-	line "already?"
+	text "Już po wszystkim?"
 	prompt
 
 _Route13Beauty2AfterBattleText::
-	text "I don't know"
-	line "anything about"
-	cont "#MON. I just"
-	cont "like cool ones!"
+	text "Nic nie wiem o"
+	line "Pokémonie."
 	done
 
 _Route13BikerBattleText::
-	text "What're you"
-	line "lookin' at?"
+	text "Na co się gapisz?"
 	done
 
 _Route13BikerEndBattleText::
-	text "Dang!"
-	line "Stripped gears!"
+	text "Rozbierane biegi!"
 	prompt
 
 _Route13BikerAfterBattleText::
-	text "Get lost!"
+	text "Spadaj!"
 	done
 
 _Route13CooltrainerM3BattleText::
-	text "I always go with"
-	line "bird #MON!"
+	text "Zawsze biorę"
+	line "ptaszka Pokémona!"
 	done
 
 _Route13CooltrainerM3EndBattleText::
-	text "Out"
-	line "of power!"
+	text "Nie ma mocy!"
 	prompt
 
 _Route13CooltrainerM3AfterBattleText::
-	text "I wish I could"
-	line "fly like PIDGEY"
-	cont "and PIDGEOTTO..."
+	text "Chciałbym latać"
+	line "jak Pidgey i"
+	cont "Pidgeotto..."
 	done
 
 _Route13TrainerTips1Text::
-	text "TRAINER TIPS"
+	text "KRYTERIA SZKOLENIA"
 
-	para "Look to the left"
-	line "of that post!"
+	para "Spójrz na lewo od"
+	line "tego słupka!"
 	done
 
 _Route13TrainerTips2Text::
-	text "TRAINER TIPS"
+	text "KRYTERIA SZKOLENIA"
 
-	para "Use SELECT to"
-	line "switch items in"
-	cont "the ITEM window!"
+	para "Użyj SELECT do"
+	line "przełączania"
+	cont "elementów w oknie"
+	cont "ITEM!"
 	done
 
 _Route13SignText::
-	text "ROUTE 13"
-	line "North to SILENCE"
-	cont "BRIDGE"
+	text "DROGA (I) 13"
+	line "Północny do"
+	cont "SILENCE BRIDGE"
 	done

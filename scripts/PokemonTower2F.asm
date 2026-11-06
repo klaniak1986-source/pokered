@@ -65,7 +65,7 @@ PokemonTower2FRivalEncounterEventCoords:
 
 PokemonTower2FDefeatedRivalScript:
 	ld a, [wIsInBattle]
-	cp LOST_BATTLE
+	cp $ff
 	jp z, PokemonTower2FResetRivalEncounter
 	ld a, PAD_CTRL_PAD
 	ld [wJoyIgnore], a

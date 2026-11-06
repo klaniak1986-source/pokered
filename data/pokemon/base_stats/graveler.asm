@@ -7,7 +7,11 @@
 	db 120 ; catch rate
 	db 134 ; base exp
 
+IF GEN_2_GRAPHICS
+	INCBIN "gfx/pokemon/gsfront/graveler.pic", 0, 1 ; sprite dimensions
+ELSE
 	INCBIN "gfx/pokemon/front/graveler.pic", 0, 1 ; sprite dimensions
+ENDC
 	dw GravelerPicFront, GravelerPicBack
 
 	db TACKLE, DEFENSE_CURL, NO_MOVE, NO_MOVE ; level 1 learnset
@@ -21,4 +25,4 @@
 	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
 	; end
 
-	db 0 ; padding
+	db BANK(GravelerPicFront)

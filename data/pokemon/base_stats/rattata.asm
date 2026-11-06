@@ -7,7 +7,11 @@
 	db 255 ; catch rate
 	db 57 ; base exp
 
+IF GEN_2_GRAPHICS
+	INCBIN "gfx/pokemon/gsfront/rattata.pic", 0, 1 ; sprite dimensions
+ELSE
 	INCBIN "gfx/pokemon/front/rattata.pic", 0, 1 ; sprite dimensions
+ENDC
 	dw RattataPicFront, RattataPicBack
 
 	db TACKLE, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
@@ -20,4 +24,4 @@
 	     SKULL_BASH,   REST,         SUBSTITUTE
 	; end
 
-	db 0 ; padding
+	db BANK(RattataPicFront)

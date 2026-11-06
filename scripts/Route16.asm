@@ -45,7 +45,7 @@ Route16DefaultScript:
 
 Route16SnorlaxPostBattleScript:
 	ld a, [wIsInBattle]
-	cp LOST_BATTLE
+	cp $ff
 	jp z, Route16ResetScripts
 	call UpdateSprites
 	ld a, [wBattleResult]

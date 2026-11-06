@@ -1507,3 +1507,28 @@ _VictreebelDexEntry::
 	next "has ever returned"
 	next "from there"
 	dex
+
+_EspeonDexEntry::
+	text "Czyta ruchy"
+	next "powietrza i umie"
+	next "przewidzieć"
+	page "kolejny ruch"
+	next "swojego rywala."
+	dex
+
+_UmbreonDexEntry::
+	text "Gdy zapada noc,"
+	next "jego pierścienie"
+	next "zaczynają lśnić."
+	page "Poluje w cieniu"
+	next "bezszelestnie."
+	dex
+
+_KiraDexEntry::
+	text "Czarno-biały smok"
+	next "przecina niebo"
+	next "jak błyskawica."
+
+	page "Może go spotkać"
+	next "tylko Baraqda."
+	dex

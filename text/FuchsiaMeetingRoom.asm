@@ -1,5 +1,5 @@
 _FuchsiaMeetingRoomSafariZoneWorker1::
-	text "We nicknamed the"
+	text "Nazwaliśmy go"
 	line "WARDEN SLOWPOKE."
 
 	para "He and SLOWPOKE"
@@ -7,9 +7,9 @@ _FuchsiaMeetingRoomSafariZoneWorker1::
 	done
 
 _FuchsiaMeetingRoomSafariZoneWorker2::
-	text "SLOWPOKE is very"
-	line "knowledgeable"
-	cont "about #MON!"
+	text "SLOWPOKE jest"
+	line "bardzo świadomy"
+	cont "Pokémon!"
 
 	para "He even has some"
 	line "fossils of rare,"
@@ -17,9 +17,10 @@ _FuchsiaMeetingRoomSafariZoneWorker2::
 	done
 
 _FuchsiaMeetingRoomSafariZoneWorker3::
-	text "SLOWPOKE came in,"
-	line "but I couldn't"
-	cont "understand him."
+	text "SLOWPOKE"
+	line "przyszedł, ale nie"
+	cont "mogłem go"
+	cont "zrozumieć."
 
 	para "I think he's got"
 	line "a speech problem!"

@@ -1,25 +1,27 @@
 _SaffronPidgeyHouseBrunetteGirlText::
-	text "Thank you for"
-	line "writing. I hope"
-	cont "to see you soon!"
+	text "Dziękuję za"
+	line "pisanie. Mam"
+	cont "nadzieję, że"
+	cont "wkrótce się"
+	cont "zobaczymy!"
 
 	para "Hey! Don't look"
 	line "at my letter!"
 	done
 
 _SaffronPidgeyHousePidgeyText::
-	text "PIDGEY: Kurukkoo!@"
+	text "Kurukkoo!@"
 	text_end
 
 _SaffronPidgeyHouseYoungsterText::
-	text "The COPYCAT is"
-	line "cute! I'm getting"
-	cont "her a # DOLL!"
+	text "Mam ochotę kupić"
+	line "jej Poké DOLL!"
 	done
 
 _SaffronPidgeyHousePaperText::
-	text "I was given a PP"
-	line "UP as a gift."
+	text "Dostałem list"
+	line "gończy w"
+	cont "prezencie."
 
 	para "It's used for"
 	line "increasing the PP"

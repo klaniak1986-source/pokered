@@ -487,7 +487,7 @@ WriteMonMoves:
 	ld de, wBuffer
 	ld a, BANK(Moves)
 	call FarCopyData
-	ld a, [wBuffer + MOVE_PP]
+	ld a, [wBuffer + 5]
 	pop hl
 	ld [hl], a
 	pop hl

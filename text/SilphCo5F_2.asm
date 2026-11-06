@@ -1,34 +1,33 @@
 _SilphCo5FRockerEndBattleText::
-	text "Oh"
-	line "goodness!"
+	text "O Boże!"
 	prompt
 
 _SilphCo5FRockerAfterBattleText::
-	text "You're only on 5F."
-	line "It's a long way"
-	cont "to my BOSS!"
+	text "Jesteś tylko na"
+	line "5F, to długa droga"
+	cont "do mojego BOSS!"
 	done
 
 _SilphCo5FRocket2BattleText::
-	text "Show TEAM ROCKET"
-	line "a little respect!"
+	text "Okaż TEAM ROCKET"
+	line "trochę szacunku!"
 	done
 
 _SilphCo5FRocket2EndBattleText::
-	text "Cough..."
-	line "Cough..."
+	text "Kaszlnij..."
 	prompt
 
 _SilphCo5FRocket2AfterBattleText::
-	text "Which reminds me."
+	text "Co mi"
+	line "przypomniało."
 
-	para "KOFFING evolves"
-	line "into WEEZING!"
+	para "KOFFING ewoluuje"
+	line "do WEEZING!"
 	done
 
 _SilphCo5FPokemonReport1Text::
-	text "It's a #MON"
-	line "REPORT!"
+	text "To jest raport"
+	line "Pokémona!"
 
 	para "#MON LAB"
 	line "created PORYGON,"
@@ -37,8 +36,8 @@ _SilphCo5FPokemonReport1Text::
 	done
 
 _SilphCo5FPokemonReport2Text::
-	text "It's a #MON"
-	line "REPORT!"
+	text "To jest raport"
+	line "Pokémona!"
 
 	para "Over 160 #MON"
 	line "techniques have"
@@ -46,8 +45,8 @@ _SilphCo5FPokemonReport2Text::
 	done
 
 _SilphCo5FPokemonReport3Text::
-	text "It's a #MON"
-	line "REPORT!"
+	text "To jest raport"
+	line "Pokémona!"
 
 	para "4 #MON evolve"
 	line "only when traded"

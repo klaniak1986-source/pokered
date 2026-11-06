@@ -1,9 +1,8 @@
 _FightingDojoKarateMasterText::
 	text "Grunt!"
 
-	para "I am the KARATE"
-	line "MASTER! I am the"
-	cont "LEADER here!"
+	para "Jestem tu"
+	line "przywódcą!"
 
 	para "You wish to"
 	line "challenge us?"
@@ -13,13 +12,12 @@ _FightingDojoKarateMasterText::
 	done
 
 _FightingDojoKarateMasterDefeatedText::
-	text "Hwa!"
-	line "Arrgh! Beaten!"
+	text "Pobity!"
 	prompt
 
 _FightingDojoKarateMasterIWillGiveYouAPokemonText::
-	text "Indeed, I have"
-	line "lost!"
+	text "W rzeczy samej,"
+	line "przegrałem!"
 
 	para "But, I beseech"
 	line "you, do not take"
@@ -37,94 +35,92 @@ _FightingDojoKarateMasterIWillGiveYouAPokemonText::
 _FightingDojoKarateMasterStayAndTrainWithUsText::
 	text "Ho!"
 
-	para "Stay and train at"
-	line "Karate with us!"
+	para "Zostań i potrenuj"
+	line "z nami w Karate!"
 	done
 
 _FightingDojoBlackbelt1BattleText::
-	text "Hoargh! Take your"
-	line "shoes off!"
+	text "Zdejmij buty!"
 	done
 
 _FightingDojoBlackbelt1EndBattleText::
-	text "I give"
-	line "up!"
+	text "Poddaję się!"
 	prompt
 
 _FightingDojoBlackbelt1AfterBattleText::
-	text "You wait 'til you"
-	line "see our Master!"
+	text "Poczekaj aż"
+	line "zobaczysz naszego"
+	cont "Mistrza!"
 
 	para "I'm a small fry"
 	line "compared to him!"
 	done
 
 _FightingDojoBlackbelt2BattleText::
-	text "I hear you're"
-	line "good! Show me!"
+	text "Słyszałem, że"
+	line "jesteś dobry!"
 	done
 
 _FightingDojoBlackbelt2EndBattleText::
-	text "Judge!"
-	line "1 point!"
+	text "Sędzio, 1 punkt!"
 	prompt
 
 _FightingDojoBlackbelt2AfterBattleText::
-	text "Our Master is a"
-	line "pro fighter!"
+	text "Nasz Mistrz jest"
+	line "zawodowcem!"
 	done
 
 _FightingDojoBlackbelt3BattleText::
-	text "Nothing tough"
-	line "frightens me!"
+	text "Nic twardego mnie"
+	line "nie przeraża!"
 
 	para "I break boulders"
 	line "for training!"
 	done
 
 _FightingDojoBlackbelt3EndBattleText::
-	text "Yow!"
-	line "Stubbed fingers!"
+	text "Uciskane palce!"
 	prompt
 
 _FightingDojoBlackbelt3AfterBattleText::
-	text "The only thing"
-	line "that frightens us"
-	cont "is psychic power!"
+	text "Jedyną rzeczą,"
+	line "która nas"
+	cont "przeraża, jest"
+	cont "siła psychiczna!"
 	done
 
 _FightingDojoBlackbelt4BattleText::
 	text "Hoohah!"
 
-	para "You're trespassing"
-	line "in our FIGHTING"
-	cont "DOJO!"
+	para "Wtargnąłeś do"
+	line "naszego Walczącego"
+	cont "Dojo!"
 	done
 
 _FightingDojoBlackbelt4EndBattleText::
-	text "Oof!"
-	line "I give up!"
+	text "Poddaję się!"
 	prompt
 
 _FightingDojoBlackbelt4AfterBattleText::
-	text "The prime fighters"
-	line "across the land"
-	cont "train here."
+	text "Pierwszorzędni"
+	line "wojownicy przez"
+	cont "pociąg lądowy"
+	cont "tutaj."
 	done
 
 _FightingDojoHitmonleePokeBallText::
-	text "You want the"
-	line "hard kicking"
-	cont "HITMONLEE?"
+	text "Chcesz, żeby ten"
+	line "twardziel kopnął"
+	cont "Hitmonlee?"
 	done
 
 _FightingDojoHitmonchanPokeBallText::
-	text "You want the"
-	line "piston punching"
+	text "Chcesz, żeby tłok"
+	line "uderzył w"
 	cont "HITMONCHAN?"
 	done
 
 _FightingDojoBetterNotGetGreedyText::
-	text "Better not get"
-	line "greedy..."
+	text "Lepiej nie bądź"
+	line "chciwy."
 	done

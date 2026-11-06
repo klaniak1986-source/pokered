@@ -1,7 +1,7 @@
 _PewterGymBrockPostBattleAdviceText::
-	text "There are all"
-	line "kinds of trainers"
-	cont "in the world!"
+	text "Na świecie są"
+	line "różne rodzaje"
+	cont "trenerów!"
 
 	para "You appear to be"
 	line "very gifted as a"
@@ -13,8 +13,8 @@ _PewterGymBrockPostBattleAdviceText::
 	done
 
 _PewterGymBrockWaitTakeThisText::
-	text "Wait! Take this"
-	line "with you!"
+	text "Czekaj, weź to ze"
+	line "sobą!"
 	done
 
 _PewterGymReceivedTM34Text::
@@ -25,10 +25,10 @@ _PewterGymReceivedTM34Text::
 _TM34ExplanationText::
 	text_start
 
-	para "A TM contains a"
-	line "technique that"
-	cont "can be taught to"
-	cont "#MON!"
+	para "TM zawiera"
+	line "technikę, która"
+	cont "może być nauczona"
+	cont "Pokémon!"
 
 	para "A TM is good only"
 	line "once! So when you"
@@ -47,13 +47,13 @@ _TM34ExplanationText::
 	done
 
 _PewterGymTM34NoRoomText::
-	text "You don't have"
-	line "room for this!"
+	text "Nie masz na to"
+	line "miejsca!"
 	done
 
 _PewterGymBrockReceivedBoulderBadgeText::
-	text "I took"
-	line "you for granted."
+	text "Wziąłem cię za"
+	line "pewnik."
 
 	para "As proof of your"
 	line "victory, here's"
@@ -66,8 +66,8 @@ _PewterGymBrockReceivedBoulderBadgeText::
 _PewterGymBrockBoulderBadgeInfoText::
 	text_start
 
-	para "That's an official"
-	line "#MON LEAGUE"
+	para "To oficjalny"
+	line "Pokémon LEAGUE"
 	cont "BADGE!"
 
 	para "Its bearer's"
@@ -80,33 +80,33 @@ _PewterGymBrockBoulderBadgeInfoText::
 	prompt
 
 _PewterGymCooltrainerMBattleText::
-	text "Stop right there,"
-	line "kid!"
+	text "Stój, młody!"
 
 	para "You're still light"
 	line "years from facing"
-	cont "BROCK!"
+	cont "BŁAŻEJ!"
 	done
 
 _PewterGymCooltrainerMEndBattleText::
-	text "Darn!"
+	text "Cholera!"
 
-	para "Light years isn't"
-	line "time! It measures"
-	cont "distance!"
+	para "Lata świetlne to"
+	line "czas, mierzy"
+	cont "odległość!"
 	prompt
 
 _PewterGymCooltrainerMAfterBattleText::
-	text "You're pretty hot,"
-	line "but not as hot"
-	cont "as BROCK!"
+	text "Jesteś całkiem"
+	line "seksowna, ale nie"
+	cont "tak gorąca jak"
+	cont "BŁAŻEJ!"
 	done
 
 _PewterGymGuidePreAdviceText::
-	text "Hiya! I can tell"
-	line "you have what it"
-	cont "takes to become a"
-	cont "#MON champ!"
+	text "Mogę powiedzieć,"
+	line "że masz to, co"
+	cont "trzeba, by zostać"
+	cont "mistrzem Pokémon!"
 
 	para "I'm no trainer,"
 	line "but I can tell"
@@ -117,15 +117,14 @@ _PewterGymGuidePreAdviceText::
 	done
 
 _PewterGymGuideBeginAdviceText::
-	text "All right! Let's"
-	line "get happening!"
+	text "Niech się dzieje!"
 	prompt
 
 _PewterGymGuideAdviceText::
-	text "The 1st #MON"
-	line "out in a match is"
-	cont "at the top of the"
-	cont "#MON LIST!"
+	text "Pierwszy Pokémon w"
+	line "meczu jest na"
+	cont "szczycie Listy"
+	cont "Pokémon!"
 
 	para "By changing the"
 	line "order of #MON,"
@@ -134,13 +133,14 @@ _PewterGymGuideAdviceText::
 	done
 
 _PewterGymGuideFreeServiceText::
-	text "It's a free"
-	line "service! Let's"
-	cont "get happening!"
+	text "To jest darmowy"
+	line "serwis! Niech się"
+	cont "dzieje!"
 	prompt
 
 _PewterGymGuidePostBattleText::
-	text "Just as I thought!"
-	line "You're #MON"
-	cont "champ material!"
+	text "Tak jak myślałem,"
+	line "jesteś materiałem"
+	cont "na mistrza"
+	cont "Pokémona!"
 	done

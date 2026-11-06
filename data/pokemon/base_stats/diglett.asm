@@ -7,7 +7,11 @@
 	db 255 ; catch rate
 	db 81 ; base exp
 
+IF GEN_2_GRAPHICS
+	INCBIN "gfx/pokemon/gsfront/diglett.pic", 0, 1 ; sprite dimensions
+ELSE
 	INCBIN "gfx/pokemon/front/diglett.pic", 0, 1 ; sprite dimensions
+ENDC
 	dw DiglettPicFront, DiglettPicBack
 
 	db SCRATCH, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
@@ -19,4 +23,4 @@
 	     BIDE,         REST,         ROCK_SLIDE,   SUBSTITUTE
 	; end
 
-	db 0 ; padding
+	db BANK(DiglettPicFront)

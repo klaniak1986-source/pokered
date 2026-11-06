@@ -1,9 +1,10 @@
 _Route15Gate2FOaksAideExpAllText::
-	text "EXP.ALL gives"
-	line "EXP points to all"
-	cont "the #MON with"
-	cont "you, even if they"
-	cont "don't fight."
+	text "EXP. WSZYSTKIE"
+	line "punkty EXP dla"
+	cont "wszystkich Pokémon"
+	cont "z tobą, nawet"
+	cont "jeśli nie należy"
+	cont "walczyć."
 
 	para "It does, however,"
 	line "reduce the amount"
@@ -16,8 +17,8 @@ _Route15Gate2FOaksAideExpAllText::
 	done
 
 _Route15Gate2FBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Spojrzałem w"
+	line "lornetkę."
 
 	para "It looks like a"
 	line "small island!"

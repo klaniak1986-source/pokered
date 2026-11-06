@@ -1,35 +1,34 @@
 _Route4CooltrainerF1Text::
-	text "Ouch! I tripped"
-	line "over a rocky"
-	cont "#MON, GEODUDE!"
+	text "Potknąłem się o"
+	line "skalistego"
+	cont "Pokémona, GEODUDE!"
 	done
 
 _Route4CooltrainerF2BattleText::
-	text "I came to get my"
-	line "mushroom #MON!"
+	text "Przyszedłem po"
+	line "mojego grzyba"
+	cont "Pokémon!"
 	done
 
 _Route4CooltrainerF2EndBattleText::
-	text "Oh! My cute"
-	line "mushroom #MON!"
+	text "Mój słodki grzyb"
+	line "Pokémon!"
 	prompt
 
 _Route4CooltrainerF2AfterBattleText::
-	text "There might not"
-	line "be any more"
-	cont "mushrooms here."
+	text "Tu może nie być"
+	line "więcej grzybów."
 
 	para "I think I got"
 	line "them all."
 	done
 
 _Route4MtMoonSignText::
-	text "MT.MOON"
-	line "Tunnel Entrance"
+	text "MT. Wejście do"
+	line "tunelu MOON"
 	done
 
 _Route4SignText::
-	text "ROUTE 4"
-	line "MT.MOON -"
-	cont "CERULEAN CITY"
+	text "DROGA 4 MT. MOON -"
+	line "CERULEAN CITY"
 	done

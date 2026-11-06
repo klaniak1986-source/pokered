@@ -1,6 +1,6 @@
 _CinnabarPokecenterCooltrainerFText::
-	text "You can cancel"
-	line "evolution."
+	text "Możesz anulować"
+	line "ewolucję."
 
 	para "When a #MON is"
 	line "evolving, you can"
@@ -9,8 +9,8 @@ _CinnabarPokecenterCooltrainerFText::
 	done
 
 _CinnabarPokecenterGentlemanText::
-	text "Do you have any"
-	line "friends?"
+	text "Masz jakichś"
+	line "przyjaciół?"
 
 	para "#MON you get"
 	line "in trades grow"

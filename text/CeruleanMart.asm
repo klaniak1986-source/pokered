@@ -1,7 +1,8 @@
 _CeruleanMartCooltrainerMText::
-	text "Use REPEL to keep"
-	line "bugs and weak"
-	cont "#MON away."
+	text "Użyj REPEL, aby"
+	line "trzymać robaki i"
+	cont "słaby Pokémon z"
+	cont "dala."
 
 	para "Put your strongest"
 	line "#MON at the"
@@ -10,8 +11,9 @@ _CeruleanMartCooltrainerMText::
 	done
 
 _CeruleanMartCooltrainerFText::
-	text "Have you seen any"
-	line "RARE CANDY?"
+	text "Widziałeś coś w"
+	line "stylu ” RARE CANDY"
+	cont "”?"
 
 	para "It's supposed to"
 	line "make #MON go"

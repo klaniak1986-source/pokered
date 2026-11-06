@@ -1,6 +1,6 @@
 _CeladonMart3FClerkTM18PreReceiveText::
-	text "Oh, hi! I finally"
-	line "finished #MON!"
+	text "W końcu skończyłem"
+	line "Pokémon!"
 
 	para "Not done yet?"
 	line "This might be"
@@ -15,78 +15,75 @@ _CeladonMart3FClerkReceivedTM18Text::
 	text_end
 
 _CeladonMart3FClerkTM18ExplanationText::
-	text "TM18 is COUNTER!"
-	line "Not like the one"
-	cont "I'm leaning on,"
-	cont "mind you!"
+	text "TM18 to Counter!"
 	done
 
 _CeladonMart3FClerkTM18NoRoomText::
-	text "Your pack is full"
-	line "of items!"
+	text "Twoja paczka jest"
+	line "pełna przedmiotów!"
 	done
 
 _CeladonMart3FGameBoyKid1Text::
-	text "Captured #MON"
-	line "are registered"
-	cont "with an ID No."
-	cont "and OT, the name"
-	cont "of the Original"
-	cont "Trainer that"
-	cont "caught it!"
+	text "Uchwycony Pokémon"
+	line "są zarejestrowane"
+	cont "z ID nr. i OT,"
+	cont "nazwa Original"
+	cont "Trainer, który go"
+	cont "złapał!"
 	done
 
 _CeladonMart3FGameBoyKid2Text::
-	text "All right!"
+	text "W porządku!"
 
-	para "My buddy's going"
-	line "to trade me his"
-	cont "KANGASKHAN for my"
-	cont "GRAVELER!"
+	para "Mój kumpel, Guils,"
+	line "zamieni mi swój"
+	cont "KANGASHKHAN za"
+	cont "mojego GRAVELERA!"
 	done
 
 _CeladonMart3FGameBoyKid3Text::
-	text "Come on GRAVELER!"
+	text "Dalej, GRAVELER!"
 
-	para "I love GRAVELER!"
-	line "I collect them!"
+	para "Uwielbiam"
+	line "Gravelera!"
 
 	para "Huh?"
 
-	para "GRAVELER turned"
-	line "into a different"
-	cont "#MON!"
+	para "GRAVELER zmienił"
+	line "się w innego"
+	cont "Pokémona!"
 	done
 
 _CeladonMart3FLittleBoyText::
-	text "You can identify"
-	line "#MON you got"
-	cont "in trades by"
-	cont "their ID Numbers!"
+	text "Możesz"
+	line "zidentyfikować"
+	cont "Pokémon masz w"
+	cont "handlu przez ich"
+	cont "numery"
+	cont "identyfikacyjne!"
 	done
 
 _CeladonMart3FSNESText::
-	text "It's an SNES!"
+	text "To nęka SNES!"
 	done
 
 _CeladonMart3FRPGText::
-	text "An RPG! There's"
-	line "no time for that!"
+	text "Nie ma na to"
+	line "czasu!"
 	done
 
 _CeladonMart3FSportsGameText::
-	text "A sports game!"
-	line "Dad'll like that!"
+	text "Gra sportowa!"
 	done
 
 _CeladonMart3FPuzzleGameText::
-	text "A puzzle game!"
-	line "Looks addictive!"
+	text "Gra logiczna!"
+	line "Wygląda"
+	cont "wciągająca!"
 	done
 
 _CeladonMart3FFightingGameText::
-	text "A fighting game!"
-	line "Looks tough!"
+	text "Wygląda na twardą!"
 	done
 
 _CeladonMart3FCurrentFloorSignText::
@@ -94,6 +91,6 @@ _CeladonMart3FCurrentFloorSignText::
 	done
 
 _CeladonMart3FPokemonPosterText::
-	text "Red and Blue!"
-	line "Both are #MON!"
+	text "Red i Blue, obaj"
+	line "to Pokemon!"
 	done

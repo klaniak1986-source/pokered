@@ -7,7 +7,11 @@
 	db 45 ; catch rate
 	db 177 ; base exp
 
+IF GEN_2_GRAPHICS
+	INCBIN "gfx/pokemon/gsfront/golem.pic", 0, 1 ; sprite dimensions
+ELSE
 	INCBIN "gfx/pokemon/front/golem.pic", 0, 1 ; sprite dimensions
+ENDC
 	dw GolemPicFront, GolemPicBack
 
 	db TACKLE, DEFENSE_CURL, NO_MOVE, NO_MOVE ; level 1 learnset
@@ -21,4 +25,4 @@
 	     REST,         EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
 	; end
 
-	db 0 ; padding
+	db BANK(GolemPicFront)

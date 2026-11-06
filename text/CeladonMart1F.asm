@@ -1,7 +1,6 @@
 _CeladonMart1FReceptionistText::
-	text "Hello! Welcome to"
-	line "CELADON DEPT."
-	cont "STORE."
+	text "Witam w CELADON"
+	line "DEPT."
 
 	para "The board on the"
 	line "right describes"
@@ -9,8 +8,7 @@ _CeladonMart1FReceptionistText::
 	done
 
 _CeladonMart1FDirectorySignText::
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "1F: KRAJ USŁUG"
 
 	para "2F: TRAINER'S"
 	line "    MARKET"
@@ -19,13 +17,12 @@ _CeladonMart1FDirectorySignText::
 
 	para "4F: WISEMAN GIFTS"
 
-	para "5F: DRUG STORE"
+	para "5F: DRUG STORK"
 
-	para "ROOFTOP SQUARE:"
-	line "VENDING MACHINES"
+	para "SQUARE ROOFTOP:"
+	line "MASZYNY WEJŚCIA"
 	done
 
 _CeladonMart1FCurrentFloorSignText::
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "1F: KRAJ USŁUG"
 	done

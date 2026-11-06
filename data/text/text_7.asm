@@ -41,8 +41,8 @@ _IsItOKToTossItemText::
 	prompt
 
 _TooImportantToTossText::
-	text "That's too impor-"
-	line "tant to toss!"
+	text "To zbyt ważne,"
+	line "żeby to rzucić!"
 	prompt
 
 _AlreadyKnowsText::
@@ -54,8 +54,9 @@ _AlreadyKnowsText::
 	prompt
 
 _ConnectCableText::
-	text "Okay, connect the"
-	line "cable like so!"
+	text "Dobra, podłącz"
+	line "kabel w ten"
+	cont "sposób!"
 	prompt
 
 _TradedForText::
@@ -81,8 +82,7 @@ _WannaTrade1Text::
 	done
 
 _NoTrade1Text::
-	text "Awww!"
-	line "Oh well..."
+	text "No dobrze."
 	done
 
 _WrongMon1Text::
@@ -91,12 +91,13 @@ _WrongMon1Text::
 	text_ram wInGameTradeGiveMonName
 	text "!"
 
-	para "If you get one,"
-	line "come back here!"
+	para "Jeśli go"
+	line "dostaniesz, wracaj"
+	cont "tu!"
 	done
 
 _Thanks1Text::
-	text "Hey thanks!"
+	text "Hej, dzięki!"
 	done
 
 _AfterTrade1Text::
@@ -107,8 +108,8 @@ _AfterTrade1Text::
 	done
 
 _WannaTrade2Text::
-	text "Hello there! Do"
-	line "you want to trade"
+	text "Witam! Czy chcesz"
+	line "handlować"
 
 	para "your @"
 	text_ram wInGameTradeGiveMonName
@@ -119,8 +120,8 @@ _WannaTrade2Text::
 	done
 
 _NoTrade2Text::
-	text "Well, if you"
-	line "don't want to..."
+	text "Cóż, jeśli nie"
+	line "chcesz..."
 	done
 
 _WrongMon2Text::
@@ -129,12 +130,12 @@ _WrongMon2Text::
 	text_ram wInGameTradeGiveMonName
 	text "."
 
-	para "Think of me when"
-	line "you get one."
+	para "Pomyśl o mnie, jak"
+	line "go dostaniesz."
 	done
 
 _Thanks2Text::
-	text "Thanks!"
+	text "Dzięki!"
 	done
 
 _AfterTrade2Text::
@@ -159,7 +160,7 @@ _WannaTrade3Text::
 	done
 
 _NoTrade3Text::
-	text "That's too bad."
+	text "Szkoda."
 	done
 
 _WrongMon3Text::
@@ -168,12 +169,14 @@ _WrongMon3Text::
 	text_ram wInGameTradeGiveMonName
 	text "."
 
-	para "If you get one,"
-	line "trade it with me!"
+	para "Jeśli go"
+	line "dostaniesz,"
+	cont "przehandluj go ze"
+	cont "mną!"
 	done
 
 _Thanks3Text::
-	text "Thanks pal!"
+	text "Dzięki stary!"
 	done
 
 _AfterTrade3Text::
@@ -189,8 +192,8 @@ _AfterTrade3Text::
 	done
 
 _NothingToCutText::
-	text "There isn't"
-	line "anything to CUT!"
+	text "Nie ma nic do"
+	line "wycięcia!"
 	prompt
 
 _UsedCutText::

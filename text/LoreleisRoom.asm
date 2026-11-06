@@ -1,8 +1,8 @@
 _LoreleisRoomLoreleiBeforeBattleText::
-	text "Welcome to"
-	line "#MON LEAGUE!"
+	text "Witamy w Pokémon"
+	line "LEAGUE!"
 
-	para "I am LORELEI of"
+	para "I am LAURA of"
 	line "the ELITE FOUR!"
 
 	para "No one can best"
@@ -22,14 +22,12 @@ _LoreleisRoomLoreleiBeforeBattleText::
 	done
 
 _LoreleisRoomLoreleiEndBattleText::
-	text "How"
-	line "dare you!"
+	text "Jak śmiesz!"
 	prompt
 
 _LoreleisRoomLoreleiAfterBattleText::
-	text "You're better"
-	line "than I thought!"
-	cont "Go on ahead!"
+	text "Jesteś lepszy niż"
+	line "myślałem!"
 
 	para "You only got a"
 	line "taste of #MON"
@@ -37,6 +35,5 @@ _LoreleisRoomLoreleiAfterBattleText::
 	done
 
 _LoreleisRoomLoreleiDontRunAwayText::
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "Nie uciekaj!"
 	done

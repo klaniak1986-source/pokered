@@ -1,6 +1,5 @@
 _WardensHouseWardenGibberish1Text::
-	text "WARDEN: Hif fuff"
-	line "hefifoo!"
+	text "Hif fuff hefifoo!"
 
 	para "Ha lof ha feef ee"
 	line "hafahi ho. Heff"
@@ -8,13 +7,12 @@ _WardensHouseWardenGibberish1Text::
 	done
 
 _WardensHouseWardenGibberish2Text::
-	text "Ah howhee ho hoo!"
-	line "Eef ee hafahi ho!"
+	text "Eef ee hafahi ho!"
 	done
 
 _WardensHouseWardenGibberish3Text::
-	text "Ha? He ohay heh"
-	line "ha hoo ee haheh!"
+	text "On ohay heh ha hoo"
+	line "ee heh!"
 	done
 
 _WardensHouseWardenGaveTheGoldTeethText::
@@ -26,15 +24,12 @@ _WardensHouseWardenGaveTheGoldTeethText::
 _WardensHouseWardenTeethPoppedInHisTeethText::
 	text_start
 
-	para "The WARDEN popped"
-	line "in his teeth!"
+	para "WARDEN wyskoczył"
+	line "mu w zęby!"
 	prompt
 
 _WardensHouseWardenThanksText::
-	text "WARDEN: Thanks,"
-	line "kid! No one could"
-	cont "understand a word"
-	cont "that I said."
+	text "Dzięki, dzieciaku!"
 
 	para "I couldn't work"
 	line "that way."
@@ -51,8 +46,7 @@ _WardensHouseWardenReceivedHM04Text::
 	text_end
 
 _WardensHouseWardenHM04ExplanationText::
-	text "WARDEN: HM04"
-	line "teaches STRENGTH!"
+	text "HM04 uczy mocy!"
 
 	para "It lets #MON"
 	line "move boulders"
@@ -71,16 +65,16 @@ _WardensHouseWardenHM04ExplanationText::
 	done
 
 _WardensHouseWardenHM04NoRoomText::
-	text "Your pack is"
-	line "stuffed full!"
+	text "Twoja wataha jest"
+	line "pełna!"
 	done
 
 _WardensHouseDisplayPhotosAndFossilsText::
-	text "#MON photos"
-	line "and fossils."
+	text "Zdjęcia Pokémona i"
+	line "skamieniałości."
 	done
 
 _WardensHouseDisplayMerchandiseText::
-	text "Old #MON"
-	line "merchandise."
+	text "Stary towar"
+	line "Pokémon."
 	done

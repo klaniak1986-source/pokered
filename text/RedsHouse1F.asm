@@ -1,10 +1,9 @@
 _RedsHouse1FMomWakeUpText::
-	text "MOM: Right."
-	line "All boys leave"
-	cont "home some day."
-	cont "It said so on TV."
+	text "Wszyscy chłopcy"
+	line "wyjeżdżają pewnego"
+	cont "dnia z domu."
 
-	para "PROF.OAK, next"
+	para "PROF.DĄB, next"
 	line "door, is looking"
 	cont "for you."
 	done
@@ -16,22 +15,21 @@ _RedsHouse1FMomYouShouldRestText::
 	prompt
 
 _RedsHouse1FMomLookingGreatText::
-	text "MOM: Oh good!"
-	line "You and your"
-	cont "#MON are"
-	cont "looking great!"
-	cont "Take care now!"
+	text "MOM: Och dobrze!"
+	line "Ty i twój Pokémon"
+	cont "wyglądają"
+	cont "świetnie! Uważaj"
+	cont "teraz!"
 	done
 
 _RedsHouse1FTVStandByMeMovieText::
-	text "There's a movie"
-	line "on TV. Four boys"
-	cont "are walking on"
-	cont "railroad tracks."
+	text "Czterech chłopców"
+	line "chodzi po torach"
+	cont "kolejowych."
 
 	para "I better go too."
 	done
 
 _RedsHouse1FTVWrongSideText::
-	text "Oops, wrong side."
+	text "Oops, zła strona."
 	done

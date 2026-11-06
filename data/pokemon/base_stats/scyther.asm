@@ -7,7 +7,11 @@
 	db 45 ; catch rate
 	db 187 ; base exp
 
+IF GEN_2_GRAPHICS
+	INCBIN "gfx/pokemon/gsfront/scyther.pic", 0, 1 ; sprite dimensions
+ELSE
 	INCBIN "gfx/pokemon/front/scyther.pic", 0, 1 ; sprite dimensions
+ENDC
 	dw ScytherPicFront, ScytherPicBack
 
 	db QUICK_ATTACK, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
@@ -19,4 +23,4 @@
 	     SKULL_BASH,   REST,         SUBSTITUTE,   CUT
 	; end
 
-	db 0 ; padding
+	db BANK(ScytherPicFront)

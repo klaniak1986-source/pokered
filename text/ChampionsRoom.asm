@@ -21,8 +21,8 @@ _ChampionsRoomRivalIntroText::
 
 	para "And now!"
 
-	para "I'm the #MON"
-	line "LEAGUE champion!"
+	para "Jestem mistrzem"
+	line "Pokémon LEAGUE!"
 
 	para "<PLAYER>! Do you"
 	line "know what that"
@@ -30,15 +30,14 @@ _ChampionsRoomRivalIntroText::
 
 	para "I'll tell you!"
 
-	para "I am the most"
-	line "powerful trainer"
-	cont "in the world!"
+	para "Jestem"
+	line "najpotężniejszym"
+	cont "trenerem na"
+	cont "świecie!"
 	done
 
 _RivalDefeatedText::
-	text "NO!"
-	line "That can't be!"
-	cont "You beat my best!"
+	text "Pokonałeś mnie!"
 
 	para "After all that"
 	line "work to become"
@@ -50,8 +49,8 @@ _RivalDefeatedText::
 	prompt
 
 _RivalVictoryText::
-	text "Hahaha!"
-	line "I won, I won!"
+	text "Wygrałem,"
+	line "wygrałem!"
 
 	para "I'm too good for"
 	line "you, <PLAYER>!"
@@ -66,8 +65,8 @@ _RivalVictoryText::
 	prompt
 
 _ChampionsRoomRivalAfterBattleText::
-	text "Why?"
-	line "Why did I lose?"
+	text "Dlaczego"
+	line "przegrałem?"
 
 	para "I never made any"
 	line "mistakes raising"
@@ -82,15 +81,15 @@ _ChampionsRoomRivalAfterBattleText::
 	done
 
 _ChampionsRoomOakText::
-	text "OAK: <PLAYER>!"
+	text "DĄB: <PLAYER>!"
 	done
 
 _ChampionsRoomOakCongratulatesPlayerText::
-	text "OAK: So, you won!"
-	line "Congratulations!"
-	cont "You're the new"
-	cont "#MON LEAGUE"
-	cont "champion!"
+	text "DĄB: Tak,"
+	line "wygrałeś!"
+	cont "Gratulacje! Jesteś"
+	cont "nowym mistrzem"
+	cont "Pokémon LEAGUE!"
 
 	para "You've grown up so"
 	line "much since you"
@@ -104,7 +103,7 @@ _ChampionsRoomOakCongratulatesPlayerText::
 	done
 
 _ChampionsRoomOakDisappointedWithRivalText::
-	text "OAK: <RIVAL>! I'm"
+	text "DĄB: <RIVAL>! I'm"
 	line "disappointed!"
 
 	para "I came when I"
@@ -130,12 +129,12 @@ _ChampionsRoomOakDisappointedWithRivalText::
 	done
 
 _ChampionsRoomOakComeWithMeText::
-	text "OAK: <PLAYER>!"
+	text "DĄB: <PLAYER>!"
 
-	para "You understand"
-	line "that your victory"
-	cont "was not just your"
-	cont "own doing!"
+	para "Rozumiesz, że"
+	line "twoje zwycięstwo"
+	cont "to nie tylko twoja"
+	cont "wina!"
 
 	para "The bond you share"
 	line "with your #MON"

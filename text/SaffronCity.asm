@@ -1,63 +1,61 @@
 _SaffronCityRocket1Text::
-	text "What do you want?"
-	line "Get lost!"
+	text "Czego chcesz?"
 	done
 
 _SaffronCityRocket2Text::
-	text "BOSS said he'll"
-	line "take this town!"
+	text "Boss powiedział,"
+	line "że zajmie to"
+	cont "miasto!"
 	done
 
 _SaffronCityRocket3Text::
-	text "Get out of the"
-	line "way!"
+	text "Z drogi!"
 	done
 
 _SaffronCityRocket4Text::
-	text "SAFFRON belongs"
-	line "to TEAM ROCKET!"
+	text "SAFFRON należy do"
+	line "TEAM ROCKET!"
 	done
 
 _SaffronCityRocket5Text::
-	text "Being evil makes"
-	line "me feel so alive!"
+	text "Bycie złym"
+	line "sprawia, że czuję"
+	cont "się taka żywa!"
 	done
 
 _SaffronCityRocket6Text::
-	text "Ow! Watch where"
-	line "you're walking!"
+	text "Patrz, gdzie"
+	line "chodzisz!"
 	done
 
 _SaffronCityRocket7Text::
-	text "With SILPH under"
-	line "control, we can"
-	cont "exploit #MON"
-	cont "around the world!"
+	text "Z SILPH pod"
+	line "kontrolą, możemy"
+	cont "wykorzystać"
+	cont "Pokémon na całym"
+	cont "świecie!"
 	done
 
 _SaffronCityScientistText::
-	text "You beat TEAM"
-	line "ROCKET all alone?"
-	cont "That's amazing!"
+	text "Pokonałeś TEAM"
+	line "ROCKET sam?"
 	done
 
 _SaffronCitySilphWorkerMText::
-	text "Yeah! TEAM ROCKET"
-	line "is gone!"
-	cont "It's safe to go"
-	cont "out again!"
+	text "Team Rocket"
+	line "zniknął!"
 	done
 
 _SaffronCitySilphWorkerFText::
-	text "People should be"
-	line "flocking back to"
-	cont "SAFFRON now."
+	text "Ludzie powinni"
+	line "teraz wracać do"
+	cont "SAFFRON."
 	done
 
 _SaffronCityGentlemanText::
-	text "I flew here on my"
-	line "PIDGEOT when I"
-	cont "read about SILPH."
+	text "Przyleciałem tu na"
+	line "pidżamie, kiedy"
+	cont "czytałem o SILPH."
 
 	para "It's already over?"
 	line "I missed the"
@@ -65,26 +63,25 @@ _SaffronCityGentlemanText::
 	done
 
 _SaffronCityPidgeotText::
-	text "PIDGEOT: Bi bibii!@"
+	text "Bi bibii!@"
 	text_end
 
 _SaffronCityRockerText::
-	text "I saw ROCKET"
-	line "BOSS escaping"
-	cont "SILPH's building."
+	text "Widziałem Rocketa"
+	line "Bossa uciekającego"
+	cont "z budynku SilPH."
 	done
 
 _SaffronCityRocket8Text::
-	text "I'm a security"
-	line "guard."
+	text "Jestem"
+	line "ochroniarzem."
 
 	para "Suspicious kids I"
 	line "don't allow in!"
 	done
 
 _SaffronCityRocket9Text::
-	text "..."
-	line "Snore..."
+	text "Chrapie."
 
 	para "Hah! He's taking"
 	line "a snooze!"
@@ -92,29 +89,31 @@ _SaffronCityRocket9Text::
 
 _SaffronCitySignText::
 	text "SAFFRON CITY"
-	line "Shining, Golden"
-	cont "Land of Commerce"
+	line "Shining, Złota"
+	cont "Kraina Handlowa"
 	done
 
 _SaffronCityFightingDojoSignText::
-	text "FIGHTING DOJO"
+	text "ZWALCZANIE DOJO"
 	done
 
 _SaffronCityGymSignText::
 	text "SAFFRON CITY"
-	line "#MON GYM"
-	cont "LEADER: SABRINA"
+	line "Pokémon GYM"
+	cont "LEADER: SABINA"
 
 	para "The Master of"
 	line "Psychic #MON!"
 	done
 
 _SaffronCityTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "KRYTERIA SZKOLENIA"
 
-	para "FULL HEAL cures"
-	line "all ailments like"
-	cont "sleep and burns."
+	para "FULL HEAL leczy"
+	line "wszystkie"
+	cont "dolegliwości,"
+	cont "takie jak sen i"
+	cont "oparzenia."
 
 	para "It costs a bit"
 	line "more, but it's"
@@ -122,11 +121,12 @@ _SaffronCityTrainerTips1Text::
 	done
 
 _SaffronCityTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "KRYTERIA SZKOLENIA"
 
-	para "New GREAT BALL"
-	line "offers improved"
-	cont "capture rates."
+	para "Nowy GREAT BALL"
+	line "oferuje lepsze"
+	cont "wskaźniki"
+	cont "wychwytywania."
 
 	para "Try it on those"
 	line "hard-to-catch"
@@ -135,17 +135,17 @@ _SaffronCityTrainerTips2Text::
 
 _SaffronCitySilphCoSignText::
 	text "SILPH CO."
-	line "OFFICE BUILDING"
+	line "BUDOWANIE URZĘDU"
 	done
 
 _SaffronCityMrPsychicsHouseSignText::
-	text "MR.PSYCHIC's"
-	line "HOUSE"
+	text "M. PSYCHIC DOM"
 	done
 
 _SaffronCitySilphCoLatestProductSignText::
-	text "SILPH's latest"
-	line "product!"
+	text "SILPH jest"
+	line "najnowszym"
+	cont "produktem!"
 
 	para "Release to be"
 	line "determined..."

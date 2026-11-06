@@ -1,18 +1,20 @@
 _RocketHideoutB4FGiovanniImpressedYouGotHereText::
-	text "So! I must say, I"
-	line "am impressed you"
-	cont "got here!"
+	text "Muszę przyznać, że"
+	line "jestem pod"
+	cont "wrażeniem, że tu"
+	cont "jesteś!"
 	done
 
 _RocketHideoutB4FGiovanniWhatCannotBeText::
-	text "WHAT!"
-	line "This cannot be!"
+	text "To niemożliwe!"
 	prompt
 
 _RocketHideoutB4FGiovanniHopeWeMeetAgainText::
-	text "I see that you"
-	line "raise #MON"
-	cont "with utmost care."
+	text "Widzę, że"
+	line "wychowujesz"
+	cont "Pokémona z"
+	cont "najwyższą"
+	cont "starannością."
 
 	para "A child like you"
 	line "would never"
@@ -27,26 +29,23 @@ _RocketHideoutB4FGiovanniHopeWeMeetAgainText::
 	done
 
 _RocketHideoutB4FRocket1BattleText::
-	text "I know you! You"
-	line "ruined our plans"
-	cont "at MT.MOON!"
+	text "Zniszczyłeś nasze"
+	line "plany w MT."
 	done
 
 _RocketHideoutB4FRocket1EndBattleText::
-	text "Burned"
-	line "again!"
+	text "Znowu spłonął!"
 	prompt
 
 _RocketHideoutB4FRocket1AfterBattleText::
-	text "Do you have"
-	line "something against"
-	cont "TEAM ROCKET?"
+	text "Masz coś przeciwko"
+	line "TEAM ROCKET?"
 	done
 
 _RocketHideoutB4FRocket2BattleText::
-	text "How can you not"
-	line "see the beauty of"
-	cont "our evil?"
+	text "Jak możesz nie"
+	line "widzieć piękna"
+	cont "naszego zła?"
 	done
 
 _RocketHideoutB4FRocket2EndBattleText::
@@ -54,21 +53,18 @@ _RocketHideoutB4FRocket2EndBattleText::
 	prompt
 
 _RocketHideoutB4FRocket2AfterBattleText::
-	text "BOSS! I'm sorry I"
-	line "failed you!"
+	text "Przykro mi, że cię"
+	line "zawiodłem!"
 	done
 
 _RocketHideoutB4FRocket3BattleText::
-	text "The elevator"
-	line "doesn't work? Who"
-	cont "has the LIFT KEY?"
+	text "Winda nie działa?"
 	done
 
 _RocketHideoutB4FRocket3EndBattleText::
-	text "No!"
+	text "Nie!"
 	prompt
 
 _RocketHideoutB4FRocket3AfterBattleText::
-	text "Oh no! I dropped"
-	line "the LIFT KEY!"
+	text "Upuściłem klucz!"
 	done

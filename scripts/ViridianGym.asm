@@ -130,7 +130,7 @@ ViridianGymPlayerSpinningScript:
 
 ViridianGymGiovanniPostBattle:
 	ld a, [wIsInBattle]
-	cp LOST_BATTLE
+	cp $ff
 	jp z, ViridianGymResetScripts
 	ld a, PAD_CTRL_PAD
 	ld [wJoyIgnore], a

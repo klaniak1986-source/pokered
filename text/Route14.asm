@@ -1,173 +1,163 @@
 _Route14CooltrainerM1BattleText::
-	text "You need to use"
-	line "TMs to teach good"
-	cont "moves to #MON!"
+	text "Musisz użyć TM,"
+	line "aby nauczyć dobre"
+	cont "ruchy do Pokémon!"
 	done
 
 _Route14CooltrainerM1EndBattleText::
-	text "Not"
-	line "good enough!"
+	text "Za mało!"
 	prompt
 
 _Route14CooltrainerM1AfterBattleText::
-	text "You have some HMs"
-	line "right? #MON"
-	cont "can't ever forget"
-	cont "those moves."
+	text "Pokémon nigdy nie"
+	line "zapomni tych"
+	cont "ruchów."
 	done
 
 _Route14CooltrainerM2BattleText::
-	text "My bird #MON"
-	line "should be ready"
-	cont "for battle."
+	text "Mój ptak Pokémon"
+	line "powinien być"
+	cont "gotowy do bitwy."
 	done
 
 _Route14CooltrainerM2EndBattleText::
-	text "Not"
-	line "ready yet!"
+	text "Jeszcze nie"
+	line "gotowy!"
 	prompt
 
 _Route14CooltrainerM2AfterBattleText::
-	text "They need to learn"
-	line "better moves."
+	text "Muszą nauczyć się"
+	line "lepszych ruchów."
 	done
 
 _Route14CooltrainerM3BattleText::
-	text "TMs are on sale"
-	line "in CELADON!"
-	cont "But, only a few"
-	cont "people have HMs!"
+	text "TM są na sprzedaż"
+	line "w CELADON!"
 	done
 
 _Route14CooltrainerM3EndBattleText::
-	text "Aww,"
-	line "bummer!"
+	text "Aww, pech!"
 	prompt
 
 _Route14CooltrainerM3AfterBattleText::
-	text "Teach #MON"
-	line "moves of the same"
-	cont "element type for"
-	cont "more power."
+	text "Naucz Pokémon"
+	line "ruchów tego samego"
+	cont "typu elementów dla"
+	cont "większej mocy."
 	done
 
 _Route14CooltrainerM4BattleText::
-	text "Have you taught"
-	line "your bird #MON"
-	cont "how to FLY?"
+	text "Nauczyłeś swojego"
+	line "ptaszka Pokémona"
+	cont "jak latać?"
 	done
 
 _Route14CooltrainerM4EndBattleText::
-	text "Shot"
-	line "down in flames!"
+	text "Zastrzelony w"
+	line "płomieniach!"
 	prompt
 
 _Route14CooltrainerM4AfterBattleText::
-	text "Bird #MON are"
-	line "my true love!"
+	text "Bird Pokémon to"
+	line "moja prawdziwa"
+	cont "miłość!"
 	done
 
 _Route14CooltrainerM5BattleText::
-	text "Have you heard of"
-	line "the legendary"
-	cont "#MON?"
+	text "Słyszałeś o"
+	line "legendarnym"
+	cont "Pokemonie?"
 	done
 
 _Route14CooltrainerM5EndBattleText::
-	text "Why?"
-	line "Why'd I lose?"
+	text "Dlaczego"
+	line "przegrywam?"
 	prompt
 
 _Route14CooltrainerM5AfterBattleText::
-	text "The 3 legendary"
-	line "#MON are all"
-	cont "birds of prey."
+	text "Trzy legendarne"
+	line "Pokémon to ptaki"
+	cont "drapieżne."
 	done
 
 _Route14CooltrainerM6BattleText::
-	text "I'm not into it,"
-	line "but OK! Let's go!"
+	text "Nie jestem w to"
+	line "zamieszana, ale"
+	cont "dobrze!"
 	done
 
 _Route14CooltrainerM6EndBattleText::
-	text "I"
-	line "knew it!"
+	text "Wiedziałem!"
 	prompt
 
 _Route14CooltrainerM6AfterBattleText::
-	text "Winning, losing,"
-	line "it doesn't matter"
-	cont "in the long run!"
+	text "Wygrana,"
+	line "przegrana, to nie"
+	cont "ma znaczenia na"
+	cont "dłuższą metę!"
 	done
 
 _Route14Biker1BattleText::
-	text "C'mon, c'mon."
-	line "Let's go, let's"
-	cont "go, let's go!"
+	text "Puść go, puść go,"
+	line "puść go!"
 	done
 
 _Route14Biker1EndBattleText::
-	text "Arrg!"
-	line "Lost! Get lost!"
+	text "Arrg, uciekaj!"
 	prompt
 
 _Route14Biker1AfterBattleText::
-	text "What, what, what?"
-	line "What do you want?"
+	text "Czego chcesz?"
 	done
 
 _Route14Biker2BattleText::
-	text "Perfect! I need to"
-	line "burn some time!"
+	text "Muszę spalić"
+	line "trochę czasu!"
 	done
 
 _Route14Biker2EndBattleText::
-	text "What?"
-	line "You!?"
+	text "Ty?"
 	prompt
 
 _Route14Biker2AfterBattleText::
-	text "Raising #MON"
-	line "is a drag, man."
+	text "Wychowywanie"
+	line "Pokémona to nuda."
 	done
 
 _Route14Biker3BattleText::
-	text "We ride out here"
-	line "because there's"
-	cont "more room!"
+	text "Przyjeżdżamy tu,"
+	line "bo jest więcej"
+	cont "miejsca!"
 	done
 
 _Route14Biker3EndBattleText::
-	text "Wipe out!"
+	text "Wytrzyj się!"
 	prompt
 
 _Route14Biker3AfterBattleText::
-	text "It's cool you"
-	line "made your #MON"
-	cont "so strong!"
+	text "To jest fajne, że"
+	line "twój Pokémon jest"
+	cont "tak silny!"
 
 	para "Might is right!"
 	line "And you know it!"
 	done
 
 _Route14Biker4BattleText::
-	text "#MON fight?"
-	line "Cool! Rumble!"
+	text "Pokémon walczy?"
 	done
 
 _Route14Biker4EndBattleText::
-	text "Blown"
-	line "away!"
+	text "Rozbryzgany!"
 	prompt
 
 _Route14Biker4AfterBattleText::
-	text "You know who'd"
-	line "win, you and me"
-	cont "one on one!"
+	text "Wiesz, kto wygrał,"
+	line "ty i ja jeden na"
+	cont "jednego!"
 	done
 
 _Route14SignText::
-	text "ROUTE 14"
-	line "West to FUCHSIA"
-	cont "CITY"
+	text "DROGA 14 Zachód do"
+	line "FUCHSIA CITY"
 	done

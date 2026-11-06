@@ -46,7 +46,7 @@ RocketHideoutB4F_ScriptPointers:
 
 RocketHideoutB4FBeatGiovanniScript:
 	ld a, [wIsInBattle]
-	cp LOST_BATTLE
+	cp $ff
 	jp z, RocketHideoutB4FSetDefaultScript
 	call UpdateSprites
 	ld a, PAD_CTRL_PAD

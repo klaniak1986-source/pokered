@@ -1,45 +1,44 @@
 _Museum2FYoungsterText::
-	text "MOON STONE?"
+	text "Moon Stone?"
 
-	para "What's so special"
-	line "about it?"
+	para "Co w tym takiego"
+	line "wyjątkowego?"
 	done
 
 _Museum2FGrampsText::
-	text "July 20, 1969!"
+	text "20 lipca 1969!"
 
-	para "The 1st lunar"
-	line "landing!"
+	para "Pierwsze lądowanie"
+	line "na Księżycu!"
 
 	para "I bought a color"
 	line "TV to watch it!"
 	done
 
 _Museum2FScientistText::
-	text "We have a space"
-	line "exhibit now."
+	text "Mamy teraz wystawę"
+	line "kosmiczną."
 	done
 
 _Museum2FBrunetteGirlText::
-	text "I want a PIKACHU!"
-	line "It's so cute!"
+	text "Chcę PIKACHU!"
 
 	para "I asked my Daddy"
 	line "to catch me one!"
 	done
 
 _Museum2FHikerText::
-	text "Yeah, a PIKACHU"
-	line "soon, I promise!"
+	text "Tak, PIKACH"
+	line "wkrótce, obiecuję!"
 	done
 
 _Museum2FSpaceShuttleSignText::
-	text "SPACE SHUTTLE"
-	line "COLUMBIA"
+	text "KOLUMBIA"
+	line "PRZESTRZENI"
+	cont "PRZESTRZENI"
 	done
 
 _Museum2FMoonStoneSignText::
-	text "Meteorite that"
-	line "fell on MT.MOON."
-	cont "(MOON STONE?)"
+	text "Meteoryt, który"
+	line "spadł na MT."
 	done

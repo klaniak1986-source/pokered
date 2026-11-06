@@ -1,5 +1,5 @@
 MonPartyData:
-	nybble_array
+	nybble_array MonPartyData
 	nybble ICON_GRASS     ; Bulbasaur
 	nybble ICON_GRASS     ; Ivysaur
 	nybble ICON_GRASS     ; Venusaur
@@ -151,4 +151,7 @@ MonPartyData:
 	nybble ICON_SNAKE     ; Dragonite
 	nybble ICON_MON       ; Mewtwo
 	nybble ICON_MON       ; Mew
+	nybble ICON_QUADRUPED ; Espeon
+	nybble ICON_QUADRUPED ; Umbreon
+	nybble ICON_BIRD      ; Kira
 	end_nybble_array NUM_POKEMON

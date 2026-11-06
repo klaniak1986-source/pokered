@@ -1,6 +1,7 @@
 _MtMoonPokecenterYoungsterText::
-	text "I've 6 # BALLs"
-	line "set in my belt."
+	text "Utrzymuję 6 Poké"
+	line "Balls w moim"
+	cont "pasku."
 
 	para "At most, you can"
 	line "carry 6 #MON."
@@ -8,8 +9,8 @@ _MtMoonPokecenterYoungsterText::
 
 _MtMoonPokecenterGentlemanText::
 	text "TEAM ROCKET"
-	line "attacks CERULEAN"
-	cont "citizens..."
+	line "atakuje obywateli"
+	cont "CERULEAN..."
 
 	para "TEAM ROCKET is"
 	line "always in the"
@@ -17,9 +18,8 @@ _MtMoonPokecenterGentlemanText::
 	done
 
 _MtMoonPokecenterMagikarpSalesmanIGotADealText::
-	text "MAN: Hello, there!"
-	line "Have I got a deal"
-	cont "just for you!"
+	text "Mam dla ciebie"
+	line "umowę!"
 
 	para "I'll let you have"
 	line "a swell MAGIKARP"
@@ -28,19 +28,20 @@ _MtMoonPokecenterMagikarpSalesmanIGotADealText::
 	done
 
 _MtMoonPokecenterMagikarpSalesmanNoText::
-	text "No? I'm only"
-	line "doing this as a"
-	cont "favor to you!"
+	text "Robię to tylko"
+	line "jako przysługę dla"
+	cont "ciebie!"
 	done
 
 _MtMoonPokecenterMagikarpSalesmanNoMoneyText::
-	text "You'll need more"
-	line "money than that!"
+	text "Będziesz"
+	line "potrzebował więcej"
+	cont "pieniędzy!"
 	done
 
 _MtMoonPokecenterMagikarpSalesmanNoRefundsText::
-	text "MAN: Well, I don't"
-	line "give refunds!"
+	text "Nie zwracam"
+	line "pieniędzy!"
 	done
 
 _MtMoonPokecenterClipboardText::

@@ -1,6 +1,6 @@
 _SaffronGymSabrinaText::
-	text "I had a vision of"
-	line "your arrival!"
+	text "Miałem wizję"
+	line "twojego przybycia!"
 
 	para "I have had psychic"
 	line "powers since I"
@@ -17,10 +17,9 @@ _SaffronGymSabrinaText::
 	done
 
 _SaffronGymSabrinaReceivedMarshBadgeText::
-	text "I'm"
-	line "shocked!"
-	cont "But, a loss is a"
-	cont "loss."
+	text "Jestem zszokowany,"
+	line "ale strata to"
+	cont "strata."
 
 	para "I admit I didn't"
 	line "work hard enough"
@@ -31,16 +30,17 @@ _SaffronGymSabrinaReceivedMarshBadgeText::
 	text_end
 
 _SaffronGymSabrinaPostBattleAdviceText::
-	text "Everyone has"
-	line "psychic power!"
-	cont "People just don't"
-	cont "realize it!"
+	text "Każdy ma moc"
+	line "psychiczną, ludzie"
+	cont "nie zdają sobie z"
+	cont "tego sprawy!"
 	done
 
 _SaffronGymSabrinaMarshBadgeInfoText::
-	text "The MARSHBADGE"
-	line "makes #MON up"
-	cont "to L70 obey you!"
+	text "MARSHBADGE"
+	line "sprawia, że"
+	cont "Pokémon do L70"
+	cont "jest ci posłuszny!"
 
 	para "Stronger #MON"
 	line "will become wild,"
@@ -63,22 +63,19 @@ _SaffronGymSabrinaReceivedTM46Text::
 _TM46ExplanationText::
 	text_start
 
-	para "TM46 is PSYWAVE!"
-	line "It uses powerful"
-	cont "psychic waves to"
-	cont "inflict damage!"
+	para "TM46 to PSYWAVE!"
 	done
 
 _SaffronGymSabrinaTM46NoRoomText::
-	text "Your pack is full"
-	line "of other items!"
+	text "Twoja paczka jest"
+	line "pełna innych"
+	cont "rzeczy!"
 	done
 
 _SaffronGymGuideChampInMakingText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Mistrz w robieniu!"
 
-	para "SABRINA's #MON"
+	para "SABINA's #MON"
 	line "use psychic power"
 	cont "instead of force!"
 
@@ -92,8 +89,8 @@ _SaffronGymGuideChampInMakingText::
 	done
 
 _SaffronGymGuideBeatSabrinaText::
-	text "Psychic power,"
-	line "huh?"
+	text "Psychiczna moc,"
+	line "co?"
 
 	para "If I had that,"
 	line "I'd make a bundle"
@@ -101,115 +98,113 @@ _SaffronGymGuideBeatSabrinaText::
 	done
 
 _SaffronGymChanneler1BattleText::
-	text "SABRINA is younger"
-	line "than I, but I"
-	cont "respect her!"
+	text "SABINA jest"
+	line "młodsza ode mnie,"
+	cont "ale ja ją szanuję!"
 	done
 
 _SaffronGymChanneler1EndBattleText::
-	text "Not"
-	line "good enough!"
+	text "Za mało!"
 	prompt
 
 _SaffronGymChanneler1AfterBattleText::
-	text "In a battle of"
-	line "equals, the one"
-	cont "with the stronger"
-	cont "will wins!"
+	text "W bitwie równych"
+	line "sobie wygrywa ten,"
+	cont "kto ma silniejszą"
+	cont "wolę!"
 
 	para "If you wish"
-	line "to beat SABRINA,"
+	line "to beat SABINA,"
 	cont "focus on winning!"
 	done
 
 _SaffronGymYoungster1BattleText::
-	text "Does our unseen"
-	line "power scare you?"
+	text "Czy nasza"
+	line "niewidzialna moc"
+	cont "cię przeraża?"
 	done
 
 _SaffronGymYoungster1EndBattleText::
-	text "I never"
-	line "foresaw this!"
+	text "Nigdy tego nie"
+	line "przewidziałem!"
 	prompt
 
 _SaffronGymYoungster1AfterBattleText::
-	text "Psychic #MON"
-	line "fear only ghosts"
-	cont "and bugs!"
+	text "Psychiczny Pokémon"
+	line "strach tylko duchy"
+	cont "i robaki!"
 	done
 
 _SaffronGymChanneler2BattleText::
-	text "#MON take on"
-	line "the appearance of"
-	cont "their trainers."
+	text "Pokémon przyjmują"
+	line "wygląd swoich"
+	cont "trenerów."
 
 	para "Your #MON must"
 	line "be tough, then!"
 	done
 
 _SaffronGymChanneler2EndBattleText::
-	text "I knew"
-	line "it!"
+	text "Wiedziałem!"
 	prompt
 
 _SaffronGymChanneler2AfterBattleText::
-	text "I must teach"
-	line "better techniques"
-	cont "to my #MON!"
+	text "Muszę nauczyć"
+	line "moich Pokemon"
+	cont "lepszych technik!"
 	done
 
 _SaffronGymYoungster2BattleText::
-	text "You know that"
-	line "power alone isn't"
-	cont "enough!"
+	text "Wiesz, że sama"
+	line "władza jest"
+	cont "wystarczająca!"
 	done
 
 _SaffronGymYoungster2EndBattleText::
-	text "I don't"
-	line "believe this!"
+	text "Nie wierzę w to!"
 	prompt
 
 _SaffronGymYoungster2AfterBattleText::
-	text "SABRINA just wiped"
-	line "out the KARATE"
-	cont "MASTER next door!"
+	text "SABINA właśnie"
+	line "zniszczyła MASTER"
+	cont "KARATE obok!"
 	done
 
 _SaffronGymChanneler3BattleText::
-	text "You and I, our"
-	line "#MON shall"
-	cont "fight!"
+	text "Ty i ja, nasz"
+	line "Pokémon będzie"
+	cont "walczył!"
 	done
 
 _SaffronGymChanneler3EndBattleText::
-	text "I lost"
-	line "after all!"
+	text "W końcu"
+	line "przegrałem!"
 	prompt
 
 _SaffronGymChanneler3AfterBattleText::
-	text "I knew that this"
-	line "was going to take"
-	cont "place."
+	text "Wiedziałem, że to"
+	line "się stanie."
 	done
 
 _SaffronGymYoungster3BattleText::
-	text "SABRINA is young,"
-	line "but she's also"
-	cont "our LEADER!"
+	text "SABINA jest"
+	line "młoda, ale jest"
+	cont "również naszym"
+	cont "LEADErem!"
 
 	para "You won't reach"
 	line "her easily!"
 	done
 
 _SaffronGymYoungster3EndBattleText::
-	text "I lost"
-	line "my concentration!"
+	text "Straciłem"
+	line "koncentrację!"
 	prompt
 
 _SaffronGymYoungster3AfterBattleText::
-	text "There used to be"
-	line "2 #MON GYMs in"
-	cont "SAFFRON."
+	text "Kiedyś w SAFFRON"
+	line "były 2 GYM"
+	cont "Pokémon."
 
 	para "The FIGHTING DOJO"
 	line "next door lost"
@@ -219,12 +214,12 @@ _SaffronGymYoungster3AfterBattleText::
 	done
 
 _SaffronGymYoungster4BattleText::
-	text "SAFFRON #MON"
-	line "GYM is famous for"
-	cont "its psychics!"
+	text "SAFFRON Pokémon"
+	line "GYM słynie ze"
+	cont "swoich medium!"
 
 	para "You want to see"
-	line "SABRINA!"
+	line "SABINA!"
 	cont "I can tell!"
 	done
 
@@ -233,7 +228,7 @@ _SaffronGymYoungster4EndBattleText::
 	prompt
 
 _SaffronGymYoungster4AfterBattleText::
-	text "That's right! I"
-	line "used telepathy to"
-	cont "read your mind!"
+	text "Użyłem telepatii,"
+	line "by czytać w twoich"
+	cont "myślach!"
 	done

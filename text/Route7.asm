@@ -1,5 +1,5 @@
 _Route7UndergroundPathSignText::
-	text "UNDERGROUND PATH"
+	text "ZOBOWIĄZANIA PATH"
 	line "CELADON CITY -"
 	cont "LAVENDER TOWN"
 	done

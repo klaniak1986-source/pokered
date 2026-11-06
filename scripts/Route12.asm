@@ -44,7 +44,7 @@ Route12DefaultScript:
 
 Route12SnorlaxPostBattleScript:
 	ld a, [wIsInBattle]
-	cp LOST_BATTLE
+	cp $ff
 	jr z, Route12ResetScripts
 	call UpdateSprites
 	ld a, [wBattleResult]

@@ -1,3 +1,5 @@
+DEF MAP_TILESET_SIZE EQU $60
+
 UpdatePlayerSprite:
 	ld a, [wSpritePlayerStateData2WalkAnimationCounter]
 	and a
@@ -29,7 +31,7 @@ UpdatePlayerSprite:
 ; check if down
 	bit PLAYER_DIR_BIT_DOWN, a
 	jr z, .checkIfUp
-	xor a ; SPRITE_FACING_DOWN
+	xor a ; ld a, SPRITE_FACING_DOWN
 	jr .next
 .checkIfUp
 	bit PLAYER_DIR_BIT_UP, a

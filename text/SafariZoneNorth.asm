@@ -1,23 +1,24 @@
 _SafariZoneNorthRestHouseSignText::
-	text "REST HOUSE"
+	text "DOM RESTRINY"
 	done
 
 _SafariZoneNorthTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "KRYTERIA SZKOLENIA"
 
-	para "The SECRET HOUSE"
-	line "is still ahead!"
+	para "SECRET HOUSE jest"
+	line "wciąż przed nami!"
 	done
 
 _SafariZoneNorthSignText::
-	text "AREA 2"
+	text "OBSZAR 2"
 	done
 
 _SafariZoneNorthTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "KRYTERIA SZKOLENIA"
 
-	para "#MON hide in"
-	line "tall grass!"
+	para "Pokémon schowaj"
+	line "się w wysokiej"
+	cont "trawie!"
 
 	para "Zigzag through"
 	line "grassy areas to"
@@ -25,9 +26,9 @@ _SafariZoneNorthTrainerTips2Text::
 	done
 
 _SafariZoneNorthTrainerTips3Text::
-	text "TRAINER TIPS"
+	text "KRYTERIA SZKOLENIA"
 
-	para "Win a free HM for"
-	line "finding the"
+	para "Wygraj darmowe HM"
+	line "za znalezienie"
 	cont "SECRET HOUSE!"
 	done

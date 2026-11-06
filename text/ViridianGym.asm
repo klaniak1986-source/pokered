@@ -1,6 +1,5 @@
 _ViridianGymGiovanniPreBattleText::
-	text "Fwahahaha! This is"
-	line "my hideout!"
+	text "To moja kryjówka!"
 
 	para "I planned to"
 	line "resurrect TEAM"
@@ -14,25 +13,22 @@ _ViridianGymGiovanniPreBattleText::
 
 	para "Once more, you"
 	line "shall face"
-	cont "GIOVANNI, the"
+	cont "JAN, the"
 	cont "greatest trainer!"
 	done
 
 _ViridianGymGiovanniReceivedEarthBadgeText::
-	text "Ha!"
-	line "That was a truly"
-	cont "intense fight!"
-	cont "You have won!"
-	cont "As proof, here is"
-	cont "the EARTHBADGE!@"
+	text "To była naprawdę"
+	line "intensywna walka!@"
 	text_end
 
 _ViridianGymGiovanniPostBattleAdviceText::
-	text "Having lost, I"
-	line "cannot face my"
-	cont "underlings!"
-	cont "TEAM ROCKET is"
-	cont "finished forever!"
+	text "Po przegranej, nie"
+	line "mogę stawić czoła"
+	cont "moim podwładnym!"
+	cont "TEAM ROCKET jest"
+	cont "skończony na"
+	cont "zawsze!"
 
 	para "I will dedicate my"
 	line "life to the study"
@@ -44,9 +40,11 @@ _ViridianGymGiovanniPostBattleAdviceText::
 	text_end
 
 _ViridianGymGiovanniEarthBadgeInfoText::
-	text "The EARTHBADGE"
-	line "makes #MON of"
-	cont "any level obey!"
+	text "EARTHBADGE"
+	line "sprawia, że"
+	cont "Pokémon jest"
+	cont "posłuszny każdemu"
+	cont "poziomowi!"
 
 	para "It is evidence of"
 	line "your mastery as a"
@@ -69,10 +67,8 @@ _ViridianGymGiovanniReceivedTM27Text::
 _ViridianGymGiovanniTM27ExplanationText::
 	text_start
 
-	para "TM27 is FISSURE!"
-	line "It will take out"
-	cont "#MON with just"
-	cont "one hit!"
+	para "TM27 to"
+	line "RYBOŁÓWSTWO!"
 
 	para "I made it when I"
 	line "ran the GYM here,"
@@ -80,31 +76,29 @@ _ViridianGymGiovanniTM27ExplanationText::
 	done
 
 _ViridianGymGiovanniTM27NoRoomText::
-	text "You do not have"
-	line "space for this!"
+	text "Nie masz na to"
+	line "miejsca!"
 	done
 
 _ViridianGymCooltrainerM1BattleText::
-	text "Heh! You must be"
-	line "running out of"
-	cont "steam by now!"
+	text "Pewnie kończy ci"
+	line "się para!"
 	done
 
 _ViridianGymCooltrainerM1EndBattleText::
-	text "I"
-	line "ran out of gas!"
+	text "Skończyła mi się"
+	line "benzyna!"
 	prompt
 
 _ViridianGymCooltrainerM1AfterBattleText::
-	text "You need power to"
-	line "keep up with our"
-	cont "GYM LEADER!"
+	text "Potrzebujesz mocy,"
+	line "żeby nadążyć za"
+	cont "naszym GYM LEADER!"
 	done
 
 _ViridianGymHiker1BattleText::
-	text "Rrrroar! I'm"
-	line "working myself"
-	cont "into a rage!"
+	text "Zapędzam się w"
+	line "furię!"
 	done
 
 _ViridianGymHiker1EndBattleText::
@@ -112,31 +106,32 @@ _ViridianGymHiker1EndBattleText::
 	prompt
 
 _ViridianGymHiker1AfterBattleText::
-	text "I'm still not"
-	line "worthy!"
+	text "Nadal nie jestem"
+	line "godzien!"
 	done
 
 _ViridianGymRocker1BattleText::
-	text "#MON and I, we"
-	line "make wonderful"
-	cont "music together!"
+	text "Pokémon i ja"
+	line "tworzymy razem"
+	cont "wspaniałą muzykę!"
 	done
 
 _ViridianGymRocker1EndBattleText::
-	text "You are in"
-	line "perfect harmony!"
+	text "Jesteś w"
+	line "doskonałej"
+	cont "harmonii!"
 	prompt
 
 _ViridianGymRocker1AfterBattleText::
-	text "Do you know the"
-	line "identity of our"
-	cont "GYM LEADER?"
+	text "Znasz tożsamość"
+	line "naszego GYM"
+	cont "LEADER?"
 	done
 
 _ViridianGymHiker2BattleText::
-	text "Karate is the"
-	line "ultimate form of"
-	cont "martial arts!"
+	text "Karate to"
+	line "ostateczna forma"
+	cont "sztuk walki!"
 	done
 
 _ViridianGymHiker2EndBattleText::
@@ -144,30 +139,30 @@ _ViridianGymHiker2EndBattleText::
 	prompt
 
 _ViridianGymHiker2AfterBattleText::
-	text "If my #MON"
-	line "were as good at"
-	cont "Karate as I..."
+	text "Gdyby mój Pokémon"
+	line "był tak dobry w"
+	cont "karate jak ja..."
 	done
 
 _ViridianGymCooltrainerM2BattleText::
-	text "The truly talented"
-	line "win with style!"
+	text "Prawdziwie"
+	line "utalentowana"
+	cont "wygrana w stylu!"
 	done
 
 _ViridianGymCooltrainerM2EndBattleText::
-	text "I"
-	line "lost my grip!"
+	text "Straciłem"
+	line "przyczepność!"
 	prompt
 
 _ViridianGymCooltrainerM2AfterBattleText::
-	text "The LEADER will"
-	line "scold me!"
+	text "LEADER mnie"
+	line "zbeszta!"
 	done
 
 _ViridianGymHiker3BattleText::
-	text "I'm the KARATE"
-	line "KING! Your fate"
-	cont "rests with me!"
+	text "Twój los spoczywa"
+	line "na mnie!"
 	done
 
 _ViridianGymHiker3EndBattleText::
@@ -175,49 +170,46 @@ _ViridianGymHiker3EndBattleText::
 	prompt
 
 _ViridianGymHiker3AfterBattleText::
-	text "#MON LEAGUE?"
-	line "You? Don't get"
-	cont "cocky!"
+	text "Pokémon LEAGUE?"
 	done
 
 _ViridianGymRocker2BattleText::
-	text "Your #MON will"
-	line "cower at the"
-	cont "crack of my whip!"
+	text "Twój Pokémon"
+	line "będzie czepiał się"
+	cont "pęknięcia mojego"
+	cont "bicza!"
 	done
 
 _ViridianGymRocker2EndBattleText::
-	text "Yowch!"
-	line "Whiplash!"
+	text "Yowch, Whiplash!"
 	prompt
 
 _ViridianGymRocker2AfterBattleText::
-	text "Wait! I was just"
-	line "careless!"
+	text "Byłem nieostrożny!"
 	done
 
 _ViridianGymCooltrainerM3BattleText::
-	text "VIRIDIAN GYM was"
-	line "closed for a long"
-	cont "time, but now our"
-	cont "LEADER is back!"
+	text "VIRIDIAN GYM"
+	line "został zamknięty"
+	cont "na długi czas, ale"
+	cont "teraz nasz LEADER"
+	cont "wrócił!"
 	done
 
 _ViridianGymCooltrainerM3EndBattleText::
-	text "I"
-	line "was beaten?"
+	text "Zostałem pobity?"
 	prompt
 
 _ViridianGymCooltrainerM3AfterBattleText::
-	text "You can go onto"
-	line "#MON LEAGUE"
-	cont "only by defeating"
-	cont "our GYM LEADER!"
+	text "Możesz wejść na"
+	line "Pokémon LEAGUE"
+	cont "tylko poprzez"
+	cont "pokonanie naszego"
+	cont "GYM LEADER!"
 	done
 
 _ViridianGymGuidePreBattleText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Mistrz w robieniu!"
 
 	para "Even I don't know"
 	line "VIRIDIAN LEADER's"
@@ -234,7 +226,6 @@ _ViridianGymGuidePreBattleText::
 	done
 
 _ViridianGymGuidePostBattleText::
-	text "Blow me away!"
-	line "GIOVANNI was the"
-	cont "GYM LEADER here?"
+	text "JAN był tu"
+	line "liderem GYM?"
 	done

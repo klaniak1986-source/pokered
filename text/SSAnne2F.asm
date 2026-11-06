@@ -1,7 +1,8 @@
 _SSAnne2FWaiterText::
-	text "This ship, she is"
-	line "a luxury liner"
-	cont "for trainers!"
+	text "Ten statek, ona"
+	line "jest luksusowym"
+	cont "liniowcem dla"
+	cont "trenerów!"
 
 	para "At every port, we"
 	line "hold parties with"
@@ -34,9 +35,9 @@ _SSAnne2FRivalText::
 _SSAnne2FRivalDefeatedText::
 	text "Humph!"
 
-	para "At least you're"
-	line "raising your"
-	cont "#MON!"
+	para "Przynajmniej"
+	line "wychowujesz"
+	cont "Pokémona!"
 	prompt
 
 _SSAnne2FRivalVictoryText::

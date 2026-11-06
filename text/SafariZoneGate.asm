@@ -1,21 +1,21 @@
 _SafariZoneGateSafariZoneWorker1Text::
-	text "Welcome to the"
-	line "SAFARI ZONE!"
+	text "Witamy w strefie"
+	line "SAFARI!"
 	done
 
 _SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText::
-	text "For just ¥500,"
-	line "you can catch all"
-	cont "the #MON you"
-	cont "want in the park!"
+	text "Tylko 500 funtów,"
+	line "można złapać"
+	cont "wszystkie Pokémon"
+	cont "chcesz w parku!"
 
 	para "Would you like to"
 	line "join the hunt?@"
 	text_end
 
 _SafariZoneGateSafariZoneWorker1ThatllBe500PleaseText::
-	text "That'll be ¥500"
-	line "please!"
+	text "To będzie 500"
+	line "proszę!"
 
 	para "We only use a"
 	line "special # BALL"
@@ -28,50 +28,51 @@ _SafariZoneGateSafariZoneWorker1ThatllBe500PleaseText::
 _SafariZoneGateSafariZoneWorker1CallYouOnThePAText::
 	text_start
 
-	para "We'll call you on"
-	line "the PA when you"
-	cont "run out of time"
-	cont "or SAFARI BALLs!"
+	para "Zadzwonimy na"
+	line "policję, kiedy"
+	cont "skończy ci się"
+	cont "czas albo SAFARI"
+	cont "BALLs!"
 	done
 
 _SafariZoneGateSafariZoneWorker1PleaseComeAgainText::
-	text "OK! Please come"
-	line "again!"
+	text "Proszę, przyjdź"
+	line "jeszcze raz!"
 	done
 
 _SafariZoneGateSafariZoneWorker1NotEnoughMoneyText::
-	text "Oops! Not enough"
-	line "money!"
+	text "Za mało pieniędzy!"
 	done
 
 _SafariZoneGateSafariZoneWorker1LeavingEarlyText::
-	text "Leaving early?@"
+	text "Wychodzisz"
+	line "wcześniej?@"
 	text_end
 
 _SafariZoneGateSafariZoneWorker1ReturnSafariBallsText::
-	text "Please return any"
-	line "SAFARI BALLs you"
-	cont "have left."
+	text "Proszę zwrócić"
+	line "wszystkie"
+	cont "pozostałe balony"
+	cont "SAFARI."
 	done
 
 _SafariZoneGateSafariZoneWorker1GoodLuckText::
-	text "Good Luck!"
+	text "Powodzenia!"
 	done
 
 _SafariZoneGateSafariZoneWorker1GoodHaulComeAgainText::
-	text "Did you get a"
-	line "good haul?"
-	cont "Come again!"
+	text "- Masz dobry łup?"
 	done
 
 _SafariZoneGateSafariZoneWorker2FirstTimeHereText::
-	text "Hi! Is it your"
-	line "first time here?"
+	text "To twój pierwszy"
+	line "raz?"
 	done
 
 _SafariZoneGateSafariZoneWorker2SafariZoneExplanationText::
-	text "SAFARI ZONE has 4"
-	line "zones in it."
+	text "W strefie SAFARI"
+	line "znajdują się 4"
+	cont "strefy."
 
 	para "Each zone has"
 	line "different kinds"
@@ -92,6 +93,7 @@ _SafariZoneGateSafariZoneWorker2SafariZoneExplanationText::
 	done
 
 _SafariZoneGateSafariZoneWorker2YoureARegularHereText::
-	text "Sorry, you're a"
-	line "regular here!"
+	text "Przepraszam,"
+	line "jesteś tu stałym"
+	cont "klientem!"
 	done

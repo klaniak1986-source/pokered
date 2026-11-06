@@ -1,13 +1,14 @@
 _SaffronMartSuperNerdText::
-	text "MAX REPEL lasts"
-	line "longer than SUPER"
-	cont "REPEL for keeping"
-	cont "weaker #MON"
-	cont "away!"
+	text "MAX REPEL trwa"
+	line "dłużej niż SUPER"
+	cont "REPEL za trzymanie"
+	cont "słabszego Pokémon"
+	cont "z dala!"
 	done
 
 _SaffronMartCooltrainerFText::
-	text "REVIVE is costly,"
-	line "but it revives"
-	cont "fainted #MON!"
+	text "REVIVE jest"
+	line "kosztowne, ale"
+	cont "ożywia omdlenia"
+	cont "Pokémona!"
 	done

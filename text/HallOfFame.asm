@@ -1,5 +1,5 @@
 _HallOfFameOakText::
-	text "OAK: Er-hem!"
+	text "DĄB: Er-hem!"
 	line "Congratulations"
 	cont "<PLAYER>!"
 

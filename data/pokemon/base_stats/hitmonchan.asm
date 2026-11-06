@@ -7,7 +7,11 @@
 	db 45 ; catch rate
 	db 140 ; base exp
 
+IF GEN_2_GRAPHICS
+	INCBIN "gfx/pokemon/gsfront/hitmonchan.pic", 0, 1 ; sprite dimensions
+ELSE
 	INCBIN "gfx/pokemon/front/hitmonchan.pic", 0, 1 ; sprite dimensions
+ENDC
 	dw HitmonchanPicFront, HitmonchanPicBack
 
 	db COMET_PUNCH, AGILITY, NO_MOVE, NO_MOVE ; level 1 learnset
@@ -20,4 +24,4 @@
 	     SKULL_BASH,   REST,         SUBSTITUTE,   STRENGTH
 	; end
 
-	db 0 ; padding
+	db BANK(HitmonchanPicFront)
